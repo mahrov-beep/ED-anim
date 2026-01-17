@@ -1,0 +1,20 @@
+{
+    "name": "Quantum.Shared",
+    "rootNamespace": "Quantum",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "MessagePack.dll",
+        "MessagePack.Annotations.dll",
+        "JetBrains.Annotations.dll",
+        "RequireFieldsInit.Core.dll",
+        "Quantum.Deterministic.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

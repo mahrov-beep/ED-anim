@@ -1,0 +1,25 @@
+{
+    "name": "Game.Shared",
+    "rootNamespace": "Game.Shared",
+    "references": [
+        "Quantum.Shared",
+        "Multicast.Foundation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Multicast.dll",
+        "MessagePack.dll",
+        "MessagePack.Annotations.dll",
+        "JetBrains.Annotations.dll",
+        "RequireFieldsInit.Core.dll",
+        "System.Collections.Immutable.dll",
+        "Quantum.Deterministic.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": true
+}

@@ -1,0 +1,15 @@
+---
+globs: src/Server/**
+alwaysApply: false
+---
+# Escape Server: context & constraints
+
+- Tech stack: ASP.NET Core 8, Orleans 9, EF Core 9, MessagePack 3, DI via Scrutor.
+- Target frameworks: Game.ServerRunner → net8.0; Game.Shared → netstandard2.1; Quantum.Shared → netstandard2.1.
+- Serialization: prefer MessagePack for payloads and Orleans types; do not use Newtonsoft.Json unless explicitly requested.
+- Data: PostgreSQL via the Npgsql EF Core provider.
+- Migrations: generate via terminal command; do not create migration files manually.
+  - dotnet ef migrations add <Name>
+- DI & structure: follow existing Scrutor scanning; keep grain interfaces/implementations aligned with the current layout.
+- Versions: respect package versions pinned in *.csproj; do not change major versions or TargetFrameworks without approval.
+- Code style: follow the project's existing code style and analyzers (as defined by .editorconfig and solution settings).

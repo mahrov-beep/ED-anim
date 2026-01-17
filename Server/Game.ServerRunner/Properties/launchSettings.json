@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Game.ServerRunner": {
+      "commandName": "Project",
+      "dotnetRunMessages": true,
+      "applicationUrl": "http://localhost:5024",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "commandLineArgs": "--assetsPath \"C:/Work/Escape new/src/Escape.Unity/Assets/Content.Addressables/\" --tempDirectory \"C:/Work/Escape new/src/Escape.Unity/Assets/../Temp/Multicast/ServerTempDatabase/\" --postgresConnection \"Host=localhost;Port=5432;Username=postgres;Password=postgres;Database=postgres\" --urls \"http://localhost:5024\" --jwtIssuer \"multicast/escape\" --jwtAudience \"multicast/escape\" --jwtSigningKey \"00000000-0000-0000-0000-000000000000\" --disableLoadoutLost \"false\""
+    }
+  }
+}

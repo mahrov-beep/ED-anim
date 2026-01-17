@@ -1,0 +1,57 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>12</LangVersion>
+    <Configurations>Debug;Release</Configurations>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <NoWarn>1701;1702;CS1998;1998</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+    <NoWarn>1701;1702;CS1998;1998</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MessagePack" Version="3.0.238-rc.1" />
+    <PackageReference Include="MessagePack.AspNetCoreMvcFormatter" Version="3.0.238-rc.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="8.0.11" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Analyzers" Version="9.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Orleans.Serialization.MessagePack" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Server" Version="9.0.0" />
+    <PackageReference Include="Microsoft.Orleans.Streaming" Version="9.0.1" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.0.2" />
+    <PackageReference Include="Scrutor" Version="5.0.2" />
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+    <PackageReference Include="System.Text.Json" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Game.Shared\Game.Shared.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Multicast">
+      <HintPath>..\assemblies\Multicast.dll</HintPath>
+    </Reference>
+    <Reference Include="RequireFieldsInit.Core">
+      <HintPath>..\assemblies\RequireFieldsInit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Quantum.Deterministic">
+      <HintPath>..\assemblies\Quantum.Deterministic.dll</HintPath>
+    </Reference>
+    <Analyzer Include="..\assemblies\RequireFieldsInit.Analyzer.dll" />
+  </ItemGroup>
+</Project>

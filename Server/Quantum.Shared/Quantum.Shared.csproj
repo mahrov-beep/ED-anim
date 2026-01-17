@@ -1,0 +1,39 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <LangVersion>9</LangVersion>
+    <Configurations>Debug;Release</Configurations>
+    <DefaultItemExcludes>$(DefaultItemExcludes);**/*.meta</DefaultItemExcludes>
+    <BaseIntermediateOutputPath>obj~\</BaseIntermediateOutputPath>
+    <BaseOutputPath>bin~\</BaseOutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <NoWarn>1701;1702;CS1998</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DefineConstants>$(DefineConstants)</DefineConstants>
+    <Optimize>True</Optimize>
+    <NoWarn>1701;1702;CS1998</NoWarn>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="JetBrains.Annotations" Version="2024.3.0" />
+    <PackageReference Include="MessagePack" Version="3.0.238-rc.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="RequireFieldsInit.Core">
+      <HintPath>..\assemblies\RequireFieldsInit.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Quantum.Deterministic">
+       <HintPath>..\assemblies\Quantum.Deterministic.dll</HintPath>
+    </Reference>
+    <Analyzer Include="..\assemblies\RequireFieldsInit.Analyzer.dll" />
+  </ItemGroup>
+</Project>
