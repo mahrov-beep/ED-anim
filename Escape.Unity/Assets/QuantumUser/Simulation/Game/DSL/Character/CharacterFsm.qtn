@@ -1,0 +1,97 @@
+﻿[ExcludeFromPrototype]
+component CharacterFsm {    
+    EntityRef SelfEntity;
+    CharacterStates CurrentState;
+    int CurrentStateTypeId;
+}
+
+enum CharacterStates {
+    Invalid = 0,
+    Idle = 1,
+    Walk = 2,
+    Roll = 4,
+    Dead = 5,
+    Sprint = 6,
+    Knocked = 7,
+    Reviving = 8,
+    CrouchIdle = 9,
+    CrouchMove = 10,
+    Healing = 11,
+    KnifeAttack = 12,
+    Jump = 13,
+}
+
+[ExcludeFromPrototype]
+component CharacterStateIdle {
+
+}
+
+[ExcludeFromPrototype]
+component CharacterStateWalk {
+
+}
+
+[ExcludeFromPrototype]
+component CharacterStateRoll {
+    FrameTimer StateTimer;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateSprint {
+    FP SprintSpeedMultiplier;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateDead {
+    EntityRef KilledBy;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateKnocked {
+    FP KnockDuration;
+    FP KnockTimer;
+    FP ReviveDuration;
+    FP ReviveTimer;
+    FP CrawlSpeedMultiplier;
+    FP RevivedHealthValue;
+    EntityRef Rescuer;
+    EntityRef CandidateRescuer;
+    FP CandidateDistanceSqr;
+    EntityRef LastDamageSource;
+    FP KnockHealth;
+    FP DamageImmunityTimer;
+    FP KnockStartHealth;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateReviving {
+    EntityRef Target;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateCrouchIdle {
+
+}
+
+[ExcludeFromPrototype]
+component CharacterStateCrouchMove {
+    FP CrouchSpeedMultiplier;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateHealing {
+    FP Duration;
+    FP Timer;
+    EntityRef ItemEntity;
+    HealthApplicator Applicator;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateKnifeAttack {
+    FrameTimer StateTimer;
+}
+
+[ExcludeFromPrototype]
+component CharacterStateJump {
+    FP AirTime;
+}

@@ -1,0 +1,1015 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UI
+  m_EditorClassIdentifier: 
+  m_GroupName: UI
+  m_Data:
+    m_SerializedData: []
+  m_GUID: cf3008f255be3c24880652c028977d2a
+  m_SerializeEntries:
+  - m_GUID: 38a80d746555802478878e3d68b69228
+    m_Address: ui/Game/Game
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e48fe390ce60674f9a10caae03d7ea1
+    m_Address: ui/GameInventory/Game Inventory Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8700e78c5640b954fba95b01c931f8d1
+    m_Address: ui/GameInventory/Game Inventory Trash Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 178011c9e4fef6d43bbf7ca9bda1ecc9
+    m_Address: ui/GameInventory/Game Inventory Slot Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e194f0ad34d5af84fa309aff99381321
+    m_Address: ui/GameInventory/Game Inventory Empty Slot Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 229a792f74c5c9b43b2fff88d22f8391
+    m_Address: ui/Header/Unit Health Bar View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0082175803ddea441acb47e7f9ec2cf0
+    m_Address: ui/Progress Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 349ccfca09f276449a5e62375c502d9c
+    m_Address: ui/Alert/Alert Dialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74e72ccc10231d54b83f3535d8ba1ae9
+    m_Address: ui/Float Notifications Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 63eca2cda828c1441867d160ab2704df
+    m_Address: ui/GameResults/Simple/Simple Game Results Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1838b65f38ef7a04bb8fe45138fc6740
+    m_Address: ui/Loading Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81f83e39d8c1b4044b7dc435092ee8af
+    m_Address: ui/Alert/Alert Dialog Button Negative
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db643d23aaf69b944904da32a94eb053
+    m_Address: ui/Header/Header
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0867c512e58b4e64bb11a663b6bd7b73
+    m_Address: ui/MainMenu/Main Menu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b02bd02510c1ea41b3baa592ad0f39c
+    m_Address: ui/Black Overlay View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc2c34f0fbefaa747a1ab3b61e2e918c
+    m_Address: ui/Aims/Dynamic Aim View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f33a507a0099cf488ee22168f55cf9d
+    m_Address: ui/Alert/Alert Dialog Button Positive
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef15bacec6944074db1ef4c995e1cef1
+    m_Address: ui/Header/Header Currency
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 93d7a5695b0c13947a09ecf7bf4a148a
+    m_Address: ui/GameInventory/Game Inventory Slot Item Mini
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8726fa73459a4fe42aee90defec21868
+    m_Address: ui/GameInventory/Game Inventory Empty Slot Item Mini
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c35d90dba3a5a046876499f737f0b1e
+    m_Address: ui/GameInventory/Game Inventory Slot Item Primary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0bb058e0ffff69e43af5351dc4ed234c
+    m_Address: ui/GameInventory/Game Inventory Empty Slot Item Primary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 654b8a40c852a8348b754c83d16313c7
+    m_Address: ui/GameInventory/Game Inventory Empty Slot Item Secondary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 758acabc5e62f35468ecf612ebca02cc
+    m_Address: ui/GameInventory/Game Inventory Empty Slot Item Melee
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8b52d4b5ac5e710409574984be307bab
+    m_Address: ui/GameInventory/Game Inventory Slot Item Secondary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0007f8836af1b9840bf8f40bf546956a
+    m_Address: ui/GameInventory/Game Inventory Slot Item Melee
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1e7e6a99e60b7146a0a9a8c489bf8f7
+    m_Address: ui/GameInventory/Game Inventory Empty Weapon Attachment Slot Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2c3c1e26c49dd424fbf22f853cb7dcca
+    m_Address: ui/GameInventory/Game Inventory Weapon Attachment Slot Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f0bb226fc1e136343b43b5bc5d8cc8cb
+    m_Address: ui/Game/Hud/Selectable Weapon View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 318f940bc873e474db17c96228b74494
+    m_Address: ui/Game/Hud/Selectable Melee Weapon View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 47de0d0ea980d6c449a84e215275c004
+    m_Address: ui/Game/Game Nearby Interactive Zone Exit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ec93e09107edaa14999f72b61ffa4686
+    m_Address: ui/Storage/Storage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c006d062186fbf54fba7925fe2e3c1ab
+    m_Address: ui/Storage/Storage Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a1e2959b3c68c1f4998da186910fb3a0
+    m_Address: ui/Loading Fade Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c069f08e458cd5b4db33366436fa0fa1
+    m_Address: ui/Storage/Storage Item X2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: db8c95f86ea917a41bbbee45d26039aa
+    m_Address: ui/Loading Black Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a793c38563966ff4ebcda97bfb53930d
+    m_Address: ui/TraderShop/Trader Shop Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2512cffb32bf52543858156de1e01f2a
+    m_Address: ui/Items/Item Attachment Marker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1a92b10681c97834c8007b85e19f62d8
+    m_Address: ui/Items/Empty Item Attachment Marker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa666c17aef52b041a8b488594f84263
+    m_Address: ui/Items/Item Grouping Separator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44d08ec69959b3b42a3a1e4993bb45ae
+    m_Address: ui/Game/Hud/Unit Ability View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 49cc9826c884c8f44acaeabfc0ad7045
+    m_Address: ui/ItemInfo/ItemInfo Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c41b72075ce8c324598592f574aa2d64
+    m_Address: ui/ItemInfo/ItemInfo Stat
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4d3cb08e4bbe02840a942fe6af426225
+    m_Address: ui/Game/Game Escape Mode Summary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 60f61462c33207247a94510256123ba4
+    m_Address: ui/Quests/Quest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: de1945fc5743060449043600aa1d0209
+    m_Address: ui/Quests/Quest Counter Task Active
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 574a06fa6fe420349b30048a5d7361b3
+    m_Address: ui/Quests/Quest Counter Task Completed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: deebdf658f93e0b478db2066b7c0da55
+    m_Address: ui/QuestMenu/Quest Menu
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8c5e201cae9d34542a4f96605cb9dae1
+    m_Address: ui/QuestMenu/Quest Menu List Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c1f9f0df7cdd354390d5d5fa61290a3
+    m_Address: ui/QuestMenu/Quest Menu Quest Details
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e85ee1ccb7d8f941b02c15872038cda
+    m_Address: ui/QuestMenu/Quest Menu Counter Task Active
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0102272c8b5b2f349b3592dd3d379df5
+    m_Address: ui/QuestMenu/Quest Menu Counter Task Completed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 525f8177ffc4d0b408eae3ab5c8bb303
+    m_Address: ui/QuestMenu/Quest Menu Counter Task Locked
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8fe89a7d05e5ba4c95cb0283b4ba79d
+    m_Address: ui/Items/Currency Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 62eac23d121781140abeba8710e338ce
+    m_Address: ui/QuestMenu/Quest Menu DonateItem Task Active v2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 338eb5198d8694845b30507e52c8cb83
+    m_Address: ui/QuestMenu/Quest Menu DonateItem Task Donated v2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 15f5935f090961a4ea17f7505249ae96
+    m_Address: ui/QuestMenu/Quest Menu DonateItem Task Locked v2
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b196e03cbfc6c554f9df476f83b9f866
+    m_Address: ui/Quests/Quest DonateItem Task Active v3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f6d96c96d96f74e4fa104c499b1410d8
+    m_Address: ui/Quests/Quest DonateItem Task Completed v3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c4c7047e9aeda04296729fdd0e4c12c
+    m_Address: ui/Game/Hud/Map View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e9548daaa02a7774082022493caffd41
+    m_Address: ui/Game/Game Nearby ItemBox
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d84f524c8df048c41bddfaa37508a10c
+    m_Address: ui/Game/Hud/Health View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aa664ec1ae66d934e92cb7c5b3e0ef97
+    m_Address: ui/Loading Bg Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 90caf71c4f37b1140b1a32100fbc99e7
+    m_Address: ui/MainMenu/MainMenu Level View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ee47e3595a92c874590b57a965423a13
+    m_Address: ui/LevelUp/Level Up View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 271255b91bb66a74098be4cd7f2ad20f
+    m_Address: ui/Items/Exp Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a760067e971d2244bb6568d300bb4863
+    m_Address: ui/Header/Debuff Slow View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: efac3d4909525f24080e0ed04ac311ca
+    m_Address: ui/Thresher/Thresher View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51ca1219fda9e384a8c7b52b6825a001
+    m_Address: ui/Storage/Storage Item Blocker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1fe81cfb6cf8b474a9f2d582491b1c4f
+    m_Address: ui/Game/Hud/Vignette View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 02c82e49146b04f42b72243c97e3c7ed
+    m_Address: ui/GameModes/Game Modes Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 970f84d4d7a98a1459b99c59de6cdfd0
+    m_Address: ui/GameModes/Game Mode item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6727ce25ebab05429a07ba235630048
+    m_Address: ui/GameModes/Game Mode Details
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 697e60182ac529744973e372f18e53de
+    m_Address: ui/Game/Hud/ListenedCue View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8edc7903a96f01a46941fd257e9ccd86
+    m_Address: ui/Game/Hud/DamageCue View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16b080ddfb072e946946c6346213305b
+    m_Address: ui/EditName/EditNameDialog
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9c88541adb3f27048ba85a52a71e1fa0
+    m_Address: ui/Purchases/Store
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aaa4623fc8abb4c49891ec14e2cc54a0
+    m_Address: ui/Purchases/Purchases Store Category
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e5b4388b17342d944894191c415322ed
+    m_Address: ui/Purchases/Purchases Top Up View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d27c0b46245fcc14e8e3e4581c38cad1
+    m_Address: ui/Purchases/Purchase Not Enough View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f874d657d6ab66744b64e83b81a8e549
+    m_Address: ui/Purchases/Items/Purchases Iap Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 72156f46340803248b4dd8009e7b0267
+    m_Address: ui/Purchases/Items/Purchases Key Iap Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367503e8e8383c448a8b73ae95a14392
+    m_Address: ui/Purchases/Items/Purchases Currency Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2e6b1d9e7b7eaea4aa3ea7f526a87a3a
+    m_Address: ui/Purchases/Drops/Purchases Currency Drop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 116de5879394eda44af1272c49ac899d
+    m_Address: ui/Purchases/Drops/Purchases Crystal Pack Drop
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e0a455fcca65bb42b9c868e26cf3bcc
+    m_Address: ui/Subscription/Restored Purchases View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2a6fe094b9f88854fa8badb38eb90484
+    m_Address: ui/Screen View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ae4b27d4b5a9a5489ed5573f9e8f37f
+    m_Address: ui/Confirmation Screen View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7ce371d46c4fa2a479fb733c4080e636
+    m_Address: ui/Popup View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2118d4ea77fb6bc4d90c63a7d779aa4d
+    m_Address: ui/Header/Hit Mark View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 26ab8f5d6cbb83142a8291011144824d
+    m_Address: ui/GameInventory/Game Inventory Trash Button Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a19cb5f91221f464893b1c5da05b39ac
+    m_Address: ui/GameInventory/Empty Slot Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 14e96d615b9410f4b9e4ca141bb471e1
+    m_Address: ui/SimpleBlocker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 251833090f8d7774f97897d6d034a7b5
+    m_Address: ui/Thresher/Threshers Menu Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a03f9d54d098d5c4eaa8241053dda5a7
+    m_Address: ui/Thresher/Thresher item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d4a8bb20803e3e942ba5d27d93f5c689
+    m_Address: ui/Markers/ArrowMarker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 69a9881498424c348b762a68bf30abe7
+    m_Address: ui/Markers/ShootIconMarker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f241a93cbd322ee49ba5a8733ccc193e
+    m_Address: ui/Markers/StepIconMarker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: addab7ccf7a008348a4246591ab14ac0
+    m_Address: ui/Markers/StepDirectionMarker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc221212dcdc9ef4287f1a6f0048f933
+    m_Address: ui/Minimap/EnemyIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a61328637b83831418321367b5f72e87
+    m_Address: ui/Minimap/ExitIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 200950f579201e3449579beef4c634c9
+    m_Address: ui/Minimap/ExitPointer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1736a10bef461b9499933b1b3941aeea
+    m_Address: ui/Minimap/InteresttIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c63fe84c52db1df42a7f554ed0ac471a
+    m_Address: ui/Minimap/ItemBoxIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 337af79c11317e141b0cd76faaa1e6d8
+    m_Address: ui/Minimap/InterestPointer
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36e6075fd6d83ca4282e124610d43dda
+    m_Address: ui/Minimap/WayItemImage
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e880026f156fbd343a22c5a68f3a6734
+    m_Address: ui/Minimap/DroppedItemBoxIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48b44b2ac108b4045a6906d8e38f874e
+    m_Address: ui/Storage/Storage Item Partial Fill
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 41f7ba2b718cde44091bd2a4f6814c16
+    m_Address: ui/Notify
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 799077c52ddbbd54494f5e6b0d06979b
+    m_Address: ui/Header/Item Box Timer View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d5a213f788320854b83acb700c148d53
+    m_Address: ui/Gunsmiths/Gunsmith Loadout
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 644fd5e17cba0ff4f9df31eb7b88ac23
+    m_Address: ui/Gunsmiths/Gunsmith Loadout Level Block
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f79c44d7afca1b429c1d3ba2b66e5e6
+    m_Address: ui/GameInventory/Game Inventory Item Filter
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8d272f4c423dfec44a01b021350b0ea3
+    m_Address: ui/Game/AimButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a56577d61e984fd4d8b1de1a91c81c2f
+    m_Address: ui/Gunsmiths/Gunsmith Menu Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ba9d58ed7260196448fb344343b5afd5
+    m_Address: ui/Game/Game Nearby Items Opened
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f25444451dbd1f947beb4bfe92152faf
+    m_Address: ui/GameInventory/Game Inventory Cell
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 227e679f3946cf3429e3adc6625edb4d
+    m_Address: ui/GameInventory/Game Inventory Tetris
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 182a237cb2daea44e8b809ee0260f6d5
+    m_Address: ui/GameInventory/Game Inventory Cell With Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6bedeffab4c52d4784bd1072e294bfb
+    m_Address: ui/GameInventory/Game Inventory Trash Item Mini
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b77ecf82328bfaa478c90b6668a609f2
+    m_Address: ui/ExpProgressionRewards/Exp Progression Rewards Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bb3215563e126d7419d8704ca7f4f1f0
+    m_Address: ui/ExpProgressionRewards/Exp Progression Reward Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8ef51042a9c1284396ed6f1b527b326
+    m_Address: ui/ExpProgressionRewards/Exp Progression Rewards Background
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b795e8f210bfdf4784bb05de5c96f4f
+    m_Address: ui/RewardsLarge/Reward Large Currency
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c28cdd62c33c89f4a8d971edfde8fb43
+    m_Address: ui/RewardsLarge/Reward Large Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2b25947c77e366c45b896078fc73a0c9
+    m_Address: ui/MainMenu/MainMenu ExpProgressionRewards
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8e816b56636b40e48912c5f8a5cb20a8
+    m_Address: ui/Items/Feature Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4b5ae0a8ab0cbb459a7f3d42b3687b2
+    m_Address: ui/RewardsLarge/Reward Large Feature
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e17331ece4ed4e1418a324a070cc72ae
+    m_Address: ui/Game/Hud/StaminaView
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cc5036b8602e4345b764db57e1b41a8
+    m_Address: ui/Tutorial/Tutorial View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5e433412107dcf143b0c5c2dc531de2f
+    m_Address: ui/Tutorial/Tutorial Popup View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4f012d7ac4bbf346a8f495d4a74988c
+    m_Address: ui/Friends/Friends List Item
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0ae8c6e4c5fe25478b106c017b689a0
+    m_Address: ui/Friends/Friends Panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc5d566795533dd4eb324a7fa1619dcc
+    m_Address: ui/Friends/AddFriend Panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3928098acdd3ad7419429ae099f22a8c
+    m_Address: ui/Notifier/Notifier View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9992c4cd972b011428297de445731d48
+    m_Address: ui/MainMenu/MainMenu Button (Gunsmith)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dbf75ba884c9cad4cbb816b7d48e7b61
+    m_Address: ui/MainMenu/MainMenu Button
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 620f1d808c106234b8cafc844401dbc0
+    m_Address: ui/MainMenu/MainMenu CoinFarm
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 92e9c236d739732459248879e095723b
+    m_Address: ui/Friends/Incoming Panel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 86ce4f9b206dc4141849083f6d4101e3
+    m_Address: ui/MailBox/MailBox Menu Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9f35fa2123d5b7944bcd1c09bd35c1ba
+    m_Address: ui/MailBox/MailBox Message
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 91e4105aac6ff144d9401154ca496c8d
+    m_Address: ui/MainMenu/MainMenu Icon Button
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d503a6a8c04d0644a4efac540ced100
+    m_Address: ui/MainMenu/MainMenu Icon Button (MailBox)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 440ac8cead534d5438d8c1d9fb075d5f
+    m_Address: ui/Game/Hud/GrenadeIndicator View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 56360a436cde7f6438793a36a645413d
+    m_Address: ui/Party/Party Status View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 54624cb8ea549e44982ac42f03d3fff0
+    m_Address: ui/Party/Party Member View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4e80e83e983c61c449620597e2afbddf
+    m_Address: ui/Header/Unit Party View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3e72e6fa939681448fd79c8f0c5a7d9
+    m_Address: ui/MainMenu/MainMenuPlayButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3e2de3fab62c0054786e6787f160b431
+    m_Address: ui/Minimap/GrenadeIcon
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81ad8a8e5c372fc42a8cddf61579b0ed
+    m_Address: ui/Game/Hud/JumpButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1b6326e0b464d3246af8fcdabf8ee5bf
+    m_Address: ui/Game/Hud/CrouchButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 367bc0f5881e4b93bbea5a7b3069a290
+    m_Address: ui/Settings/Graphics Settings View
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a72e3915cb668d84c857edef97d350e7
+    m_Address: ui/Settings/Quality Button
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0beb656c804e44b408d739ee0b78fbef
+    m_Address: ui/Markers/GrenadeIconMarker
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4a3523d29834be3ba1faef02da25f39
+    m_Address: ui/Game/Hud/Weapon Ammo Option
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6ddec4567f2fc694fb008fa3e9ed769f
+    m_Address: ui/Game/Hud/SprintButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 43b5ba300f685b148b2534a00253bc2b
+    m_Address: ui/Game/SettingsButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2944a0b0cd28b834eb30accdd8880f76
+    m_Address: ui/Game/Open Inventory
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf494a38e87ceac44b15c3a7955a5452
+    m_Address: ui/Game/MenuButton
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 83837cbda17ccb44495d7513834eca38
+    m_Address: ui/Game/Game Nearby ItemBox (Backpack variant)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35fa0bc80e855084c95804d30109caad
+    m_Address: ui/Game/Hud/Unit Ability View (KnifeAttack variant)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4be56b289f94b3846b91cf41beed60e5
+    m_Address: ui/Game/Hud/Unit Ability View (Revive variant)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f07f40a980b393a43b328b2102402aa1
+    m_Address: ui/Game/Game Nearby Items Closed
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c9b641194215f8345ae14fbdb3d4635c
+    m_Address: ui/SearchGame Screen
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5bf5ffdc63314bb9b6abcc6bc64a7f34
+    m_Address: ui/MainMenu/MainMenuPlayButtonCancel
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - UI
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 35c651e6853e06d44b20845b5e0380bd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9afd277b50356fc4c9aff2ac1c2273a3, type: 2}
+    - {fileID: 11400000, guid: 33e99bc65d113cb499003e6f6bdd5ca5, type: 2}

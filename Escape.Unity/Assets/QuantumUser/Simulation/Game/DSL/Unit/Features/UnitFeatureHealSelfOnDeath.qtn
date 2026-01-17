@@ -1,0 +1,6 @@
+﻿component UnitFeatureHealSelfOnDeath {
+    FP HealDelaySeconds;    
+    HealthApplicator Applicator;
+    
+    [ExcludeFromPrototype] CountdownTimer RespawnTimer;
+}

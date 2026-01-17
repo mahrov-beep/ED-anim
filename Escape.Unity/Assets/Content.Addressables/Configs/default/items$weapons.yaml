@@ -1,0 +1,333 @@
+---
+key: "item_weapon_AR_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "30"
+weight: "3.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 300 }
+min_trader_level_to_buy: 1
+---
+key: "item_weapon_AR_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "3.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+sell_cost: { "badges": 200 }
+buy_cost: { "badges": 600 }
+min_trader_level_to_buy: 2
+---
+key: "item_weapon_AR_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "80"
+weight: "3.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+sell_cost: { "badges": 300 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 3
+---
+key: "item_weapon_AR_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "50"
+weight: "3.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+sell_cost: { "badges": 400 }
+buy_cost: { "bucks": 25 }
+min_trader_level_to_buy: 4
+---
+key: "item_weapon_AR_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "70"
+weight: "3.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+sell_cost: { "badges": 500 }
+buy_cost: { "bucks": 50 }
+min_trader_level_to_buy: 5
+---
+key: "item_weapon_machingun_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "30"
+weight: "4.5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+---
+key: "item_weapon_machingun_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+---
+key: "item_weapon_machingun_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "50"
+weight: "5.4"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+---
+key: "item_weapon_machingun_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "70"
+weight: "5.9"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+---
+key: "item_weapon_machingun_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "6.8"
+cells_width: 4
+cells_height: 2
+ammo_type: "Rifle"
+---
+key: "item_weapon_shotgun_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "30"
+weight: "4"
+cells_width: 3
+cells_height: 2
+ammo_type: "Shotgun"
+---
+key: "item_weapon_shotgun_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "4"
+cells_width: 3
+cells_height: 2
+ammo_type: "Shotgun"
+---
+key: "item_weapon_shotgun_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "50"
+weight: "4"
+cells_width: 3
+cells_height: 2
+ammo_type: "Shotgun"
+---
+key: "item_weapon_shotgun_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "70"
+weight: "4"
+cells_width: 3
+cells_height: 2
+ammo_type: "Shotgun"
+---
+key: "item_weapon_shotgun_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "4"
+cells_width: 3
+cells_height: 2
+ammo_type: "Shotgun"
+---
+key: "item_weapon_sniper_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "30"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Sniper"
+---
+key: "item_weapon_sniper_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Sniper"
+---
+key: "item_weapon_sniper_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "50"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Sniper"
+sell_cost: { "badges": 600 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 3
+---
+key: "item_weapon_sniper_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "70"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Sniper"
+sell_cost: { "badges": 800 }
+buy_cost: { "bucks": 30 }
+min_trader_level_to_buy: 4
+---
+key: "item_weapon_sniper_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "5"
+cells_width: 4
+cells_height: 2
+ammo_type: "Sniper"
+sell_cost: { "badges": 1000 }
+buy_cost: { "bucks": 60 }
+min_trader_level_to_buy: 5
+---
+key: "item_weapon_pp_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "30"
+weight: "2.5"
+cells_width: 3
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 1
+---
+key: "item_weapon_pp_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "2.5"
+cells_width: 3
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 200 }
+buy_cost: { "badges": 500 }
+min_trader_level_to_buy: 2
+---
+key: "item_weapon_pp_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "50"
+weight: "2.5"
+cells_width: 3
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 300 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 3
+---
+key: "item_weapon_pp_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "70"
+weight: "2.5"
+cells_width: 3
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 400 }
+buy_cost: { "bucks": 20 }
+min_trader_level_to_buy: 4
+---
+key: "item_weapon_pp_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "2.5"
+cells_width: 3
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 500 }
+buy_cost: { "bucks": 40 }
+min_trader_level_to_buy: 5
+---
+key: "item_weapon_pistol_common"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+---
+key: "item_weapon_pistol_uncommon"
+type: "Weapon"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 2
+---
+key: "item_weapon_pistol_rare"
+type: "Weapon"
+rarity: "Rare"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 3
+---
+key: "item_weapon_pistol_epic"
+type: "Weapon"
+rarity: "Epic"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 4
+---
+key: "item_weapon_pistol_legendary"
+type: "Weapon"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 2
+ammo_type: "Pistol"
+sell_cost: { "badges": 250 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 5
+---
+key: "item_weapon_knife"
+type: "Weapon"
+rarity: "Common"
+equip_priority: "10"
+weight: "1"
+cells_width: 4
+cells_height: 2
+ammo_type: "Infinite"

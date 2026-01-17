@@ -1,0 +1,76 @@
+---
+key: "exp_progression_reward_gunsmith"
+level_to_complete: 1
+rewards: [ { "type": "feature", "feature": "feature_gunsmith" } ]
+---
+key: "exp_progression_reward_3"
+level_to_complete: 2
+rewards: [ { "type": "feature", "feature": "feature_trader_shop" } ]
+---
+key: "exp_progression_reward_traderShop"
+level_to_complete: 3
+rewards: [ { "type": "item", "item": "item_ability_grenade" } ]
+---
+key: "exp_progression_reward_5"
+level_to_complete: 4
+rewards: [ { "type": "feature", "feature": "feature_coin_farm_badges" } ]
+---
+key: "exp_progression_reward_6"
+level_to_complete: 5
+rewards: [ { "type": "item", "item": "item_weapon_AR_rare" } ]
+---
+key: "exp_progression_reward_7"
+level_to_complete: 6
+rewards: [ { "type": "currency", "currency": "badges", "amount": 2000 } ]
+---
+key: "exp_progression_reward_coin_farm"
+level_to_complete: 7
+rewards: [ { "type": "item", "item": "item_weapon_AR_epic" }, { "type": "currency", "currency": "bucks", "amount": 100 } ]
+---
+key: "exp_progression_reward_9"
+level_to_complete: 8
+rewards: [ { "type": "currency", "currency": "badges", "amount": 5000 } ]
+---
+key: "exp_progression_reward_10"
+level_to_complete: 9
+rewards: [ { "type": "item", "item": "item_weapon_AR_legendary" }, { "type": "currency", "currency": "bucks", "amount": 100 } ]
+---
+key: "exp_progression_reward_11"
+level_to_complete: 10
+rewards: [ { "type": "currency", "currency": "badges", "amount": 10000 } ]
+---
+key: "exp_progression_reward_radio"
+level_to_complete: 11
+rewards: [ { "type": "currency", "currency": "crypt", "amount": 5 } ]
+---
+key: "exp_progression_reward_13"
+level_to_complete: 12
+rewards: [ { "type": "currency", "currency": "bucks", "amount": 300 } ]
+---
+key: "exp_progression_reward_14"
+level_to_complete: 13
+rewards: [ { "type": "currency", "currency": "badges", "amount": 25000 } ]
+---
+key: "exp_progression_reward_15"
+level_to_complete: 14
+rewards: [ { "type": "currency", "currency": "bucks", "amount": 500 } ]
+---
+key: "exp_progression_reward_16"
+level_to_complete: 15
+rewards: [ { "type": "item", "item": "item_weapon_AR_legendary" }, { "type": "item", "item": "item_helmet_heavy_legendary" }, { "type": "item", "item": "item_armor_heavy_legendary" }, { "type": "item", "item": "item_headphones_legendary" } ]
+---
+key: "exp_progression_reward_17"
+level_to_complete: 16
+rewards: [ { "type": "currency", "currency": "bucks", "amount": 200 } ]
+---
+key: "exp_progression_reward_18"
+level_to_complete: 17
+rewards: [ { "type": "currency", "currency": "bucks", "amount": 200 } ]
+---
+key: "exp_progression_reward_19"
+level_to_complete: 18
+rewards: [ { "type": "currency", "currency": "crypt", "amount": 5 } ]
+---
+key: "exp_progression_reward_20"
+level_to_complete: 19
+rewards: [ { "type": "feature", "feature": "feature_black_market" } ]

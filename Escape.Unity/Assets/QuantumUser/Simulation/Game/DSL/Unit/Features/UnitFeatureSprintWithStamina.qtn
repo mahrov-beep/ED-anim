@@ -1,0 +1,7 @@
+﻿[ExcludeFromPrototype]
+component UnitFeatureSprintWithStamina {
+  FP current; // Текущая энергия
+  FP regenTimer;
+}
+
+event StaminaJumpDenied { }

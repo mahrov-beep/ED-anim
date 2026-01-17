@@ -1,0 +1,8 @@
+component ReconEffect {
+  FPVector3 Position;      
+  FP Radius;               
+  FP Duration;             
+  FP StartTime;            
+  EntityRef OwnerRef;      
+}
+

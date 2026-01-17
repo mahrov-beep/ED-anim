@@ -1,0 +1,7 @@
+﻿component SlowDebuff {
+  int hitCount;
+  int hitLimit;
+  int priority;
+  FP slowMultiplier;
+  FP timer;
+}

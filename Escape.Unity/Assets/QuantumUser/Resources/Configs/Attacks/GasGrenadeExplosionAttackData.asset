@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd4dbe27d33c334591aaf7c92792e40, type: 3}
+  m_Name: GasGrenadeExplosionAttackData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/GasGrenadeExplosionAttackData
+    Guid:
+      Value: 358163874758743907
+  TTL:
+    RawValue: 983040
+  IgnoreOwner: 0
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 0
+  DestroyOnHitStatic: 0
+  hitEffects: []
+  attackPerformedFX: {fileID: 7792832657184684030, guid: 6d7c183511b00ca45996cf8bcb5f2bcb, type: 3}
+  attackPerformedFXLifetimeSec:
+    RawValue: 983040
+  attackPerformedSmoothFade: 1
+  attackPerformedFadeSeconds:
+    RawValue: 131072
+  attackHitFX: {fileID: 0}
+  attackHitFXLifetimeSec:
+    RawValue: 0
+  attackHitSmoothFade: 0
+  attackHitFadeSeconds:
+    RawValue: 0
+  hitImpulse:
+    Id:
+      Value: 408047456916536954
+  enableHitSound: 1
+  hitSound: {fileID: 8300000, guid: abbebfa39bdc52548864841d49f0d8b2, type: 3}
+  hitSoundVolume:
+    RawValue: 65536
+  minDamageDistanceCoefficient:
+    RawValue: 65536
+  radius:
+    RawValue: 262144
+  applyAfterburn: 1
+  afterburnDuration:
+    RawValue: 327680
+  afterburnDPS:
+    RawValue: 327680
+  afterburnDamageType: 11
+  options:
+    schedulePeriodTicks: 2
+    checkLineOfSight: 1
+    losCheckEveryNTicks: 2
+    emitHitEvents: 1
+    hitEventEveryNTicks: 2
+    applyHitEffects: 1
+    hitEffectsEveryNTicks: 3

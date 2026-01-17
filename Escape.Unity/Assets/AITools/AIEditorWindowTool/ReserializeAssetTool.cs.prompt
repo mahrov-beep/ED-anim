@@ -1,0 +1,23 @@
+- для всех Selection ассетов надо вызвать сет дёрти
+- Пример
+
+using UnityEditor;
+using UnityEngine;
+
+public static class MyAssetTools
+{
+    [MenuItem("Tools/Force Save MyScriptableObject")]
+    public static void ForceSaveMyScriptableObject()
+    {
+        // Загрузите целевой ScriptableObject
+        var so = AssetDatabase.LoadAssetAtPath<ScriptableObject>("Assets/MyScriptableObject.asset");
+
+        // Помечаем объект как «грязный»
+        EditorUtility.SetDirty(so);
+
+        // Сохраняем все «грязные» объекты
+        AssetDatabase.SaveAssets();
+
+        Debug.Log("ScriptableObject пересохранён!");
+    }
+}

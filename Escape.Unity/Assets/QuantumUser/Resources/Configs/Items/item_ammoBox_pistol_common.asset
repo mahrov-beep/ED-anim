@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99be1ac22a04018b0a6e79b14da9c8e, type: 3}
+  m_Name: item_ammoBox_pistol_common
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ammoBox_pistol_common
+    Guid:
+      Value: 386397045375784475
+  icon: item_ammoBox_pistol
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects:
+  - attributeType: 54
+    value:
+      RawValue: 1638400
+    operation: 2
+  validSlots: 
+  inspectorShortName: "\u041F\u0430\u0442\u0440\u043E\u043D\u044B-\u043F\u0438\u0441\u0442\u043E\u043B\u0435\u0442"
+  validWeaponSlots: 06000000
+  visualPrefab: {fileID: 0}

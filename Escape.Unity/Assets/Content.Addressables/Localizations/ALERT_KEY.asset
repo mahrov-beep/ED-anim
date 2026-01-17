@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: ALERT_KEY
+  m_EditorClassIdentifier: 
+  page: ALERT
+  lang: KEY
+  values:
+  - ALERT_BUTTON_OK
+  - ALERT_BUTTON_YES
+  - ALERT_BUTTON_NO
+  - ALERT_BUTTON_CANCEL
+  - ALERT_BUTTON_CONTINUE
+  - ALERT_BUTTON_RETRY
+  - ALERT_TITLE_QUIT_GAME
+  - ALERT_MESSAGE_QUIT_GAME
+  - ALERT_TITLE_META_FAILED_BAD_REQUEST
+  - ALERT_MESSAGE_META_FAILED_BAD_REQUEST
+  - ALERT_TITLE_META_FAILED_TO_CONNECT
+  - ALERT_MESSAGE_META_FAILED_TO_CONNECT
+  - ALERT_TITLE_PHOTON_FAILED_TO_CONNECT
+  - ALERT_MESSAGE_PHOTON_FAILED_TO_CONNECT
+  - PARTY_LEAVE
+  - PARTY_KICK
+  - ALERT_TITLE_PARTY_INVITE
+  - PARTY_MAKE_LEADER
+  - PARTY_READY
+  - PARTY_UNREADY

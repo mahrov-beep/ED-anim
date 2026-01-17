@@ -1,0 +1,25 @@
+﻿
+global { 
+    EGameStates GameState;
+    FP GameStateTimer;
+}
+
+enum EGameStates {
+  None,
+  Presentation,
+  Game,
+  BeforeExit, //в конце вызовется event GameExit
+  Exited,
+}
+
+signal OnPresentationStart(); // в этот момент симуляция стартанула и все игроки подключились
+signal OnGameStart();
+signal OnGameEnd();
+
+// именно synced event, чтобы юнити реагировала только на verified
+synced event PresentationStart {}  //  всякая предматчевая инфа
+synced event GameStart {}          //  матч начался
+synced event GameEnd {}            //  результаты матча или что-то такое
+synced event GameExit {}           //  покидаем сцену рейда
+
+synced event GameLost { int PhotonActorId; }

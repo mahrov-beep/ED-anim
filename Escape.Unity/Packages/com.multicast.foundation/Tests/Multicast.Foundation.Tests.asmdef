@@ -1,0 +1,36 @@
+{
+    "name": "Multicast.Foundation.Tests",
+    "rootNamespace": "",
+    "references": [
+        "UnityEngine.TestRunner",
+        "UnityEditor.TestRunner",
+        "Multicast.Foundation",
+        "UniMob",
+        "UniMob.UI",
+        "MessagePack",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.ResourceManager",
+        "CodeWriter.ExpressionParser",
+        "Multicast.Foundation.Editor"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll",
+        "System.Buffers.dll",
+        "System.Memory.dll",
+        "MessagePack.dll",
+        "Multicast.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

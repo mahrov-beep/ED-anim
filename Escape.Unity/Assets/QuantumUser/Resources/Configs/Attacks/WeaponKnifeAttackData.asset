@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd285a34713b69f43ba00e43f8eadb00, type: 3}
+  m_Name: WeaponKnifeAttackData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/WeaponKnifeAttackData
+    Guid:
+      Value: 473839023202170438
+  TTL:
+    RawValue: 0
+  IgnoreOwner: 1
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 1
+  DestroyOnHitStatic: 1
+  hitEffects: []
+  attackPerformedFX: {fileID: 0}
+  attackPerformedFXLifetimeSec:
+    RawValue: 0
+  attackPerformedSmoothFade: 0
+  attackPerformedFadeSeconds:
+    RawValue: 0
+  attackHitFX: {fileID: 9098538296350932086, guid: e0f2f95e0145c324b82af92a03f5685d, type: 3}
+  attackHitFXLifetimeSec:
+    RawValue: 0
+  attackHitSmoothFade: 0
+  attackHitFadeSeconds:
+    RawValue: 0
+  hitImpulse:
+    Id:
+      Value: 0
+  enableHitSound: 1
+  hitSound: {fileID: 8300000, guid: 8381cfa68b44d734b9c039db0dbad2a1, type: 3}
+  hitSoundVolume:
+    RawValue: 65536
+  reduceDamageByDistance:
+    Id:
+      Value: 0
+  heightThreshold:
+    RawValue: 98304

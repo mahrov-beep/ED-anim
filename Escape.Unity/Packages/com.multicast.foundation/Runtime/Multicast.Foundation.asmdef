@@ -1,0 +1,102 @@
+{
+    "name": "Multicast.Foundation",
+    "rootNamespace": "Multicast",
+    "references": [
+        "UniMob",
+        "UniMob.UI",
+        "UniTask",
+        "UniTask.DOTween",
+        "UniTask.TextMeshPro",
+        "UniTask.Addressables",
+        "MessagePack",
+        "MessagePack.Annotations",
+        "Unity.Addressables",
+        "Unity.ResourceManager",
+        "Scellecs.Morpeh",
+        "CodeWriter.ExpressionParser",
+        "CodeWriter.ViewBinding",
+        "AppMetrica",
+        "Unity.TextMeshPro",
+        "UnityEngine.Purchasing",
+        "UnityEngine.Purchasing.Stores",
+        "Purchasing.Common",
+        "UnityEngine.Purchasing.Security",
+        "UnityEngine.Purchasing.SecurityCore",
+        "UnityEngine.Purchasing.SecurityStub",
+        "MaxSdk.Scripts",
+        "revenuecat.purchases-unity",
+        "LunarConsole",
+        "Adjust",
+        "Unity.Services.Core",
+        "Unity.Services.Authentication",
+        "Unity.RemoteConfig.Editor.Core",
+        "Unity.Services.RemoteConfig",
+        "Unity.Notifications.Android",
+        "Unity.Notifications.iOS",
+        "TriInspector",
+        "BrunoMikoski.AnimationSequencer",
+        "CodeWriter.TutorialMaskForUGUI.Runtime",
+        "Unity.InputSystem",
+        "AdjustSdk.Scripts"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.unity.purchasing",
+            "expression": "0.0.1",
+            "define": "UNITY_PURCHASING"
+        },
+        {
+            "name": "com.unity.services.core",
+            "expression": "0.0.1",
+            "define": "UNITY_SERVICES_CORE"
+        },
+        {
+            "name": "com.unity.services.authentication",
+            "expression": "0.0.1",
+            "define": "UNITY_SERVICES_AUTH"
+        },
+        {
+            "name": "com.unity.remote-config",
+            "expression": "0.0.1",
+            "define": "UNITY_REMOTE_CONFIG"
+        },
+        {
+            "name": "com.unity.mobile.notifications",
+            "expression": "0.0.1",
+            "define": "UNITY_MOBILE_NOTIFICATIONS"
+        },
+        {
+            "name": "com.unity.purchasing",
+            "expression": "0.0.1",
+            "define": "UNITY_PURCHASING"
+        },
+        {
+            "name": "io.appmetrica.analytics",
+            "expression": "0.0.1",
+            "define": "APPMETRICA_SDK"
+        },
+        {
+            "name": "com.codewriter.tutorial-mask",
+            "expression": "0.0.1",
+            "define": "TUTORIAL_MASK"
+        },
+        {
+            "name": "com.adjust.sdk",
+            "expression": "0.0.1",
+            "define": "ADJUST_SDK"
+        },
+        {
+            "name": "com.unity.inputsystem",
+            "expression": "0.0.1",
+            "define": "UNITY_INPUT_SYSTEM"
+        }
+    ],
+    "noEngineReferences": false
+}

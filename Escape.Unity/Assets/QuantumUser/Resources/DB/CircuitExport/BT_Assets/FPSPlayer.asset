@@ -1,0 +1,298 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6047049669035767154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 959563ac1d97eef8db57ad3b96551504, type: 3}
+  m_Name: HasNoEnemy_2fq4foAHTU-wmby
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.HasNoEnemy
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|HasNoEnemy_2fq4foAHTU-wmby
+    Guid:
+      Value: 3649735106124876521
+  Label: HasNoEnemy
+  Id: 7
+  Child:
+    Id:
+      Value: 4501136596725670485
+  AbortType: 0
+--- !u!114 &-5596398315253376298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d6a3625aa15341db5a96013aef5c98bf, type: 3}
+  m_Name: HasEnemyInAttackZone_tucrlf6CEkKwaHY
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.HasEnemyInAttackZone
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|HasEnemyInAttackZone_tucrlf6CEkKwaHY
+    Guid:
+      Value: 105151893874241377
+  Label: HasEnemyInAttackZone
+  Id: 5
+  Child:
+    Id:
+      Value: 3220534014985531697
+  AbortType: 0
+--- !u!114 &-5230474806603746259
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 457541169, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: BTSequence__ZmKMnDLLEWII4N
+  m_EditorClassIdentifier: Quantum.BotSDK.Core.dll::Quantum.BTSequence
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|BTSequence__ZmKMnDLLEWII4N
+    Guid:
+      Value: 4374452325817532122
+  Label: BTSequence
+  Id: 2
+  Children:
+  - Id:
+      Value: 1282557496202076276
+  Services: []
+  TopmostDecorator:
+    Id:
+      Value: 1054722186450618310
+  CurrentChildIndex:
+    _index: 2
+  IsDynamic: 1
+--- !u!114 &-2253731038515387765
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 13c8d7bd3b8e3e4a4856a7da6ce680f6, type: 3}
+  m_Name: AlertLeaf_8sXJSORWhkaUK_F
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.AlertLeaf
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|AlertLeaf_8sXJSORWhkaUK_F
+    Guid:
+      Value: 1282557496202076276
+  Label: AlertLeaf
+  Id: 9
+  Services: []
+  stateIndex:
+    _index: 6
+  endTimeIndex:
+    _index: 7
+--- !u!114 &-1725867041282083905
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904c66782b37915c78649b8c5df58868, type: 3}
+  m_Name: IdleLeaf_m-L0hob0j0yIJ66
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.IdleLeaf
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|IdleLeaf_m-L0hob0j0yIJ66
+    Guid:
+      Value: 723778317409933928
+  Label: IdleLeaf
+  Id: 8
+  Services: []
+  endTimeIndex:
+    _index: 5
+--- !u!114 &-1530758080241433236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09170ad9a3b836e3db930d05373adb72, type: 3}
+  m_Name: CombatLeaf_jZLO2SXPNEiDDfv
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.CombatLeaf
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|CombatLeaf_jZLO2SXPNEiDDfv
+    Guid:
+      Value: 4440235296191972619
+  Label: CombatLeaf
+  Id: 10
+  Services: []
+  stateIndex:
+    _index: 8
+  endTimeIndex:
+    _index: 9
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1049774985, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: FPSPlayer
+  m_EditorClassIdentifier: Quantum.BotSDK.Core.dll::Quantum.BTRoot
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer
+    Guid:
+      Value: 289869037271294015
+  Label: 
+  Id: 0
+  Child:
+    Id:
+      Value: 1688865313761396109
+  AbortType: 0
+  NodesAmount: 12
+  NodeDataAmount: 10
+--- !u!114 &348777258836444575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1858f773f34e5f938b61c7b35709ecff, type: 3}
+  m_Name: PatrolLeaf_S9z289Jk_0atGJ0
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.PatrolLeaf
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|PatrolLeaf_S9z289Jk_0atGJ0
+    Guid:
+      Value: 1214079772435861448
+  Label: PatrolLeaf
+  Id: 11
+  Services: []
+  currentWaypointIndex:
+    _index: 10
+--- !u!114 &4766664617440481546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 457541169, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: BTSequence_L5tg0qcSNk-HoBl
+  m_EditorClassIdentifier: Quantum.BotSDK.Core.dll::Quantum.BTSequence
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|BTSequence_L5tg0qcSNk-HoBl
+    Guid:
+      Value: 4501136596725670485
+  Label: BTSequence
+  Id: 6
+  Children:
+  - Id:
+      Value: 1214079772435861448
+  - Id:
+      Value: 723778317409933928
+  Services: []
+  TopmostDecorator:
+    Id:
+      Value: 3649735106124876521
+  CurrentChildIndex:
+    _index: 4
+  IsDynamic: 1
+--- !u!114 &5273004864318107110
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301982143, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: BTSelector_kBRcTpqC_UunxYJ
+  m_EditorClassIdentifier: Quantum.BotSDK.Core.dll::Quantum.BTSelector
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|BTSelector_kBRcTpqC_UunxYJ
+    Guid:
+      Value: 3220534014985531697
+  Label: BTSelector
+  Id: 4
+  Children:
+  - Id:
+      Value: 4440235296191972619
+  Services: []
+  TopmostDecorator:
+    Id:
+      Value: 105151893874241377
+  CurrentChildIndex:
+    _index: 3
+  IsDynamic: 1
+--- !u!114 &7812590908534480185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7e860d300ffec697bac46a8970f5d05, type: 3}
+  m_Name: HasEnemyInAlertZone_I-C7TqAhuUCWIb5
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.HasEnemyInAlertZone
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|HasEnemyInAlertZone_I-C7TqAhuUCWIb5
+    Guid:
+      Value: 1054722186450618310
+  Label: HasEnemyInAlertZone
+  Id: 3
+  Child:
+    Id:
+      Value: 4374452325817532122
+  AbortType: 0
+--- !u!114 &8666077251112436338
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1301982143, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: BTSelector_T1J5_8R_EU69q1Y
+  m_EditorClassIdentifier: Quantum.BotSDK.Core.dll::Quantum.BTSelector
+  Identifier:
+    Path: QuantumUser/Resources/DB/CircuitExport/BT_Assets/FPSPlayer|BTSelector_T1J5_8R_EU69q1Y
+    Guid:
+      Value: 1688865313761396109
+  Label: BTSelector
+  Id: 1
+  Children:
+  - Id:
+      Value: 105151893874241377
+  - Id:
+      Value: 1054722186450618310
+  - Id:
+      Value: 3649735106124876521
+  Services: []
+  TopmostDecorator:
+    Id:
+      Value: 0
+  CurrentChildIndex:
+    _index: 1
+  IsDynamic: 1

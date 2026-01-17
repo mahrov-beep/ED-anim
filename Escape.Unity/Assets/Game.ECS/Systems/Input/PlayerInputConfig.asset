@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 272abc90d97e42e489db286c3188e85b, type: 3}
+  m_Name: PlayerInputConfig
+  m_EditorClassIdentifier: 
+  movementSpeedCurve:
+    Samples:
+    - RawValue: 0
+    - RawValue: 1310
+    - RawValue: 2621
+    - RawValue: 3932
+    - RawValue: 5242
+    - RawValue: 6553
+    - RawValue: 7864
+    - RawValue: 9175
+    - RawValue: 10485
+    - RawValue: 11796
+    - RawValue: 13107
+    - RawValue: 14417
+    - RawValue: 15728
+    - RawValue: 17039
+    - RawValue: 18350
+    - RawValue: 19660
+    - RawValue: 20971
+    - RawValue: 22282
+    - RawValue: 23592
+    - RawValue: 24903
+    - RawValue: 26214
+    - RawValue: 27525
+    - RawValue: 28835
+    - RawValue: 30146
+    - RawValue: 31457
+    - RawValue: 32768
+    - RawValue: 34078
+    - RawValue: 35389
+    - RawValue: 36700
+    - RawValue: 38010
+    - RawValue: 39321
+    - RawValue: 40632
+    - RawValue: 41943
+    - RawValue: 43253
+    - RawValue: 44564
+    - RawValue: 45875
+    - RawValue: 47185
+    - RawValue: 48496
+    - RawValue: 49807
+    - RawValue: 51118
+    - RawValue: 52428
+    - RawValue: 53739
+    - RawValue: 55050
+    - RawValue: 56360
+    - RawValue: 57671
+    - RawValue: 58982
+    - RawValue: 60293
+    - RawValue: 61603
+    - RawValue: 62914
+    - RawValue: 64225
+    - RawValue: 65536
+    PreWrapMode: 0
+    PostWrapMode: 0
+    StartTime:
+      RawValue: 0
+    EndTime:
+      RawValue: 65536
+    Resolution: 50
+    OriginalPreWrapMode: 8
+    OriginalPostWrapMode: 8
+    Keys:
+    - Time:
+        RawValue: 0
+      Value:
+        RawValue: 0
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 1
+      WeightedMode: 0
+    - Time:
+        RawValue: 65536
+      Value:
+        RawValue: 65536
+      InTangent:
+        RawValue: 65536
+      OutTangent:
+        RawValue: 65536
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 1
+      WeightedMode: 0
+  lookDeltaMultiplier:
+    RawValue: 655
+  lookDeltaMultiplierImAim:
+    RawValue: 1966
+  outerZoneMultiplierWidth: 7
+  outerZoneMultiplierHeight: 1.3
+  innerZoneMultiplierWidth: 3
+  innerZoneMultiplierHeight: 1.1
+  timeToHoldAimInOuterRectForSelectTarget: 0.01
+  timeWithoutCrossOuterZoneRectForLostTarget: 0.5
+  timeWithoutAimRaycastForLostTarget: 0.5
+  aimAssistMaxDistance: 40
+  p: 0.8
+  m: 2
+  aimAssistPowerDecreaseOutInnerZone: 0.2
+  aimAssistPowerIncreaseInInnerZone: 0.2
+  aimAssistPowerMax: 1
+  horizontalThresholdDeg:
+    RawValue: 11796
+  deadZoneAngle:
+    RawValue: 26214
+  maxAssistStepDeg:
+    RawValue: 1222760
+  assistPowerMult:
+    RawValue: 327680
+  assistPowerMultForAimMove:
+    RawValue: 655360
+  MouseSensitivityDefault: 1
+  MouseSensitivityMin: 0.1
+  MouseSensitivityMax: 2
+  characterWidth: 0.5
+  debugDrawPrefab: {fileID: 693958942818808075, guid: 3a74867341aa5954c888117bbe5e5d13, type: 3}

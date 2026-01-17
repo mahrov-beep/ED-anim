@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1895591977, guid: 19b3f061e0d562b4a97261f0aa32250f, type: 3}
+  m_Name: BlackboardInitializer Default
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Bots/BehaviourTree/BlackboardInitializer
+      Default
+    Guid:
+      Value: 513629843280266490
+  ReportMissingEntries: 1
+  AIBlackboard:
+    Id:
+      Value: 416472104358942905
+  InitialValues: []

@@ -1,0 +1,15 @@
+---
+key: "quest_first_steps"
+reward: [ { "type": "currency", "currency": "badges", "amount": 500 } ]
+---
+key: "quest_best_of_the_best"
+prev_quests: [ "quest_first_steps" ]
+reward: [ { "type": "currency", "currency": "badges", "amount": 1000 } ]
+---
+key: "quest_pistol_killer"
+prev_quests: [ "quest_best_of_the_best" ]
+reward: [ { "type": "currency", "currency": "badges", "amount": 5000 } ]
+---
+key: "quest_donate_weapons"
+prev_quests: [ "quest_pistol_killer" ]
+reward: [ { "type": "currency", "currency": "badges", "amount": 500 } ]

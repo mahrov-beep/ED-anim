@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f322abbc734d95ab0f0a0855f33014, type: 3}
+  m_Name: Base Dev
+  m_EditorClassIdentifier: 
+  options: 1
+  isTemplate: 1
+  template: {fileID: 11400000, guid: abfbe3e868dbd23489b7742cff688736, type: 2}
+  scriptingDefineSymbols:
+  - enabled: 1
+    symbol: MORPEH_DEBUG
+  - enabled: 1
+    symbol: BOOTLOADER_ENABLE_DEBUG_LOGS
+  - enabled: 1
+    symbol: FEATURE_TOGGLES_SHOW_SELECTOR_UI
+  - enabled: 1
+    symbol: USER_DATA_SHOW_SELECTOR_UI
+  preBuildSteps:
+  - rid: 5532385222029213735
+  - rid: 5041336242866225273
+  postBuildSteps: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5041336242866225273
+      type: {class: QuantumSetup, ns: Scripts.Editor.PreBuildSteps, asm: Assembly-CSharp-Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 1
+        buildStepOrder: 0
+        simulationConfigs:
+        - {fileID: -2099906434802021143, guid: 39f635a63b5fff441b3bd2dff30a1107, type: 2}
+        sessionConfigs:
+        - {fileID: 11400000, guid: 3fa9ddce51996044281aee4cb05398fd, type: 2}
+        settings:
+          ChecksumInterval: 60
+          ChecksumCrossPlatformDeterminism: 0
+          ChecksumSnapshotHistoryLengthSeconds: 1
+          ChecksumErrorDumpOptions: 0
+          HeapTrackingMode: 1
+    - rid: 5532385222029213735
+      type: {class: LunarConsoleSetEnabled, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 1
+        buildStepOrder: 0
+        enabled: 1

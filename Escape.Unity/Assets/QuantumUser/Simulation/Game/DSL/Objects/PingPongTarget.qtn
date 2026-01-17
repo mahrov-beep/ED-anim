@@ -1,0 +1,9 @@
+component PingPongTarget {
+  FP Distance;
+  FPVector3 Direction;
+  FP Speed;
+  [ExcludeFromPrototype] FPVector3 Origin;
+  [ExcludeFromPrototype] FP Phase;
+}
+
+

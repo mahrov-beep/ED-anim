@@ -1,0 +1,5 @@
+component FlashbangBlindEffect {
+  FP Duration;
+  FP Strength;
+  FP StartTime;
+}

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7ce6a0ba95884a42a0c8d7e34d7514be, type: 3}
+  m_Name: item_ability_heal
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ability_heal
+    Guid:
+      Value: 347417273488383830
+  icon: item_ability_heal
+  iconLarge: 
+  dropOnDeath: 1
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 08000000
+  inputBuffer:
+    RawValue: 9831
+  delay:
+    RawValue: 9831
+  durationSec:
+    RawValue: 0
+  cooldownSec:
+    RawValue: 327680
+  castDirectionType: 4
+  startCooldownAfterDelay: 0
+  onActivateEffects: []
+  onStopEffects: []
+  animationDuration:
+    RawValue: 0
+  skillName: 
+  heal:
+    Appliance:
+      Value: 2
+    Operation:
+      Value: 1
+    Value:
+      RawValue: 1638400
+    ValueIsPercent:
+      Value: 1
+    DamageType:
+      Value: 0
+    Duration:
+      RawValue: 655360
+  height: 1
+  width: 1

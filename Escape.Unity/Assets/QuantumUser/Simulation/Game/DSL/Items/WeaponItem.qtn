@@ -1,0 +1,9 @@
+import enum WeaponAttachmentSlots(int);
+
+#define WEAPON_ATTACHMENT_SLOTS 8
+
+component WeaponItem {
+    EntityRef SelfWeaponEntity;
+
+    array<EntityRef>[WEAPON_ATTACHMENT_SLOTS] WeaponAttachmentsRaw;
+}

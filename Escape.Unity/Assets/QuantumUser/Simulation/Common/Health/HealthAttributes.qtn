@@ -1,0 +1,39 @@
+enum HealthAttributeAppliance : Byte
+{
+	None = 0,
+	OneTime = 1,
+	Continuous = 2,
+	Temporary = 3,
+}
+
+enum HealthAttributeOperation : Byte
+{
+	None = 0,
+	Heal = 1,
+	Damage = 2,
+	IncreaseHealth = 3,
+	DecreaseHealth = 4,
+	IncreaseMaxHealth = 5,
+	DecreaseMaxHealth = 6,
+}
+
+enum EDamageType : Byte
+{
+	None = 0,
+	Bullet = 1,
+	Melee = 2,
+	Explosion = 5,
+	Fire = 10,
+	DamageZone = 11,
+}
+
+struct HealthAttributeModifier
+{
+	HealthAttributeAppliance Appliance;
+	HealthAttributeOperation Operation;
+	EDamageType DamageType;
+	EntityRef SourceRef;
+	FP Amount;
+	FP Duration;
+	[HideInInspector] FP Timer;
+}

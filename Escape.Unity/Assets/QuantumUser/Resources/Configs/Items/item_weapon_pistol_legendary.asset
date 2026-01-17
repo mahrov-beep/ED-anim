@@ -1,0 +1,119 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e5fbbb1e3445709dc9d095369ca5e0, type: 3}
+  m_Name: item_weapon_pistol_legendary
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_weapon_pistol_legendary
+    Guid:
+      Value: 467633787936411678
+  icon: item_weapon_revolver
+  iconLarge: item_weapon_pistol_legendary
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 0200000003000000
+  visualPrefab: {fileID: 8445401694592989334, guid: 55f6bface42f6c146b9fde6f8dcc6465, type: 3}
+  additionalAllowedAttachments: []
+  disallowedAttachments: []
+  attachmentsSchema: {fileID: 11400000, guid: 2a8623a4cb3a87e45a2602bc9d130ef8, type: 2}
+  attackData:
+    Id:
+      Value: 329006645723283685
+  minBaseDamage:
+    RawValue: 1638400
+  maxBaseDamage:
+    RawValue: 1966080
+  baseDamage:
+    RawValue: 0
+  headshotDamageMultiplier:
+    RawValue: 131072
+  priorityAimDistanceCoefficient:
+    RawValue: 32768
+  baseSpreadAngle:
+    RawValue: 131072
+  spreadCoefficientInAimState:
+    RawValue: 32768
+  spreadSpeedCoefficient:
+    RawValue: 16384
+  cameraOffsetZ:
+    RawValue: 0
+  fireRate: 80
+  baseReloadingTime:
+    RawValue: 144179
+  baseTriggerDistance:
+    RawValue: 6553600
+  baseTriggerAngle:
+    RawValue: 65536
+  baseTriggerAngleY:
+    RawValue: 65536
+  basePreShotAimingSeconds:
+    RawValue: 3277
+  preReloadAmmoSeconds:
+    RawValue: 13107
+  zoomMultOnAim:
+    RawValue: 32768
+  bulletsPerShot: 1
+  magazineAmmoCount: 7
+  shotOriginOffset:
+    X:
+      RawValue: 6554
+    Y:
+      RawValue: 87163
+    Z:
+      RawValue: 62259
+  shotTargetOffsetY:
+    RawValue: 87381
+  recoilCameraAnglesMin:
+    X:
+      RawValue: -65536
+    Y:
+      RawValue: 0
+  recoilCameraAnglesMax:
+    X:
+      RawValue: 65536
+    Y:
+      RawValue: 65536
+  recoilCoefficientInAimState:
+    RawValue: 32768
+  timeToHideWeapon:
+    RawValue: 6554
+  timeToGetWeapon:
+    RawValue: 6554
+  questEnemyKilledFilters: 64000000
+  shotImpulse:
+    Id:
+      Value: 395126324924747537
+  baseCritChancePercent:
+    RawValue: 1638400
+  baseCritMultiplierPercent:
+    RawValue: 16384000
+  slowDebuffPriority: 0
+  slowStackLimit: 0
+  slowMultiplierPerStack:
+    RawValue: 0
+  slowDuration:
+    RawValue: 0
+  fireChancePercent: 0
+  fireDuration:
+    RawValue: 0
+  fireDamage:
+    RawValue: 0
+  baseShotSoundRange:
+    RawValue: 3014656
+  minimapShotVisiblyDuration:
+    RawValue: 3276800

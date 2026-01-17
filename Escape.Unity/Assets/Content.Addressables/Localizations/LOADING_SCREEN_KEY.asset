@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: LOADING_SCREEN_KEY
+  m_EditorClassIdentifier: Multicast.Foundation::Multicast.Localization.LocalizationTable
+  page: LOADING_SCREEN
+  lang: KEY
+  values:
+  - LOADING_starting_local_simulation
+  - LOADING_party_accept
+  - LOADING_fetching_user_profile
+  - LOADING_game_scene
+  - LOADING_processing
+  - LOADING_refreshing_user_profile
+  - LOADING_disconnecting_from_game_server
+  - LOADING_refreshing_friends_list
+  - LOADING_fetching_items
+  - LOADING_selling
+  - LOADING_loading_main_menu_scene
+  - LOADING_claiming_game_rewards
+  - LOADING_refreshing_gunsmith
+  - LOADING_unloading_main_menu_scene
+  - LOADING_fetching_messages
+  - LOADING_claiming
+  - LOADING_disconnecting
+  - LOADING_buying
+  - LOADING_loading_game_scene
+  - LOADING_unloading_game_scene
+  - LOADING_wait_for_players
+  - LOADING_STARTING
+  - LOADING_LOADING_SCENE
+  - LOADING_PEER_CREATED
+  - LOADING_AUTHENTICATING
+  - LOADING_AUTHENTICATED
+  - LOADING_JOINING_LOBBY
+  - LOADING_JOINED_LOBBY
+  - LOADING_DISCONNECTING_FROM_MASTER_SERVER
+  - LOADING_CONNECTING_TO_GAME_SERVER
+  - LOADING_CONNECTED_TO_GAME_SERVER
+  - LOADING_JOINING
+  - LOADING_JOINED
+  - LOADING_LEAVING
+  - LOADING_DISCONNECTING_FROM_GAME_SERVER
+  - LOADING_CONNECTING_TO_MASTER_SERVER
+  - LOADING_DISCONNECTING
+  - LOADING_DISCONNECTED
+  - LOADING_CONNECTED_TO_MASTER_SERVER
+  - LOADING_CONNECTING_TO_NAME_SERVER
+  - LOADING_CONNECTED_TO_NAME_SERVER
+  - LOADING_DISCONNECTING_FROM_NAME_SERVER
+  - LOADING_CONNECT_WITH_FALLBACK_PROTOCOL
+  - LOADING_UNKNOWN_PEER_STATE
+  - LOADING_
+  - LOADING_searching_raid

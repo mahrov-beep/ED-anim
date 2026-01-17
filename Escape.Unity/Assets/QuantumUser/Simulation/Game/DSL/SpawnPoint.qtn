@@ -1,0 +1,27 @@
+﻿component SpawnPoint { 
+    byte ID;
+    [RequiredRef]
+    [Header("Ссылка на выход! Юнит который тут заспаунится сможет выйти через:")]
+    entity_ref exitZoneRef;
+    
+    [RequiredRef]
+    [Header("Ссылка на маршрут челобота! ОБЯЗАТЕЛЬНО энтити с компонентов Way")]
+    entity_ref wayRef;
+    
+    [Header("Множители статов")]
+    asset_ref<BotDifficultiesConfig> StatsMultipliersOverride;
+
+    [Header("Loadout и BT")]
+    asset_ref<LoadoutConfig> LoadoutOverride;
+    asset_ref<BTRoot> TreeOverride;
+
+    [Header("Perception modules")]
+    asset_ref<BotVisionModule> VisionModuleOverride;
+    asset_ref<BotHearingModule> HearingModuleOverride;
+    asset_ref<BotMemoryModule> MemoryModuleOverride;
+
+    [Header("State configs")]
+    asset_ref<BotStatePatrol> PatrolStateOverride;
+    asset_ref<BotStateAlert> AlertStateOverride;
+    asset_ref<BotStateCombat> CombatStateOverride;
+}

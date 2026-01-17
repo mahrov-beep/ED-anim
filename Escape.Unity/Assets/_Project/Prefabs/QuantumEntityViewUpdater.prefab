@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6946363034315862437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7289516711674049999}
+  - component: {fileID: 6604500230293342007}
+  - component: {fileID: 7463569611356809404}
+  - component: {fileID: 1888687093081759201}
+  - component: {fileID: 2056002714489249790}
+  m_Layer: 0
+  m_Name: QuantumEntityViewUpdater
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7289516711674049999
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946363034315862437}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6604500230293342007
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946363034315862437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c533cfed317c8854c9d8c177029943ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ViewParentTransform: {fileID: 0}
+  CharacterViewParentTransform: {fileID: 0}
+  AutoFindMapData: 1
+  SnapshotInterpolation:
+    TimeDilationPercentage: 5
+    SnapshotReferenceLatencyTicks: 7
+    ElasticWindowTicks: 0.5
+    CurrentFrom: 0
+    Alpha: 0
+--- !u!114 &7463569611356809404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946363034315862437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f97bce7e20b7e842bb67496faa55fff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  QuantumEntityViewUpdater: {fileID: 6604500230293342007}
+  LocalView: {fileID: 0}
+--- !u!114 &1888687093081759201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946363034315862437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae47826fe17b4bceac9faadf9f2909fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  serializedData:
+    updater: {fileID: 6604500230293342007}
+--- !u!114 &2056002714489249790
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6946363034315862437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a75b32d42531433fb1dcb30562d3dab0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  outlineMaterial: {fileID: 2100000, guid: df945556dff6c124faa48ec62ef917c4, type: 2}
+  outlineNonSelectedMaterial: {fileID: 2100000, guid: 5d7425a836fcb554f979e52a65996dcd, type: 2}

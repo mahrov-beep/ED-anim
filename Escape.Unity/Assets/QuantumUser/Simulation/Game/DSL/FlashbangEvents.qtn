@@ -1,0 +1,4 @@
+synced event FlashbangBlindUpdate {
+  entity_ref Target;
+  FP Strength;
+}

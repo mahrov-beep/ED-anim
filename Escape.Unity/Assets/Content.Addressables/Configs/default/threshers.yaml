@@ -1,0 +1,9 @@
+---
+key: "thresher_trader"
+levels: [ { "items": { "item_stuff_waterbottle_common": 1, "item_stuff_beerbottle_common": 1 } }, { "items": { "item_stuff_nail_uncommon": 10 } }, { "items": { "item_stuff_crowbar_epic": 3, "item_stuff_pipewrench_epic": 3 } }, { "items": { "item_stuff_cannedfish_legendary": 1, "item_stuff_gasoline_legendary": 1, "item_stuff_lantern_legendary": 1 } } ]
+---
+key: "thresher_gunsmith"
+levels: [ { "items": { "item_stuff_rope_common": 5 } }, { "items": { "item_stuff_winebottle_uncommon": 5 } } ]
+---
+key: "thresher_coin_farm_badges"
+levels: [ { "items": { "item_stuff_battery_common": 10 } }, { "items": { "item_stuff_battery_common": 20 } }, { "items": { "item_stuff_battery_common": 30 } }, { "items": { "item_stuff_battery_common": 50 } } ]

@@ -1,0 +1,20 @@
+﻿[Sirenix.OdinInspector.InlineProperty]
+struct HealthApplicator {
+    [Sirenix.OdinInspector.ValidateInput("OdinValidateAppliance"), Sirenix.OdinInspector.LabelWidth(100)]
+    HealthAttributeAppliance Appliance;
+    
+    [Sirenix.OdinInspector.ValidateInput("OdinValidateOperation"), Sirenix.OdinInspector.LabelWidth(100)]
+    HealthAttributeOperation Operation;
+    
+    [Sirenix.OdinInspector.ValidateInput("OdinValidateValue"), Sirenix.OdinInspector.LabelWidth(100)]
+    FP Value;
+    
+    [Sirenix.OdinInspector.ShowIf("ShowValueIsPercent"), Sirenix.OdinInspector.LabelWidth(100)]
+    QBoolean ValueIsPercent;
+
+    [Sirenix.OdinInspector.ShowIf("ShowDamageType"), Sirenix.OdinInspector.ValidateInput("OdinValidateDamageType"), Sirenix.OdinInspector.LabelWidth(100)]
+    EDamageType DamageType;
+
+    [Sirenix.OdinInspector.ShowIf("ShowDuration"), Sirenix.OdinInspector.ValidateInput("OdinValidateDuration"), Sirenix.OdinInspector.LabelWidth(100)]
+    FP Duration;
+}

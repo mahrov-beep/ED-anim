@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f36c364b519647f4970b414e818f6e75, type: 3}
+  m_Name: Bot Global Config
+  m_EditorClassIdentifier: Quantum.Simulation::Quantum.BotGlobalConfig
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Bots/Bot Global Config
+    Guid:
+      Value: 492024610486505834
+  BTUpdateTickInterval: 10
+  btAgentConfig:
+    Tree:
+      Id:
+        Value: 289869037271294015
+    AIConfig:
+      Id:
+        Value: 386943141964391786
+  StatsMultipliers:
+    Id:
+      Value: 430103147913783982
+  PatrolState:
+    Id:
+      Value: 345968247590266778
+  AlertState:
+    Id:
+      Value: 486057695963820113
+  CombatState:
+    Id:
+      Value: 342512340938670824
+  VisionModule:
+    Id:
+      Value: 342637783992177035
+  HearingModule:
+    Id:
+      Value: 468338158370136054
+  MemoryModule:
+    Id:
+      Value: 448208905395056508
+  Loadouts:
+  - {fileID: 11400000, guid: 0fa6ad033b29d964284c4c748da987ae, type: 2}
+  Debug:
+    VisionForwardEnabled: 1
+    VisionForwardColor:
+      R: 0
+      G: 255
+      B: 0
+      A: 255
+    VisionBackEnabled: 1
+    VisionBackColor:
+      R: 0
+      G: 255
+      B: 0
+      A: 255
+    HearingEnabled: 1
+    HearingColor:
+      R: 0
+      G: 191
+      B: 255
+      A: 255

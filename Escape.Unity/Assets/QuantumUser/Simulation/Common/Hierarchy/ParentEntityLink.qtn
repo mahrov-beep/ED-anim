@@ -1,0 +1,6 @@
+component ParentEntityLink{
+  entity_ref ParentRef;
+  
+  bool SyncPosition;
+  bool SyncRotation;
+}

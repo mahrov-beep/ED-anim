@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90673309ad5d42df99917cf6f0b5c7b9, type: 3}
+  m_Name: Shot Impulse knife
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Cinemachine Impulses/Shot Impulse knife
+    Guid:
+      Value: 384983885356438284
+  impulsePower:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 0
+    Z:
+      RawValue: 0
+  impulse:
+    ImpulseChannel: 1
+    ImpulseShape: 1
+    CustomImpulseShape:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.50901794
+        inSlope: -2.4258523
+        outSlope: -2.4258523
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.15055592
+      - serializedVersion: 3
+        time: 0.1432248
+        value: 0.3150983
+        inSlope: -0.8509087
+        outSlope: -0.8509087
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.24961993
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0.022312164
+        inSlope: -0.00000045438324
+        outSlope: -0.00000045438324
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.13159572
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    ImpulseDuration: 0.5
+    ImpulseType: 0
+    DissipationRate: 0
+    RawSignal: {fileID: 0}
+    AmplitudeGain: 1
+    FrequencyGain: 1
+    RepeatMode: 0
+    Randomize: 1
+    TimeEnvelope:
+      AttackShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      DecayShape:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      AttackTime: 0
+      SustainTime: 0.2
+      DecayTime: 0.7
+      ScaleWithImpact: 1
+      HoldForever: 0
+    ImpactRadius: 100
+    DirectionMode: 0
+    DissipationMode: 2
+    DissipationDistance: 100
+    PropagationSpeed: 343

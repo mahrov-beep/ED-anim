@@ -1,0 +1,29 @@
+﻿component DebugGizmo {
+    UnionDrawData Data;
+    ColorRGBA Color;
+    QBoolean FromLocalTransform;
+}
+
+union UnionDrawData {
+    LineData LineData;
+    CircleData CircleData;
+    RayData RayData;
+}
+
+struct LineData {
+    FPVector3 Start;
+    FPVector3 End;
+}
+
+struct CircleData {
+    FPVector3 Center;
+    FP Radius;
+    FPQuaternion Rotation;
+    QBoolean Wire;
+}
+
+struct RayData {
+    FPVector3 Origin;
+    FPVector3 Direction;
+   
+}

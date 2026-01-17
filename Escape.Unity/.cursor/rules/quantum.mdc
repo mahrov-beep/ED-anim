@@ -1,0 +1,27 @@
+---
+globs: src/Escape.Unity/Assets/QuantumUser/**
+alwaysApply: false
+---
+## Quantum
+- Photon Quantum deterministic ECS. User code — `Assets/QuantumUser/Simulation/`.
+- DSL (`.qtn`) declares `component/signal/event`, etc.
+- Generated code from the DSL resides in `Simulation/Generated/`.
+- Any `*.cs` file next to a `*.qtn` is a partial implementation of components defined in the DSL.
+- System wiring and order — `Simulation/SystemSetup.User.cs`.
+
+### Directory structure
+- `Simulation/`
+  - `Common/` — shared modules and utilities, base components/signals (some `.qtn` here as well).
+  - `Extensions/` — extensions/utilities.
+  - `Game/` — core game logic:
+    - `DSL/` — `.qtn` definitions of components/events/signals.
+    - `Systems/` — simulation systems (`System*`).
+    - `Assets/` — data/implementations used by systems.
+    - `Commands/`, `Helpers/` — supporting layers.
+  - `AI/` — bot logic (its own `Systems` and `DSL`).
+  - `Generated/` — CodeGen output from `.qtn` (do not edit; reading is optional).
+
+### General workflow
+1) Define components/signals/events, etc. in `.qtn`.
+2) Implement auxiliary parts in corresponding `*.User.cs` (optional) located next to the `.qtn`.
+3) Implement the system and register it in `SystemSetup.User.cs`.

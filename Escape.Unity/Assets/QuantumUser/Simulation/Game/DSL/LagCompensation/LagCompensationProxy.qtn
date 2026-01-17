@@ -1,0 +1,5 @@
+[ExcludeFromPrototype]
+component LagCompensationProxy
+{
+    EntityRef Target;
+}

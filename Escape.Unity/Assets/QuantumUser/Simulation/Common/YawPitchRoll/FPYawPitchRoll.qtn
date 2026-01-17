@@ -1,0 +1,8 @@
+﻿// Yaw:  вращение вокруг оси FPVector3.Up
+// Pitch: вращение вокруг оси FPVector3.Right
+// Roll:  вращение вокруг оси FPVector3.Forward
+struct FPYawPitchRoll {
+    FP Yaw;
+    FP Pitch;
+    FP Roll;
+}

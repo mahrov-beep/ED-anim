@@ -1,0 +1,25 @@
+{
+    "name": "Game.Domain",
+    "rootNamespace": "",
+    "references": [
+        "Game.Shared",
+        "Multicast.Foundation",
+        "UniMob",
+        "CodeWriter.ExpressionParser",
+        "Scellecs.Morpeh",
+        "Quantum.Simulation",
+        "Quantum.Unity",
+        "Quantum.Shared",
+        "UniTask",
+        "Game.Services.Abstractions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

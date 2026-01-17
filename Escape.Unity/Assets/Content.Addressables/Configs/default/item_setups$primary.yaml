@@ -1,0 +1,39 @@
+---
+key: "item_weapon_AR_common"
+item: "item_weapon_AR_common"
+---
+key: "item_weapon_AR_common_ammoCommon"
+item: "item_weapon_AR_common"
+ammo: "item_ammoBox_rifle_common"
+---
+key: "item_weapon_AR_common_muzzleCommon"
+item: "item_weapon_AR_common"
+muzzle: "item_attachment_compensator_common"
+---
+key: "item_weapon_AR_uncommon_ammoCommon"
+item: "item_weapon_AR_uncommon"
+ammo: "item_ammoBox_rifle_common"
+---
+key: "item_weapon_machingun_common"
+item: "item_weapon_machingun_common"
+---
+key: "item_weapon_machingun_uncommon"
+item: "item_weapon_machingun_uncommon"
+---
+key: "item_weapon_pp_common_ammoCommon"
+item: "item_weapon_pp_common"
+ammo: "item_ammoBox_pistol_common"
+---
+key: "item_weapon_pp_common_ammoCommon_muzzleCommon_scopeCommon"
+item: "item_weapon_pp_common"
+scope: "item_attachment_scope_common"
+muzzle: "item_attachment_silencer_common"
+ammo: "item_ammoBox_pistol_common"
+---
+key: "item_weapon_pp_uncommon_ammoCommon"
+item: "item_weapon_pp_uncommon"
+ammo: "item_ammoBox_pistol_common"
+---
+key: "item_weapon_pistol_common_ammoCommon"
+item: "item_weapon_pistol_common"
+ammo: "item_ammoBox_pistol_common"

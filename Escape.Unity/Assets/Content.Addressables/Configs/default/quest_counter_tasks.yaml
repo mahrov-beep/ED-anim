@@ -1,0 +1,38 @@
+---
+key: "quest_first_steps__play_game"
+quest: "quest_first_steps"
+property: "GameStarted"
+value: 1
+op: "Increment"
+---
+key: "quest_first_steps__kill_enemy"
+quest: "quest_first_steps"
+property: "EnemyKilled"
+value: 1
+op: "Increment"
+---
+key: "quest_first_steps__extract"
+quest: "quest_first_steps"
+property: "Extracted"
+value: 1
+op: "Increment"
+---
+key: "quest_best_of_the_best__kill_enemies"
+quest: "quest_best_of_the_best"
+property: "EnemyKilled"
+value: 5
+op: "Increment"
+reset_by_trigger: [ "GameStarted", "Died", "Extracted" ]
+---
+key: "quest_best_of_the_best__extract"
+quest: "quest_best_of_the_best"
+property: "Extracted"
+value: 1
+op: "Increment"
+---
+key: "quest_pistol_killer__kill"
+quest: "quest_pistol_killer"
+property: "EnemyKilled"
+value: 50
+op: "Increment"
+filters: [ "Killed_ByPistol" ]

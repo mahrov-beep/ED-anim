@@ -1,0 +1,27 @@
+#define MAX_AIM_DISTANCE 10
+#define INPUT_MAX_MAGNITUDE 1
+
+input {
+    //ходьба
+	byte MovementMagnitudeEncoded;
+    byte MovementDirectionEncoded;
+
+    byte InterpolationOffset;
+    byte InterpolationAlphaEncoded;
+    
+    FPVector2 LookRotationDelta;
+    FPVector2 LookRotation;
+    
+    FPVector3 AimTarget;
+
+    button SecondaryAction;
+    button AimButton;
+    button SprintButton;
+}
+
+component InputContainer {
+    [ExcludeFromPrototype] Input Input;
+    [ExcludeFromPrototype] FPVector3 InputAccelerated;
+    [ExcludeFromPrototype] FPVector2 DesiredDirection;
+}
+

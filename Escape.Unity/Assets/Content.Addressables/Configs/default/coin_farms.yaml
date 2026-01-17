@@ -1,0 +1,8 @@
+---
+key: "coin_farm_badges"
+currency_key: "badges"
+thresher_key: "thresher_coin_farm_badges"
+produce_quantity: [ 1, 2, 3, 4, 5 ]
+produce_interval_seconds: [ 30, 45, 60, 75, 90 ]
+storage_capacity: [ 500, 1000, 2000, 3000, 5000 ]
+locked_by_feature: "feature_coin_farm_badges"

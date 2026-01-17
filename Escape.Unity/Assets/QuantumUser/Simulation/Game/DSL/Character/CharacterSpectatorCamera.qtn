@@ -1,0 +1,13 @@
+﻿component CharacterSpectatorCamera {    
+    [ExcludeFromPrototype] EntityRef CameraEntity;
+    
+    [ExcludeFromPrototype] FPYawPitchRoll SpectatorCameraDesiredRotation;
+    [ExcludeFromPrototype] FPYawPitchRoll SpectatorCameraCurrentRotation; //radians
+    [ExcludeFromPrototype] FPVector3 SpectatorCameraCurrentVelocity;
+    
+    [ExcludeFromPrototype] FP CharacterCurrentRotation;
+    [ExcludeFromPrototype] FP CharacterCurrentPitchRotation;
+    [ExcludeFromPrototype] FP CharacterCurrentVelocity;
+    
+    [ExcludeFromPrototype] FPVector3 AimTarget;
+}

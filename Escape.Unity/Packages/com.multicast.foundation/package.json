@@ -1,0 +1,14 @@
+{
+  "name": "com.multicast.foundation",
+  "author": "MulticastGames",
+  "displayName": "Multicast Foundation",
+  "description": "Multicast shared library",
+  "unity": "2020.1",
+  "version": "3.0.0",
+  "gitDependencies": [],
+  "keywords": [],
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.1"
+  },
+  "_fingerprint": "7142920bcd1c92c58616166821dbb5162d72afdf"
+}

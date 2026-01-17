@@ -1,0 +1,42 @@
+﻿component Weapon
+{
+	[ExcludeFromPrototype] FP ReloadingTimer;
+	[ExcludeFromPrototype] FrameTimer PreReloadingTimer;
+	[ExcludeFromPrototype] FrameTimer FireRateTimer;
+
+	[ExcludeFromPrototype] AssetRef<WeaponItemAsset> Config;
+	
+	[ExcludeFromPrototype] short BulletsCount;
+	
+	[ExcludeFromPrototype] WeaponStats CurrentStats;
+	
+	[ExcludeFromPrototype] FP currentShootingSpread;
+}
+
+struct WeaponStats {
+    FPBoostedValue minDamage;
+    FPBoostedValue maxDamage;
+    FPBoostedValue spreadAngle;
+    FPBoostedValue reloadingTime;
+    FPBoostedValue attackDistance;
+    FPBoostedValue triggerAngleX;
+    FPBoostedValue triggerAngleY;
+    FPBoostedValue maxAmmo;
+    FPBoostedValue critChance;
+    FPBoostedValue critDamage;
+    FPBoostedValue preShotAimingSeconds;
+    FPBoostedValue weaponShotSoundRange;
+
+    
+    FPBoostedMultiplier recoilXMultiplier;
+    FPBoostedMultiplier recoilYMultiplier;
+    FPBoostedMultiplier projectileSpeedMultiplier;
+    FPBoostedMultiplier distanceDamageMultiplier;
+    FPBoostedMultiplier shootingSpreadInMovementMultiplier;
+}
+
+signal OnEquipWeapon(entity_ref e);
+signal OnReloading(entity_ref attackerRef, entity_ref weaponRef);
+signal OnCreateShoot(entity_ref unitRef, entity_ref weaponRef, Weapon* weapon);
+
+synced event OnShoot { entity_ref unitRef; entity_ref weaponRef; }

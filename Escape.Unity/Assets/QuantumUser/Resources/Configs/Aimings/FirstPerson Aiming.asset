@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826d63ae33a24b48ba093c6bae5cb59a, type: 3}
+  m_Name: FirstPerson Aiming
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Aimings/FirstPerson Aiming
+    Guid:
+      Value: 474075818935250881
+  unitSpectatorCamera:
+    Id:
+      Value: 1267084937734623336
+  unitAim:
+    Id:
+      Value: 1365385782965182601
+  characterTorsoOffset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 104858
+    Z:
+      RawValue: 0
+  characterShoulderOffset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 117965
+    Z:
+      RawValue: 18116
+  minLookRotationPitch:
+    RawValue: -4587520
+  maxLookRotationPitch:
+    RawValue: 5242880
+  autoAim: 0

@@ -1,0 +1,9 @@
+component TriggerArea {
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved]
+    hash_set<entity_ref> EntitiesInside;
+ 
+    [ExcludeFromPrototype] EntityRef SelfEntity;
+}
+
+[ExcludeFromPrototype]
+component TriggerAreaWithEntities { }

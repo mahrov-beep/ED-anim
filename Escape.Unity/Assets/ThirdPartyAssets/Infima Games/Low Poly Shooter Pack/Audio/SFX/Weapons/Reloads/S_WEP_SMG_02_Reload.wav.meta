@@ -1,0 +1,32 @@
+fileFormatVersion: 2
+guid: 0152069dde3b1e945908369da0b5631c
+AudioImporter:
+  externalObjects: {}
+  serializedVersion: 8
+  defaultSettings:
+    serializedVersion: 2
+    loadType: 0
+    sampleRateSetting: 1
+    sampleRateOverride: 44100
+    compressionFormat: 1
+    quality: 1
+    conversionMode: 0
+    preloadAudioData: 1
+  platformSettingOverrides:
+    iPhone:
+      serializedVersion: 2
+      loadType: 0
+      sampleRateSetting: 1
+      sampleRateOverride: 44100
+      compressionFormat: 3
+      quality: 1
+      conversionMode: 0
+      preloadAudioData: 1
+  forceToMono: 1
+  normalize: 1
+  loadInBackground: 1
+  ambisonic: 0
+  3D: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,27 @@
+﻿component BotSpawnPoint {
+    Team Team;
+
+    [Header("Энтити с компонентом Way")]
+    entity_ref WayRef;
+
+    [RequiredRef]
+    [Header("Префаб персонажа")]
+    asset_ref<EntityPrototype> Prototype;
+    asset_ref<LoadoutConfig> LoadoutOverride;
+    
+    [Header("Behavior Tree asset")]
+    asset_ref<BTRoot> TreeOverride;
+
+    [Header("Множители статов")]
+    asset_ref<BotDifficultiesConfig> StatsMultipliersOverride;
+    
+    [Header("Perception modules")]
+    asset_ref<BotVisionModule> VisionModuleOverride;
+    asset_ref<BotHearingModule> HearingModuleOverride;
+    asset_ref<BotMemoryModule> MemoryModuleOverride;
+
+    [Header("State configs")]
+    asset_ref<BotStatePatrol> PatrolStateOverride;
+    asset_ref<BotStateAlert> AlertStateOverride;
+    asset_ref<BotStateCombat> CombatStateOverride;
+}

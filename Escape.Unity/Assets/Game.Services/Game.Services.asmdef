@@ -1,0 +1,27 @@
+{
+    "name": "Game.Services",
+    "rootNamespace": "",
+    "references": [
+        "Game.Shared",
+        "Multicast.Foundation",
+        "UniMob",
+        "Unity.Addressables",
+        "Unity.InputSystem",
+        "UniTask",
+        "Unity.ResourceManager",
+        "UniTask.Addressables",
+        "Photon.Realtime",
+        "Quantum.Unity",
+        "Quantum.Simulation",
+        "Game.Services.Abstractions"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

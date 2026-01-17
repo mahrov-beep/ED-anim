@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19330e1cbcc147e4b16d952205685ee0, type: 3}
+  m_Name: ReduceDamageByDistanceConfig
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/ReduceDamageByDistanceConfig
+    Guid:
+      Value: 302919619592516274
+  distanceThreshold:
+    RawValue: 327680
+  curve:
+    Samples:
+    - RawValue: 65547
+    - RawValue: 65020
+    - RawValue: 64553
+    - RawValue: 64135
+    - RawValue: 63758
+    - RawValue: 63414
+    - RawValue: 63092
+    - RawValue: 62785
+    - RawValue: 62482
+    - RawValue: 62176
+    - RawValue: 61858
+    - RawValue: 61517
+    - RawValue: 61146
+    - RawValue: 60736
+    - RawValue: 60277
+    - RawValue: 59760
+    - RawValue: 59177
+    - RawValue: 58519
+    - RawValue: 57776
+    - RawValue: 56940
+    - RawValue: 56002
+    - RawValue: 54952
+    - RawValue: 53782
+    - RawValue: 52477
+    - RawValue: 50911
+    - RawValue: 49079
+    - RawValue: 47036
+    - RawValue: 44836
+    - RawValue: 42533
+    - RawValue: 40179
+    - RawValue: 37831
+    - RawValue: 35541
+    - RawValue: 33365
+    PreWrapMode: 0
+    PostWrapMode: 0
+    StartTime:
+      RawValue: 473752
+    EndTime:
+      RawValue: 1112446
+    Resolution: 32
+    OriginalPreWrapMode: 8
+    OriginalPostWrapMode: 8
+    Keys:
+    - Time:
+        RawValue: 473752
+      Value:
+        RawValue: 65547
+      InTangent:
+        RawValue: -1835
+      OutTangent:
+        RawValue: -1835
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 0
+      WeightedMode: 0
+    - Time:
+        RawValue: 927640
+      Value:
+        RawValue: 52833
+      InTangent:
+        RawValue: -4369
+      OutTangent:
+        RawValue: -4369
+      TangentMode: 0
+      TangentModeLeft: 0
+      TangentModeRight: 1
+      WeightedMode: 0
+    - Time:
+        RawValue: 1112446
+      Value:
+        RawValue: 33365
+      InTangent:
+        RawValue: -6903
+      OutTangent:
+        RawValue: -6903
+      TangentMode: 0
+      TangentModeLeft: 1
+      TangentModeRight: 1
+      WeightedMode: 0

@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd285a34713b69f43ba00e43f8eadb00, type: 3}
+  m_Name: WeaponMeleeAttackData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/WeaponMeleeAttackData
+    Guid:
+      Value: 308142761147635653
+  TTL:
+    RawValue: 0
+  IgnoreOwner: 1
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 1
+  DestroyOnHitStatic: 1
+  hitEffects: []
+  destroyFX: {fileID: 0}
+  destroyFXLifetimeSec:
+    RawValue: 0
+  hitImpulse:
+    Id:
+      Value: 0
+  reduceDamageByDistance:
+    Id:
+      Value: 0

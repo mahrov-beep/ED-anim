@@ -1,0 +1,115 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1873394715126716780
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_Pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_Pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchorMin.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 381.81006
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 120
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 300.01538
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776032, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 607725996847776033, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: m_Name
+      value: Game Nearby ItemBox (Backpack variant)
+      objectReference: {fileID: 0}
+    - target: {fileID: 943323252184541379, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: InputActionReference
+      value: 
+      objectReference: {fileID: 4452703948292251095, guid: 7fe083fd7290e53458358d2daf031093, type: 3}
+    - target: {fileID: 1437328629486230792, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: InputActionReference
+      value: 
+      objectReference: {fileID: 5124684755976650636, guid: 7fe083fd7290e53458358d2daf031093, type: 3}
+    - target: {fileID: 4867364530086426405, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: _controlPath
+      value: <Escape UI Controls>/EquipBestFromNearbyBackpack
+      objectReference: {fileID: 0}
+    - target: {fileID: 8941462122334616961, guid: e9548daaa02a7774082022493caffd41, type: 3}
+      propertyPath: _controlPath
+      value: <Escape UI Controls>/OpenNearbyBackpack
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: e9548daaa02a7774082022493caffd41, type: 3}

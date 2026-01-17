@@ -1,0 +1,3 @@
+component NickName {
+    QString<32> Value;
+}

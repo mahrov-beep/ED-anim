@@ -1,0 +1,19 @@
+component Mine {
+  [ExcludeFromPrototype] FP VisibilityDistance;
+  [ExcludeFromPrototype] FP ExplosionDelay;
+  [ExcludeFromPrototype] FP ExplosionRadius;
+  [ExcludeFromPrototype] FP Damage;  
+  
+  asset_ref<EntityPrototype> TriggerAreaPrototype;
+  
+  [ExcludeFromPrototype] entity_ref Owner;
+  [ExcludeFromPrototype] entity_ref TriggerAreaEntity;
+  [ExcludeFromPrototype] bool IsTriggered;
+  [ExcludeFromPrototype] CountdownTimer ExplosionTimer;
+  [ExcludeFromPrototype] asset_ref<AttackData> ExplosionAttackData;
+  [ExcludeFromPrototype] HealthApplicator ExplosionHealthApplicator;
+}
+
+signal OnMineTrigger(entity_ref mineRef);
+
+synced event MineExploded { entity_ref mineRef; FPVector3 position; FP radius; }

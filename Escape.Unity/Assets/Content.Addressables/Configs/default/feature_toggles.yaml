@@ -1,0 +1,4 @@
+---
+key: "show_tutorials"
+default: { "formula": "TRUE" }
+variant: { "A": { "formula": "FALSE" }, "B": { "formula": "TRUE" } }

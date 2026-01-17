@@ -1,0 +1,52 @@
+﻿component ItemBox {
+    [ExcludeFromPrototype]
+    EntityRef SelfItemBoxEntity;
+    
+    [ExcludeFromPrototype]
+    EntityRef OpenerUnitRef; // ссылка на юнита который щас копается в сундуке
+
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<EntityRef> ItemRefs;
+    
+    [ExcludeFromPrototype]
+    bool AutoUnpackNestedItems;
+
+    // Запрещено ли кнопке DragToDrop (ThrowAway) выкидывать предметы в этот ящик?
+    // True для ящика убитого врага чтобы предметы падали не в него, а в рюкзак рядом
+    [ExcludeFromPrototype]
+    bool IsThrowAwayFeatureLocked;
+    
+    int Width;  // Размер тетрис-сетки для хранилищ
+    int Height;
+    
+    bool IsBackpack;
+    
+    FP TimeToOpen;
+    
+    [ExcludeFromPrototype]
+    FP TimerToOpen;
+}
+
+[ExcludeFromPrototype]
+component ItemBoxKeepAliveWithoutItems {
+}
+
+component OpenedItemBoxMarker {}
+
+component TimerItemBoxMarker{
+}
+
+[ExcludeFromPrototype]
+component DropFromUnitMarker {
+    EntityRef SourceUnitRef;
+}
+
+signal OnOpenItemBox(EntityRef itemBoxRef);
+
+synced event OpenItemBox {
+    entity_ref itemBoxRef;
+}
+
+synced event ItemBoxItemsChanged {
+    entity_ref itemBoxRef;
+}

@@ -1,0 +1,225 @@
+---
+key: "item_stuff_barbedwire_common"
+type: "Stuff"
+rarity: "Common"
+equip_priority: "30"
+weight: "2"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 50 }
+---
+key: "item_stuff_battery_common"
+type: "Stuff"
+rarity: "Common"
+equip_priority: "30"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 50 }
+---
+key: "item_stuff_beerbottle_common"
+type: "Stuff"
+rarity: "Common"
+equip_priority: "30"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 50 }
+---
+key: "item_stuff_rope_common"
+type: "Stuff"
+rarity: "Common"
+equip_priority: "30"
+weight: "2"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 50 }
+---
+key: "item_stuff_waterbottle_common"
+type: "Stuff"
+rarity: "Common"
+equip_priority: "30"
+weight: "1"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 50 }
+---
+key: "item_stuff_canteen_uncommon"
+type: "Stuff"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "0.1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+---
+key: "item_stuff_cigarette_uncommon"
+type: "Stuff"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 100 }
+---
+key: "item_stuff_nail_uncommon"
+type: "Stuff"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 100 }
+---
+key: "item_stuff_sunglasses_uncommon"
+type: "Stuff"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "0.1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 100 }
+---
+key: "item_stuff_winebottle_uncommon"
+type: "Stuff"
+rarity: "Uncommon"
+equip_priority: "40"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 100 }
+---
+key: "item_stuff_chocolate_rare"
+type: "Stuff"
+rarity: "Rare"
+equip_priority: "50"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 150 }
+---
+key: "item_stuff_gasmask_rare"
+type: "Stuff"
+rarity: "Rare"
+equip_priority: "50"
+weight: "2"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 150 }
+---
+key: "item_stuff_goggles_rare"
+type: "Stuff"
+rarity: "Rare"
+equip_priority: "50"
+weight: "0.1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 150 }
+---
+key: "item_stuff_lighter_rare"
+type: "Stuff"
+rarity: "Rare"
+equip_priority: "50"
+weight: "1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 150 }
+---
+key: "item_stuff_wrapper_rare"
+type: "Stuff"
+rarity: "Rare"
+equip_priority: "50"
+weight: "0.1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 150 }
+---
+key: "item_stuff_binoculars_epic"
+type: "Stuff"
+rarity: "Epic"
+equip_priority: "70"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 200, "bucks": 1 }
+---
+key: "item_stuff_crowbar_epic"
+type: "Stuff"
+rarity: "Epic"
+equip_priority: "70"
+weight: "5"
+cells_width: 1
+cells_height: 3
+sell_cost: { "badges": 200, "bucks": 1 }
+---
+key: "item_stuff_necklace_epic"
+type: "Stuff"
+rarity: "Epic"
+equip_priority: "70"
+weight: "0.2"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 200, "bucks": 1 }
+---
+key: "item_stuff_pipewrench_epic"
+type: "Stuff"
+rarity: "Epic"
+equip_priority: "70"
+weight: "5"
+cells_width: 1
+cells_height: 3
+sell_cost: { "badges": 200, "bucks": 1 }
+---
+key: "item_stuff_radio_epic"
+type: "Stuff"
+rarity: "Epic"
+equip_priority: "70"
+weight: "1"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 200, "bucks": 1 }
+---
+key: "item_stuff_cannedfish_legendary"
+type: "Stuff"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "0.2"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 500, "bucks": 5 }
+---
+key: "item_stuff_compass_legendary"
+type: "Stuff"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 500, "bucks": 5 }
+---
+key: "item_stuff_flashlight_legendary"
+type: "Stuff"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "0.2"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 500, "bucks": 5 }
+---
+key: "item_stuff_gasoline_legendary"
+type: "Stuff"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 500, "bucks": 20 }
+---
+key: "item_stuff_lantern_legendary"
+type: "Stuff"
+rarity: "Legendary"
+equip_priority: "80"
+weight: "2"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 500, "bucks": 10 }

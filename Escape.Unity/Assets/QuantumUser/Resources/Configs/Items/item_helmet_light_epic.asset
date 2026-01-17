@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbd7597dd8f244058f57fa9124e1d876, type: 3}
+  m_Name: item_helmet_light_epic
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_helmet_light_epic
+    Guid:
+      Value: 439441566334215865
+  icon: item_helmet_light
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects:
+  - attributeType: 131
+    value:
+      RawValue: 786432
+    operation: 1
+  validSlots: 05000000

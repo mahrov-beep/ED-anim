@@ -1,0 +1,31 @@
+import enum CharacterLoadoutSlots(int);
+
+#define CHARACTER_LOADOUT_SLOTS 14
+
+component CharacterLoadout {
+    EntityRef SelfUnitEntity;
+
+    array<EntityRef>[CHARACTER_LOADOUT_SLOTS] SlotItemsRaw;
+    
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<EntityRef> TrashItems;
+    
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<EntityRef> SafeItems;
+    
+    EntityRef StorageEntity;
+    
+    [ExcludeFromPrototype] int CreationFrame;
+    [ExcludeFromPrototype] int UpdatedFrame;
+}
+
+[ExcludeFromPrototype] component CharacterLoadoutModifiedMarker {
+    [ExcludeFromPrototype] int ModificationFrame;
+
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved] hash_set<QGuid> ModifiedItems;
+}
+
+signal OnCharacterBeforeLoadoutSlotUnassigned(EntityRef characterEntity, CharacterLoadoutSlots slot, EntityRef itemEntity);
+signal OnCharacterAfterLoadoutSlotAssigned(EntityRef characterEntity, CharacterLoadoutSlots slot, EntityRef itemEntity);
+
+synced event LocalCharacterLoadoutModified { local PlayerRef LocalPlayer; EntityRef CharacterEntity; }

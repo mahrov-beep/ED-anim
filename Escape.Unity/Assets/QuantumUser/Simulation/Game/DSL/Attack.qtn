@@ -1,0 +1,33 @@
+﻿component Attack
+{
+    FP MaxDistance;
+
+	asset_ref<AttackData> AttackData;
+    HealthApplicator HealthApplicator;
+
+	[HideInInspector] EntityRef SourceUnitRef;
+	[HideInInspector] FP LifeTime; //current
+
+    [HideInInspector] FPBoostedMultiplier ProjectileSpeedMultiplier;
+    [HideInInspector] FPBoostedMultiplier DistanceDamageMultiplier;    
+    
+    bool IsHeadshot;// так быстрее всего, возможно стоит и крит сюда вынести
+}
+
+component WeaponAttack {
+    AssetRef<WeaponItemAsset> WeaponConfig;
+}
+
+component InsidePersistentAoE {
+    EntityRef AttackRef;
+    Int32 LastUpdateTick;
+}
+signal OnCreateAttack(EntityRef attackEntity, Attack* attack);
+signal OnDisableAttack(EntityRef attackEntity);
+
+// -- EVENTS
+synced event AttackPerformedSynced { EntityRef attackRef; Attack attack; AttackData attackAsset; FPVector3 position; }
+synced event AttackHitSynced { entity_ref attackRef; Attack attack; AttackData attackAsset; FPVector3 hitPoint; FPVector3 hitNormal; entity_ref targetRef; }
+synced event AttackHitExited { entity_ref attackRef; entity_ref targetRef; }
+
+synced event OnWeaponAttackFired { AssetRef<WeaponItemAsset> weaponConfig; EntityRef sourceUnitRef; FPVector3 fromPosition; FPVector3 hitPoint; FPVector3? hitNormal; }

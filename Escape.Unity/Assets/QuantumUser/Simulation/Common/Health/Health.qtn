@@ -1,0 +1,11 @@
+component Health
+{    
+	FP InitialValue;
+	FP MaxValue;
+	[ExcludeFromPrototype] FP CurrentValue;
+	
+	[ExcludeFromPrototype] EntityRef SelfEntity;
+
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+	list<HealthAttributeModifier> Modifiers;
+}

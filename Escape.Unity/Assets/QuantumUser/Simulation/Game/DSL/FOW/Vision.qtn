@@ -1,0 +1,17 @@
+struct VisibilityArea {
+    QBoolean IsEnable;
+    FP Angle;
+    FP Radius;
+}
+
+component Vision {
+    VisibilityArea VisibilityForwardArea;
+    VisibilityArea Visibility360Area;
+    [ExcludeFromPrototype] VisibilityArea WeaponVisibilityArea;
+    
+    [ExcludeFromPrototype] entity_ref InvisibilityZone;
+    
+    [ExcludeFromPrototype] QBoolean IsForceVisibleInInvisibilityZone_Out;
+    [ExcludeFromPrototype] QBoolean IsVisibleByAnyEnemy_Out;
+    [ExcludeFromPrototype] QBoolean IsInAim_Out;
+}

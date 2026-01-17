@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a2dd617de0843b48e7239703e2cec60, type: 3}
+  m_Name: item_ability_grenade
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ability_grenade
+    Guid:
+      Value: 446391218467826573
+  icon: item_ability_grenade
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 08000000
+  inputBuffer:
+    RawValue: 32768
+  delay:
+    RawValue: 6554
+  durationSec:
+    RawValue: 196608
+  cooldownSec:
+    RawValue: 65536
+  castDirectionType: 5
+  startCooldownAfterDelay: 0
+  onActivateEffects:
+  - Name: 
+    AttributeType: 103
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 21627
+  - Name: 
+    AttributeType: 105
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 21627
+  onStopEffects: []
+  animationDuration:
+    RawValue: 131072
+  skillName: Grenade
+  grenadePrototype:
+    Id:
+      Value: 1396903811095261823
+  throwOffset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 98304
+    Z:
+      RawValue: 58982
+  throwAngleDegrees:
+    RawValue: 1638400
+  maxThrowDistance:
+    RawValue: 4915200
+  throwSpeed:
+    RawValue: 1310720
+  inheritVelocityFactor:
+    RawValue: 65536
+  detonationType: 1
+  explosionDelay:
+    RawValue: 196608
+  attackPrototype:
+    MaxDistance:
+      RawValue: 0
+    AttackData:
+      Id:
+        Value: 482803483026459629
+    HealthApplicator:
+      Appliance:
+        Value: 1
+      Operation:
+        Value: 2
+      Value:
+        RawValue: 3276800
+      ValueIsPercent:
+        Value: 0
+      DamageType:
+        Value: 5
+      Duration:
+        RawValue: 0
+    SourceUnitRef:
+      SceneIndexPlusOne: 0
+    LifeTime:
+      RawValue: 0
+    ProjectileSpeedMultiplier:
+      AdditiveMultiplierMinus1:
+        RawValue: 0
+    DistanceDamageMultiplier:
+      AdditiveMultiplierMinus1:
+        RawValue: 0
+    IsHeadshot:
+      Value: 0

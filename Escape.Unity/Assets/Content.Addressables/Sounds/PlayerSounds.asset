@@ -1,0 +1,193 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 304d98b07d0b77748b6e335545d70924, type: 3}
+  m_Name: PlayerSounds
+  m_EditorClassIdentifier: 
+  clipsLibrary:
+    keyData: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000
+    valueData:
+    - isMultiSound: 0
+      clip: {fileID: 0}
+      playChance: 0.3
+      clips: []
+      minDistance: 1
+      maxDistance: 15
+      volume: 1
+      priority: 128
+    - isMultiSound: 1
+      clip: {fileID: 0}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 46ac50dc16fe09e428048af707fc10e8, type: 3}
+      - {fileID: 8300000, guid: dbbdba9e49c2a0c44a850e4a7ed5cbbc, type: 3}
+      - {fileID: 8300000, guid: 08fb738fa79541849a054ec90a1cd124, type: 3}
+      minDistance: 5
+      maxDistance: 30
+      volume: 0.05
+      priority: 10
+    - isMultiSound: 1
+      clip: {fileID: 0}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 9c9c0ee6a0dbef44bbac06628189121d, type: 3}
+      - {fileID: 8300000, guid: f12a5272c0f2431409f448bc3879bc69, type: 3}
+      - {fileID: 8300000, guid: 6d7de19cfd24397469ff9cce92b7a646, type: 3}
+      - {fileID: 8300000, guid: dc72cac24d8ed2b40bdc321d2be8fa81, type: 3}
+      - {fileID: 8300000, guid: 40fae202a7fa2664c9adec489add52d1, type: 3}
+      - {fileID: 8300000, guid: e3bff0f9b8514064481d612e7dccd995, type: 3}
+      minDistance: 2
+      maxDistance: 30
+      volume: 0.05
+      priority: 30
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: a6602b6be02871d44a614b63a3ce9ef6, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 30
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: 7d9b00f60ef3b1448a1bbc08a016f2c3, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 30
+    - isMultiSound: 1
+      clip: {fileID: 8300000, guid: 0862ca92b72f97f47bef68f32abb7a78, type: 3}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 0862ca92b72f97f47bef68f32abb7a78, type: 3}
+      - {fileID: 8300000, guid: 12aecfd42474e38408a0979b89164e69, type: 3}
+      - {fileID: 8300000, guid: 37718422e57b19f4687f8fad5eaea98e, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 70
+    - isMultiSound: 1
+      clip: {fileID: 8300000, guid: 50666716991b54d4fbfcb3a8df24d69e, type: 3}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: f802fd62753d7c54cae7e17cc2fc6a48, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 70
+    - isMultiSound: 1
+      clip: {fileID: 0}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 0fa7516ccb851734fa23d82a642d1ee3, type: 3}
+      - {fileID: 8300000, guid: 684e35e03bdc9fb4a9199c62874843b9, type: 3}
+      - {fileID: 8300000, guid: c43e0590ef963b343b4a51bdddf4db3c, type: 3}
+      - {fileID: 8300000, guid: 4c9d9de850b27fd49bfdc7ea7b5e4289, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 70
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: 0072f48e45a4b3b45b2c67adcca1e330, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 30
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: e0530ccf21f2c234fa1cd66b04ed6bcc, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.3
+      priority: 30
+    - isMultiSound: 1
+      clip: {fileID: 8300000, guid: 058c9df25f1ca9c4a823d3b4d184f5bf, type: 3}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 058c9df25f1ca9c4a823d3b4d184f5bf, type: 3}
+      - {fileID: 8300000, guid: 09af56477a62f564fa1b00d10b690521, type: 3}
+      - {fileID: 8300000, guid: bc9c5992a134297468ae8c5c7a5a4651, type: 3}
+      - {fileID: 8300000, guid: 2c2868fd99e7b50478d4ae4d00459405, type: 3}
+      - {fileID: 8300000, guid: 32dae5df6f8f9f9409960f1757e1a9f2, type: 3}
+      - {fileID: 8300000, guid: 2c66a3ff8d96c65469da7b9edc50b419, type: 3}
+      - {fileID: 8300000, guid: fdaa0eac04383de46b7656ae026c97bc, type: 3}
+      - {fileID: 8300000, guid: f9d5ffa478ef7cf44ae1eb68fc769a27, type: 3}
+      - {fileID: 8300000, guid: fccd04637cdad3242a42c83128655407, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.1
+      priority: 200
+    - isMultiSound: 1
+      clip: {fileID: 0}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 4689084fde596d44c99eee91fd621dfa, type: 3}
+      - {fileID: 8300000, guid: 92e95a2931b898940959529ece77693e, type: 3}
+      - {fileID: 8300000, guid: 8a2fd80651013584e9894136f0204d8f, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.1
+      priority: 200
+    - isMultiSound: 1
+      clip: {fileID: 0}
+      playChance: 1
+      clips:
+      - {fileID: 8300000, guid: 5af164ab09adeac459856977029b7805, type: 3}
+      - {fileID: 8300000, guid: 3f83838308bb08240a3194f4258a93b0, type: 3}
+      - {fileID: 8300000, guid: 9b186116421d2b240a902a786d9105ab, type: 3}
+      minDistance: 3
+      maxDistance: 30
+      volume: 0.1
+      priority: 30
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: 9c9c0ee6a0dbef44bbac06628189121d, type: 3}
+      playChance: 0.5
+      clips: []
+      minDistance: 1
+      maxDistance: 1
+      volume: 0.1
+      priority: 30
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: 6e1ee9aa362bc404ab04c5eb10115421, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 3
+      maxDistance: 30
+      volume: 1
+      priority: 10
+    - isMultiSound: 0
+      clip: {fileID: 0}
+      playChance: 1
+      clips: []
+      minDistance: 1
+      maxDistance: 30
+      volume: 0.1
+      priority: 60
+    - isMultiSound: 0
+      clip: {fileID: 0}
+      playChance: 1
+      clips: []
+      minDistance: 1
+      maxDistance: 60
+      volume: 0.1
+      priority: 60
+    - isMultiSound: 0
+      clip: {fileID: 8300000, guid: 5f8c86dba1b87bc44ab7bc1e6e7baeaa, type: 3}
+      playChance: 1
+      clips: []
+      minDistance: 1
+      maxDistance: 30
+      volume: 0.1
+      priority: 60

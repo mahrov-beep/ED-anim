@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a660c8171fd74bd49af9f4620c10188f, type: 3}
+  m_Name: escape_raid_small_two
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/GameModes/escape_raid_small_two
+    Guid:
+      Value: 378054831629008448
+  isDevelopOnly: 0
+  simulationConfig:
+    Id:
+      Value: 0
+  systemsConfig:
+    Id:
+      Value: 0
+  MapSprite: {fileID: 21300000, guid: 65149909f9bf140408e632012546593a, type: 3}
+  rule: 2
+  map:
+    Id:
+      Value: 373087893256325428
+  maxPlayers: 1
+  GameStateSettings:
+    PresentationDurationSec:
+      RawValue: 196608
+    GameDurationSec:
+      RawValue: 117964800
+    BeforeExitDurationSec:
+      RawValue: 196608
+  ItemBoxPrototype:
+    Id:
+      Value: 1479931233961809952
+  BackpackPrototype:
+    Id:
+      Value: 1457870355397660009
+  AIConfigBT: {fileID: 11400000, guid: 71746935841947446af905bb90dcf87d, type: 2}
+  BotGlobalConfig:
+    Id:
+      Value: 492024610486505834
+  fillRoomWithBots: 0
+  fillRoomWithNpc: 1
+  feelRoomWithBotDelay:
+    RawValue: 216752
+  aiming:
+    Id:
+      Value: 474075818935250881
+  OptimizeBotsRange:
+    RawValue: 3276800
+  BotCantShootInStrafe: 0
+  knockSettingsConfig: {fileID: 0}
+  knockSettings:
+    enabled: 1
+    knockDurationSec:
+      RawValue: 983040
+    reviveDurationSec:
+      RawValue: 262144
+    reviveDistance:
+      RawValue: 98304
+    crawlSpeedMultiplier:
+      RawValue: 22938
+    revivedHealthValue:
+      RawValue: 655360
+    knockDamageImmunityDurationSec:
+      RawValue: 32768
+    knockStartHealth:
+      RawValue: 655360
+    knockHeightRatio:
+      RawValue: 32768

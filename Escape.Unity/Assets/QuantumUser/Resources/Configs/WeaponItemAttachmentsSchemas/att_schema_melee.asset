@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b48e16e4ced44102944a7b806b59dd6d, type: 3}
+  m_Name: att_schema_melee
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/WeaponItemAttachmentsSchemas/att_schema_melee
+    Guid:
+      Value: 389760786493258489
+  slots: 05000000
+  attachments: []
+  itemsCountOnFirstLineInInventory: 1000

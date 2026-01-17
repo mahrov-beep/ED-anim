@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: LOADING_SCREEN_EN
+  m_EditorClassIdentifier: Multicast.Foundation::Multicast.Localization.LocalizationTable
+  page: LOADING_SCREEN
+  lang: EN
+  values:
+  - Loading<dots>
+  - Joining the group<dots>
+  - Fetching user profile<dots>
+  - Loading the game<dots>
+  - In progress<dots>
+  - Refreshing user profile<dots>
+  - Disconnecting from game server<dots>
+  - Refreshing friends list<dots>
+  - Fetching items<dots>
+  - Selling<dots>
+  - Loading menu<dots>
+  - Claiming game rewards<dots>
+  - Refreshing<dots>
+  - Turning off main menu<dots>
+  - Fetching messages<dots>
+  - Claiming<dots>
+  - Disconnecting<dots>
+  - Buying<dots>
+  - Loading game<dots>
+  - Turning off the game<dots>
+  - Wait for players (<parameters> sec)
+  - Starting
+  - Loading
+  - Peer created
+  - Authenticating
+  - Authenticated
+  - Joining
+  - Joined
+  - Disconnecting from master server
+  - Connecting to game server
+  - Connected to game server
+  - Joining
+  - Joined
+  - Leaving
+  - Disconnecting from game server
+  - Connecting to master server
+  - Disconnecting
+  - Disconnected
+  - Connected to master server
+  - Connecting to name server
+  - Connected to name server
+  - Disconnecting from name server
+  - Connect with fallback protocol
+  - Unknown peer state
+  - Loading
+  - Searching for raid<dots>

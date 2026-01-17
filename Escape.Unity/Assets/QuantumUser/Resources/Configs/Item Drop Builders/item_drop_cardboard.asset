@@ -1,0 +1,340 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6688ac4b418e4d06a8b06a676ebdcc07, type: 3}
+  m_Name: item_drop_cardboard
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Item Drop Builders/item_drop_cardboard
+    Guid:
+      Value: 461842574080663854
+  itemDropBuilders:
+  - builder:
+      rid: 6362054961716789248
+  references:
+    version: 2
+    RefIds:
+    - rid: 6362054961716789248
+      type: {class: ItemDropBuilders/ProbabilityItems, ns: Quantum, asm: Quantum.Simulation}
+      data:
+        dropProbability:
+          RawValue: 6553600
+        dropProbabilityDecrease:
+          RawValue: 3932160
+        items:
+        - item:
+            asset:
+              Id:
+                Value: 349229807455608556
+            attachments: []
+          probability:
+            RawValue: 237896
+        - item:
+            asset:
+              Id:
+                Value: 432723095892109559
+            attachments: []
+          probability:
+            RawValue: 70124
+        - item:
+            asset:
+              Id:
+                Value: 275326251882976881
+            attachments: []
+          probability:
+            RawValue: 24904
+        - item:
+            asset:
+              Id:
+                Value: 444578986662350054
+            attachments: []
+          probability:
+            RawValue: 110756
+        - item:
+            asset:
+              Id:
+                Value: 435414515372767157
+            attachments: []
+          probability:
+            RawValue: 188088
+        - item:
+            asset:
+              Id:
+                Value: 383842156460965664
+            attachments: []
+          probability:
+            RawValue: 202506
+        - item:
+            asset:
+              Id:
+                Value: 286851924170620473
+            attachments: []
+          probability:
+            RawValue: 62259
+        - item:
+            asset:
+              Id:
+                Value: 530306559551033619
+            attachments: []
+          probability:
+            RawValue: 19005
+        - item:
+            asset:
+              Id:
+                Value: 288915431615794663
+            attachments: []
+          probability:
+            RawValue: 144835
+        - item:
+            asset:
+              Id:
+                Value: 525701385761447162
+            attachments: []
+          probability:
+            RawValue: 226099
+        - item:
+            asset:
+              Id:
+                Value: 403352402122709779
+            attachments: []
+          probability:
+            RawValue: 280494
+        - item:
+            asset:
+              Id:
+                Value: 439441566334215865
+            attachments: []
+          probability:
+            RawValue: 58327
+        - item:
+            asset:
+              Id:
+                Value: 471976788794153648
+            attachments: []
+          probability:
+            RawValue: 23593
+        - item:
+            asset:
+              Id:
+                Value: 442217890494684043
+            attachments: []
+          probability:
+            RawValue: 118620
+        - item:
+            asset:
+              Id:
+                Value: 384758330640586818
+            attachments: []
+          probability:
+            RawValue: 223478
+        - item:
+            asset:
+              Id:
+                Value: 359787207439055633
+            attachments: []
+          probability:
+            RawValue: 197263
+        - item:
+            asset:
+              Id:
+                Value: 471257999230836956
+            attachments: []
+          probability:
+            RawValue: 70124
+        - item:
+            asset:
+              Id:
+                Value: 500279996719206807
+            attachments: []
+          probability:
+            RawValue: 21627
+        - item:
+            asset:
+              Id:
+                Value: 275920204538902109
+            attachments: []
+          probability:
+            RawValue: 108134
+        - item:
+            asset:
+              Id:
+                Value: 389184615695175381
+            attachments: []
+          probability:
+            RawValue: 186122
+        - item:
+            asset:
+              Id:
+                Value: 521631574813804437
+            attachments: []
+          probability:
+            RawValue: 254280
+        - item:
+            asset:
+              Id:
+                Value: 465822687543757480
+            attachments: []
+          probability:
+            RawValue: 188744
+        - item:
+            asset:
+              Id:
+                Value: 277104942796490933
+            attachments: []
+          probability:
+            RawValue: 216269
+        - item:
+            asset:
+              Id:
+                Value: 386214275286708175
+            attachments: []
+          probability:
+            RawValue: 49152
+        - item:
+            asset:
+              Id:
+                Value: 364292415485641873
+            attachments: []
+          probability:
+            RawValue: 22938
+        - item:
+            asset:
+              Id:
+                Value: 534551796671567479
+            attachments: []
+          probability:
+            RawValue: 206438
+        - item:
+            asset:
+              Id:
+                Value: 522333512769849501
+            attachments: []
+          probability:
+            RawValue: 137626
+        - item:
+            asset:
+              Id:
+                Value: 448867537573903807
+            attachments: []
+          probability:
+            RawValue: 214303
+        - item:
+            asset:
+              Id:
+                Value: 423968942360180132
+            attachments: []
+          probability:
+            RawValue: 22938
+        - item:
+            asset:
+              Id:
+                Value: 338190614364840776
+            attachments: []
+          probability:
+            RawValue: 55050
+        - item:
+            asset:
+              Id:
+                Value: 525339273156707566
+            attachments: []
+          probability:
+            RawValue: 26214
+        - item:
+            asset:
+              Id:
+                Value: 346622172629712487
+            attachments: []
+          probability:
+            RawValue: 26870
+        - item:
+            asset:
+              Id:
+                Value: 507083881884591000
+            attachments: []
+          probability:
+            RawValue: 123208
+        - item:
+            asset:
+              Id:
+                Value: 524909157128347474
+            attachments: []
+          probability:
+            RawValue: 28180
+        - item:
+            asset:
+              Id:
+                Value: 459473216141025159
+            attachments: []
+          probability:
+            RawValue: 116654
+        - item:
+            asset:
+              Id:
+                Value: 413104976219155385
+            attachments: []
+          probability:
+            RawValue: 258867
+        - item:
+            asset:
+              Id:
+                Value: 416539456713686752
+            attachments: []
+          probability:
+            RawValue: 54395
+        - item:
+            asset:
+              Id:
+                Value: 417205650270162874
+            attachments: []
+          probability:
+            RawValue: 58327
+        - item:
+            asset:
+              Id:
+                Value: 346687213647038684
+            attachments: []
+          probability:
+            RawValue: 52429
+        - item:
+            asset:
+              Id:
+                Value: 524598855455843499
+            attachments: []
+          probability:
+            RawValue: 222822
+        - item:
+            asset:
+              Id:
+                Value: 375627815499104602
+            attachments: []
+          probability:
+            RawValue: 242483
+        - item:
+            asset:
+              Id:
+                Value: 485004249686392113
+            attachments: []
+          probability:
+            RawValue: 226755
+        - item:
+            asset:
+              Id:
+                Value: 402263604185254677
+            attachments: []
+          probability:
+            RawValue: 213647
+        - item:
+            asset:
+              Id:
+                Value: 488889697728622336
+            attachments: []
+          probability:
+            RawValue: 123208

@@ -1,0 +1,9 @@
+﻿component ItemBoxSpawnPoint {
+    [RequiredRef, Tooltip("Прототип коробки с предметами. Если не указано, то будет использоваться прототип из конфига сессии")]
+    AssetRef<EntityPrototype> ItemBoxPrototype;
+
+    [RequiredRef, FreeOnComponentRemoved]
+    list<AssetRef<ItemAsset>> ItemsInBox;
+    
+    AssetRef<ItemDropBuilderAsset> ItemsInBoxBuilder;
+}

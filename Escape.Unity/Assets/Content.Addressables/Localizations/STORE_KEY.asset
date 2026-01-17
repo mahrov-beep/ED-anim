@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: STORE_KEY
+  m_EditorClassIdentifier: 
+  page: STORE
+  lang: KEY
+  values:
+  - STORE_CATEGORIES_crypt
+  - STORE_CATEGORIES_bucks
+  - STORE_CATEGORIES_badges
+  - PURCHASES_Crypt_Pack_1
+  - PURCHASES_Crypt_Pack_2
+  - PURCHASES_Crypt_Pack_3
+  - PURCHASES_Crypt_Pack_4
+  - PURCHASES_Badges_Pack_1
+  - PURCHASES_Badges_Pack_2
+  - PURCHASES_Badges_Pack_3
+  - PURCHASES_Badges_Pack_4
+  - PURCHASES_Bucks_Pack_1
+  - PURCHASES_Bucks_Pack_2
+  - PURCHASES_Bucks_Pack_3
+  - PURCHASES_Bucks_Pack_4
+  - PURCHASES_badges
+  - PURCHASES_bucks
+  - PURCHASE_CONFIRMATION_TITLE
+  - PURCHASE_TOP_UP_DESCR
+  - PURCHASE_TOP_UP_CLOSE
+  - PURCHASE_CONFIRMATION_TITLE
+  - PURCHASE_CONFIRMATION_OK
+  - PURCHASE_TOP_UP_TITLE

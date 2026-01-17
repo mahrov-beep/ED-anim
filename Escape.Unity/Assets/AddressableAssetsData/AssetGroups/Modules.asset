@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Modules
+  m_EditorClassIdentifier: 
+  m_GroupName: Modules
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 413db98f213c05b48b261f9c2c91be1a
+  m_SerializeEntries:
+  - m_GUID: 6195a805c33713d4bbee8ee9cc12d84d
+    m_Address: modules/Game Def
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f67b635e85186bb4789736f848f5e847
+    m_Address: modules/Game User Data
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 723aa3d0b7050f64fa0a13f8889a94c2
+    m_Address: modules/FeatureToggles.DebugProvider
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6fadf62336963ce40bdf4b20ccca814b
+    m_Address: modules/Prefab Cache
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bf25eafad51430a40b776b1f8097ce4f
+    m_Address: modules/Server
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 19a426662528ed94e94e48d145c38a16
+    m_Address: modules/GameMain
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1e7cac71469defd48a2c3f824170481b
+    m_Address: modules/Quantum Defs
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 61db3aa8e68fdfc4aaa10a8e1c3712db
+    m_Address: modules/AppMetrica
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 771784856011420469c8ff730f4a684b
+    m_Address: modules/Adjust
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8ff7c033aba06124ca59113c4c98142d
+    m_Address: modules/RevenueCatValidator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 36046dfd3cff835439305e9603881300
+    m_Address: modules/Purchasing.UnityIap
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b8ceb68f4ef9ae249a1c079b1cdaf3f1
+    m_Address: modules/Purchasing.UnityIap.Validator
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da7aaab250b0f444bb4782e99e1abad6
+    m_Address: modules/Purchasing.Dummy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 928a0689f893e794fa6aba3d17f1cce5
+    m_Address: modules/Facebook
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b36cf0bc66da7fd4aa1eb26705b7633e
+    m_Address: modules/Sound Effect
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e6429e4924641b14286be177b1b798c5
+    m_Address: modules/FeatureToggles (Server)
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Modules
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 35c651e6853e06d44b20845b5e0380bd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8ed21cc93f2912b41a604a45c68b7f09, type: 2}
+    - {fileID: 11400000, guid: f2261d73d1208ef4ab2fb3f8a17886aa, type: 2}

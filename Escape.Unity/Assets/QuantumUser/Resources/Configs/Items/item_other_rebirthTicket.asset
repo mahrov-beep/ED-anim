@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79f8911ed0542d294dabeca1b4f9036, type: 3}
+  m_Name: item_other_rebirthTicket
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_other_rebirthTicket
+    Guid:
+      Value: 523507999114823402
+  icon: item_other_rebirthTicket
+  iconLarge: 
+  dropOnDeath: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 
+  useDurationSeconds:
+    RawValue: 65536
+  onUseEffects: []
+  heal:
+    Appliance:
+      Value: 1
+    Operation:
+      Value: 1
+    Value:
+      RawValue: 6553600
+    ValueIsPercent:
+      Value: 1
+    DamageType:
+      Value: 0
+    Duration:
+      RawValue: 327680
+  height: 1
+  width: 1

@@ -1,0 +1,25 @@
+component PerceptionMemory {
+    [ExcludeFromPrototype] asset_ref<BotMemoryModule> MemoryModule;
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    dictionary<EntityRef, PerceptionMemoryEntry> KnownTargets;
+}
+
+struct PerceptionMemoryEntry
+{
+    EntityRef Target;
+    FPVector3 LastKnownPosition;
+    FPVector3 LastKnownVelocity;
+    FP LastSeenTime;
+    FP LastHeardTime;
+    FP Confidence;
+    PerceptionType PerceptionType;
+    FP ContinuousVisionTime;
+}
+
+enum PerceptionType
+{
+    None = 0,
+    Seen = 1,
+    Heard = 2,
+    Both = 3
+}

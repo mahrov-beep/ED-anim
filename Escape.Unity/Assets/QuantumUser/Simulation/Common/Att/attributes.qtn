@@ -1,0 +1,122 @@
+﻿// The Attributes are created and maintained in a Dictionary within a component, based on the enum values
+// A charater may or may not have all the attribute types. For example, a stationary tower entity would not need Speed
+
+using System.Collections.Generic;
+using System.ComponentModel;
+using System;
+
+enum EAttributeType : Byte {
+    None = 0,
+    
+//    PercentBoost_AimMoveSpeed = 31, не актуально, т.к. мы всегда целимся
+    PercentBoost_MoveSpeed = 32,
+    PercentBoost_SprintSpeed = 33,
+    
+    // + к базовому разбросу на текущем оружии
+    PercentBoost_ShootingSpread = 34,
+    // отрицательное значение уменьшает коэффициент разброса от скорости
+    PercentBoost_ShootingSpreadInMovement = 35,
+    
+    PercentBoost_MaxAmmo = 36,
+    PercentBoost_ProjectileSpeed = 37,
+    // отрицательное значение уменьшает перезарядку
+    PercentBoost_WeaponReloadDuration = 39, 
+    PercentBoost_WeaponTriggerDistance = 40,
+    PercentBoost_WeaponDamage = 41,
+    // + к коэффициента уменьшения урона. Посчитали кэф, затем увеличили его на это значение в %.
+    PercentBoost_WeaponDistanceDamage = 42,
+    // + к обзору камеры от текущего оружия
+    PercentBoost_WeaponCameraOffset = 44,
+    PercentBoost_WeaponTriggerDistanceInAim = 45,
+    // + к базовому обзору камеры
+    PercentBoost_CameraOffset = 50,
+    PercentBoost_FOWVisionDistance = 51,
+    PercentBoost_MinimapRadius = 52,
+    PercentBoost_CritChance = 53,
+    PercentBoost_CritDamage = 54,
+    PercentBoost_RecoilX = 55,
+    PercentBoost_RecoilY = 56,
+    PercentBoost_ShotImpulse = 57,
+    PercentBoost_PreShotAiming = 58,
+    // увеличение дистанции на которой я всё слышу
+    //PercentBoost_MyListeningDistance = 59, //todo увличивать рейндж
+    // увеличить слышимость шагов
+    PercentBoost_MyStepCueDistance = 60,
+    PercentBoost_WeaponShotSoundRange =  61,
+    PercentBoost_JumpImpulse = 62,
+    
+    // + к вместимости инвентаря
+    AdditiveBoost_MaxWeight = 70,
+    AdditiveBoost_LoadoutWidth = 71,
+    AdditiveBoost_LoadoutHeight = 72,
+
+    Set_Immunity = 101,
+    Set_ForceMoveForward = 102,
+    Set_LockRotation = 103,
+    Set_ForceVisibleInInvisibilityZone = 104,
+    Set_LockMovement = 105,
+    Set_Blind = 106,
+    Set_ForceVisibleOnMap = 107,
+    Set_ReconDetected = 108, // Враг обнаружен разведывательной гранатой
+
+    //Resists
+    PercentBoost_ResistAllDamage = 130,
+    PercentBoost_ResistBullet = 131,
+    PercentBoost_ResistFire = 132,
+    PercentBoost_ResistExplosion = 133,
+    PercentBoost_ResistMelee = 134,
+    PercentBoost_ResistZone = 135,
+//    PercentBoost_ResistCritDamage = 135,
+//    PercentBoost_ResistCritChance = 136,
+
+    //Слышимость
+    PercentBoost_AudioDistance = 160,
+    PercentBoost_AudioVolume = 161,
+}
+
+enum EModifierAppliance : Byte {
+    // The different ways of applying a value to an attribute
+    // OneTime = applies the pure value once. Good for one hit damage or heal
+    // Continuous = applies a value during an interval. The value per tick is: (pure value * deltaTime). Good for damage over time effects, like Poison
+    // Temporary = the pure value is applied to the attribute, and after an interval the opposite value is applied. Useful for temporary buffs, such as: increase the Speed for 5 seconds
+    None = 0,
+    OneTime = 1,
+    Continuous = 2,
+    Temporary = 3,
+}
+
+enum EModifierOperation : Byte {
+    None = 0,
+    Add = 1,
+    Subtract = 2
+}
+
+component Attributes {
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    dictionary<EAttributeType, AttributeData> DataDictionary;
+}
+
+component AttributesTickable {
+}
+
+struct AttributeData {
+    FP InitialValue;
+    [HideInInspector] FP CurrentValue;
+
+    // The list of modifiers applied to this attribute at the moment
+    // Use for Continuous and the two Temporary types
+    // This is how we maintain a modifier effectiveness within many frames
+    // It is possible to add an attribute which already has a modifier on Unity's prototype,
+    // which is useful for the Energy bar which is always healing
+    list<AttributeModifier> Modifiers;
+}
+
+struct AttributeModifier {
+    EModifierAppliance ModifierAppliance;
+    EModifierOperation ModifierOperation;
+    FP Amount;
+    EAttributeType AmountMultiplier;
+    FP Duration;
+    [HideInInspector] FP Timer;
+    [HideInInspector] FP TotalAppliedValue;
+}

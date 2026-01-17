@@ -1,0 +1,50 @@
+---
+key: "item_healBox_big"
+type: "HealBox"
+rarity: "Common"
+equip_priority: "70"
+weight: "1.5"
+cells_width: 1
+cells_height: 2
+allow_merge: true
+max_usages: 1
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 400 }
+min_trader_level_to_buy: 3
+quantity_in_trader_shop: 1
+---
+key: "item_healBox_small"
+type: "HealBox"
+rarity: "Common"
+equip_priority: "70"
+weight: "1"
+cells_width: 1
+cells_height: 1
+allow_merge: true
+max_usages: 1
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 1
+quantity_in_trader_shop: 4
+---
+key: "item_other_rebirthTicket"
+type: "RebirthTicket"
+rarity: "Legendary"
+equip_priority: "70"
+weight: "0.25"
+cells_width: 1
+cells_height: 1
+max_usages: 1
+---
+key: "item_booster_energyDrink"
+type: "Booster"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+max_usages: 1
+sell_cost: { "badges": 10 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 5
+quantity_in_trader_shop: 1

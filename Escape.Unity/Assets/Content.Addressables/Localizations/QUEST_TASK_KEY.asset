@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: QUEST_TASK_KEY
+  m_EditorClassIdentifier: 
+  page: QUEST_TASK
+  lang: KEY
+  values:
+  - QUEST_TASK_NAME_quest_first_steps__play_game
+  - QUEST_TASK_NAME_quest_first_steps__kill_enemy
+  - QUEST_TASK_NAME_quest_first_steps__extract
+  - QUEST_TASK_NAME_quest_best_of_the_best__kill_enemies
+  - QUEST_TASK_NAME_quest_best_of_the_best__extract
+  - QUEST_TASK_NAME_quest_pistol_killer__kill
+  - QUEST_TASK_NAME_quest_donate_weapons__donate_ak74
+  - QUEST_TASK_NAME_quest_donate_weapons__donate_pistol

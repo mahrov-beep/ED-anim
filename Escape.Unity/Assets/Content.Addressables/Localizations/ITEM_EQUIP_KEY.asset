@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: ITEM_EQUIP_KEY
+  m_EditorClassIdentifier: 
+  page: ITEM_EQUIP
+  lang: KEY
+  values:
+  - ITEM_NAME_item_armor_heavy_common
+  - ITEM_NAME_item_armor_heavy_uncommon
+  - ITEM_NAME_item_armor_heavy_rare
+  - ITEM_NAME_item_armor_heavy_epic
+  - ITEM_NAME_item_armor_heavy_legendary
+  - ITEM_NAME_item_armor_light_common
+  - ITEM_NAME_item_armor_light_uncommon
+  - ITEM_NAME_item_armor_light_rare
+  - ITEM_NAME_item_armor_light_epic
+  - ITEM_NAME_item_armor_light_legendary
+  - ITEM_NAME_item_armor_medium_common
+  - ITEM_NAME_item_armor_medium_uncommon
+  - ITEM_NAME_item_armor_medium_epic
+  - ITEM_NAME_item_armor_medium_rare
+  - ITEM_NAME_item_armor_medium_legendary
+  - ITEM_NAME_item_helmet_heavy_common
+  - ITEM_NAME_item_helmet_heavy_uncommon
+  - ITEM_NAME_item_helmet_heavy_rare
+  - ITEM_NAME_item_helmet_heavy_epic
+  - ITEM_NAME_item_helmet_heavy_legendary
+  - ITEM_NAME_item_helmet_light_common
+  - ITEM_NAME_item_helmet_light_uncommon
+  - ITEM_NAME_item_helmet_light_rare
+  - ITEM_NAME_item_helmet_light_epic
+  - ITEM_NAME_item_helmet_light_legendary
+  - ITEM_NAME_item_helmet_medium_common
+  - ITEM_NAME_item_helmet_medium_uncommon
+  - ITEM_NAME_item_helmet_medium_rare
+  - ITEM_NAME_item_helmet_medium_epic
+  - ITEM_NAME_item_helmet_medium_legendary
+  - ITEM_NAME_item_backpack_common
+  - ITEM_NAME_item_backpack_uncommon
+  - ITEM_NAME_item_backpack_rare
+  - ITEM_NAME_item_backpack_epic
+  - ITEM_NAME_item_backpack_legendary
+  - ITEM_NAME_item_armor_heavy_epic_cheat

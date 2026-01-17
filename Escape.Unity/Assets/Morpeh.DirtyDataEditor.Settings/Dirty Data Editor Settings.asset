@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1abe65e90ce64497aed9ccbdb9f999fd, type: 3}
+  m_Name: Dirty Data Editor Settings
+  m_EditorClassIdentifier: 
+  enabled: 1
+  localizationGoogleSheetIds:
+  - description: escape
+    googleSheetId: 1OegiApt6PnggzB8U1inr7uY4nowsDLhUTifgG7ghus4
+  defaultGoogleSheetIds:
+  - description: escape
+    googleSheetId: 1_EDOHHKgz1rE-J6VTt4o7-QyllIKgVjOHO2vI1hIVxg
+  sheets:
+  - name: default
+    googleSheetIds:
+    - 1_EDOHHKgz1rE-J6VTt4o7-QyllIKgVjOHO2vI1hIVxg
+  outputConfigsPath: Assets/Content.Addressables/Configs
+  outputLocalizationPath: Assets/Content.Addressables/Localizations
+  credentialsPath: Packages/com.multicast.foundation/Editor
+  workPath: Assets/Morpeh.DirtyDataEditor.Settings

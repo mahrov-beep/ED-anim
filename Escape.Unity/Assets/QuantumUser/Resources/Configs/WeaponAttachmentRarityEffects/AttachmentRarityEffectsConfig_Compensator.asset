@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebde18ce5dc4426c9327cbf3471de481, type: 3}
+  m_Name: AttachmentRarityEffectsConfig_Compensator
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/WeaponAttachmentRarityEffects/AttachmentRarityEffectsConfig_Compensator
+    Guid:
+      Value: 322279989942564795
+  rarityEffects:
+  - rarity: 0
+    itemEffects:
+    - attributeType: 55
+      value:
+        RawValue: 983040
+      operation: 2
+    - attributeType: 56
+      value:
+        RawValue: 458752
+      operation: 2
+  - rarity: 1
+    itemEffects:
+    - attributeType: 55
+      value:
+        RawValue: 1966080
+      operation: 2
+    - attributeType: 56
+      value:
+        RawValue: 917504
+      operation: 2
+  - rarity: 2
+    itemEffects:
+    - attributeType: 55
+      value:
+        RawValue: 3342336
+      operation: 2
+    - attributeType: 56
+      value:
+        RawValue: 1638400
+      operation: 2
+  - rarity: 3
+    itemEffects:
+    - attributeType: 55
+      value:
+        RawValue: 4194304
+      operation: 2
+    - attributeType: 56
+      value:
+        RawValue: 2621440
+      operation: 2
+  - rarity: 4
+    itemEffects:
+    - attributeType: 55
+      value:
+        RawValue: 4587520
+      operation: 2
+    - attributeType: 56
+      value:
+        RawValue: 3342336
+      operation: 2

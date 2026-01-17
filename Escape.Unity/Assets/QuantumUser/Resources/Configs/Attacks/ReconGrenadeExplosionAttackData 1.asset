@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99a7c4ad44d8864f99afd84c9bb4c7a, type: 3}
+  m_Name: ReconGrenadeExplosionAttackData 1
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/ReconGrenadeExplosionAttackData 1
+    Guid:
+      Value: 463669279258338646
+  TTL:
+    RawValue: 0
+  IgnoreOwner: 0
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 0
+  DestroyOnHitStatic: 0
+  hitEffects: []
+  attackPerformedFX: {fileID: 2898055535060910463, guid: f75c8cdbf1312b64892e5fa08ba8ff01, type: 3}
+  attackPerformedFXLifetimeSec:
+    RawValue: 327680
+  attackPerformedSmoothFade: 0
+  attackPerformedFadeSeconds:
+    RawValue: 0
+  attackHitFX: {fileID: 0}
+  attackHitFXLifetimeSec:
+    RawValue: 0
+  attackHitSmoothFade: 0
+  attackHitFadeSeconds:
+    RawValue: 0
+  hitImpulse:
+    Id:
+      Value: 0
+  enableHitSound: 0
+  hitSound: {fileID: 0}
+  hitSoundVolume:
+    RawValue: 65536
+  minDamageDistanceCoefficient:
+    RawValue: 45875
+  radius:
+    RawValue: 327680

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1678515bfaaa4c138ba4389402ac868b, type: 3}
+  m_Name: item_armor_heavy_epic_cheat
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_armor_heavy_epic_cheat
+    Guid:
+      Value: 390813458719004204
+  icon: item_armor_cheat
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects:
+  - attributeType: 130
+    value:
+      RawValue: 6553600
+    operation: 1
+  - attributeType: 32
+    value:
+      RawValue: 393216
+    operation: 0
+  validSlots: 06000000

@@ -1,0 +1,199 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Configs
+  m_EditorClassIdentifier: 
+  m_GroupName: Configs
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 429d963646cfe264d80dba1ee46755c0
+  m_SerializeEntries:
+  - m_GUID: 9221bb1344494a342ae04a4952b47fb7
+    m_Address: Configs/default/features
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f093cb6ed7299b8448a452abe9c2bfc3
+    m_Address: Configs/default/currencies
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5c220aaef3b8af444a72c7e83a3b2db1
+    m_Address: Configs/default/game_modes
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 560b6c7406303d24b80b0ac461625f67
+    m_Address: Configs/default/items
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ae1d0869f7368e4c93fa0000c5e3364
+    m_Address: Configs/default/items$stuff
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5d92efeed93696b49ad61e19524be11d
+    m_Address: Configs/default/quests
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cee1abd06d6c592409e54ef5bcf53d5d
+    m_Address: Configs/default/quest_counter_tasks
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d892e24699befb743bbf0dc85070d20a
+    m_Address: Configs/default/item_setups$secondary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7c29fab7c488cfb45b43a0b9832c319a
+    m_Address: Configs/default/item_setups$primary
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bbf9d43fa4d64334da979316f0e0a0e7
+    m_Address: Configs/default/quest_donateitem_tasks
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 223cab5dd57b60f499b67c7a8866b436
+    m_Address: Configs/default/items$weapons
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 950efb9fab76dc6428d7dfa9805da73f
+    m_Address: Configs/default/items$equip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96908fff1b10ce74aa4beef1db16a1c5
+    m_Address: Configs/default/levels
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ea2321e07b5a4c46819d0c9878fc6fe
+    m_Address: Configs/default/threshers
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0591b3bbe5cdd9044abb704d5e91d016
+    m_Address: Configs/default/store_items
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e59fb1fb8a7eee409c19ec822460b0f
+    m_Address: Configs/default/store_categories
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 44407ff103f99fe45a73e2df3bbf8b15
+    m_Address: Configs/default/purchases
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 917677b28ba3454469a9e041c976c43e
+    m_Address: Configs/default/currency_purchases
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e3fef375749922740a4da19031d4c25a
+    m_Address: Configs/default/sound_effects
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a0b52ae87f5d5854fa399e590ecd85aa
+    m_Address: Configs/default/gunsmith_loadouts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3ea6124e5e905974fa951b97381929cb
+    m_Address: Configs/default/gunsmiths
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0d86122aafc624246aa972bae3c1b5e3
+    m_Address: Configs/default/item_setups$other
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7f755fc6ce0c0e446af3f8c7872f34ec
+    m_Address: Configs/default/exp_progression_rewards
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9387e0dd42515ab49a1ca871e44fe0cb
+    m_Address: Configs/default/items$ammo
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5cf87db140739343ac8215f5321f7b8
+    m_Address: Configs/default/items$heal
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 338bbca384df2eb45b1d5fafdf8e1f1c
+    m_Address: Configs/default/tutorials
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cd7149058df48744380460299fc19a24
+    m_Address: Configs/default/feature_toggles
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 709331a87105ba34cbfb2d51b5b8c8fb
+    m_Address: Configs/default/coin_farms
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 948c6a0b22274bfe8e52ef08a8ec3735
+    m_Address: Configs/default/player_loadouts
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Configs
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 35c651e6853e06d44b20845b5e0380bd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 8ca093d530d3f994684423dd51a3655d, type: 2}
+    - {fileID: 11400000, guid: a389d782c74a1984787d3e4d8f6913bf, type: 2}

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6688ac4b418e4d06a8b06a676ebdcc07, type: 3}
+  m_Name: item_drop_default
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Item Drop Builders/item_drop_default
+    Guid:
+      Value: 345698940779259076
+  itemDropBuilders:
+  - builder:
+      rid: 6362054961716789249
+  references:
+    version: 2
+    RefIds:
+    - rid: 6362054961716789249
+      type: {class: ItemDropBuilders/AllItems, ns: Quantum, asm: Quantum.Simulation}
+      data:
+        items:
+        - asset:
+            Id:
+              Value: 371129354431353026
+          attachments: []

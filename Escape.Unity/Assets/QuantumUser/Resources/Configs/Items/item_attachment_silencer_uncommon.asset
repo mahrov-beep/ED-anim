@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b016ec2eef4e6c9f20e1bf8dcc845c, type: 3}
+  m_Name: item_attachment_silencer_uncommon
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_attachment_silencer_uncommon
+    Guid:
+      Value: 325634112282190878
+  icon: item_attachment_silencer_common
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 279480758566404248
+  persistentEffects:
+  - attributeType: 61
+    value:
+      RawValue: 3276800
+    operation: 2
+  - attributeType: 56
+    value:
+      RawValue: 655360
+    operation: 2
+  - attributeType: 34
+    value:
+      RawValue: 983040
+    operation: 2
+  - attributeType: 41
+    value:
+      RawValue: 655360
+    operation: 2
+  validSlots: 
+  inspectorShortName: "\u0413\u043B\u0443\u0448\u0438\u0442\u0435\u043B\u044C-2"
+  validWeaponSlots: 03000000
+  visualPrefab: {fileID: 2904974346716440054, guid: 209489031a3ced84dbe74e379aae2c76, type: 3}

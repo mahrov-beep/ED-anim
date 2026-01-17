@@ -1,0 +1,45 @@
+﻿global {
+    short BotSpawnCounter;
+}
+
+[ExcludeFromPrototype]
+component BotInvisibleByPlayer { }
+
+component Bot {
+    [ExcludeFromPrototype] int UpdateFrameOffset;
+    [ExcludeFromPrototype] bool ForceBTUpdate;
+
+    entity_ref WayRef;
+
+    [ExcludeFromPrototype] FP SoundTimer;
+
+    //asset_ref<AIConfigBase> AIConfig;
+    
+    asset_ref<BTRoot> BehaviourTreeAsset;
+    asset_ref<BotDifficultiesConfig> StatsMultipliers;
+
+    [ExcludeFromPrototype] asset_ref<BotVisionModule> VisionModule;
+    [ExcludeFromPrototype] asset_ref<BotHearingModule> HearingModule;
+    [ExcludeFromPrototype] asset_ref<BotStatePatrol> PatrolState;
+    [ExcludeFromPrototype] asset_ref<BotStateAlert> AlertState;
+    [ExcludeFromPrototype] asset_ref<BotStateCombat> CombatState;
+
+    [ExcludeFromPrototype] FP LastVisionUpdateTime;
+    [ExcludeFromPrototype] FP LastHearingUpdateTime;
+
+    [ExcludeFromPrototype] BotIntent Intent;
+    [ExcludeFromPrototype] bool SuppressFire;
+
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<EntityRef> VisibleEnemies;
+
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<EntityRef> HeardEnemies;
+
+    bool IsPlayerBot;
+}
+
+struct BotIntent {
+    entity_ref AttackTarget;
+    FPVector3 MovementTarget;
+}

@@ -1,0 +1,21 @@
+[ExcludeFromPrototype]
+component Item {
+    EntityRef Owner;
+    AssetRef<ItemAsset> Asset;    
+    QGuid MetaGuid;
+    QGuid SafeGuid;
+    
+    byte IndexI;
+    byte IndexJ;
+    
+    bool Rotated;
+    bool AddToLoadoutAfterFail;
+    ushort Used;
+}
+
+[ExcludeFromPrototype] component ItemOwnerIsUnit {}
+[ExcludeFromPrototype] component ItemOwnerIsWeapon {}
+[ExcludeFromPrototype] component ItemOwnerIsItemBox {}
+
+[ExcludeFromPrototype] component ItemOutOfUses {
+}

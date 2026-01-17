@@ -1,0 +1,26 @@
+﻿enum AbilityAvailabilityType
+{
+    Always
+}
+
+struct ActiveAbilityInfo
+{
+    [ExcludeFromPrototype] FPVector3 CastDirectionNormalized;
+    [ExcludeFromPrototype] FPQuaternion CastRotation;
+    [ExcludeFromPrototype] FPVector3 CastVelocity;
+    
+    entity_ref AbilityEffectRef;
+}
+
+component Ability
+{
+    [ExcludeFromPrototype] CountdownTimer InputBufferTimer;
+    [ExcludeFromPrototype] CountdownTimer DelayTimer;
+    [ExcludeFromPrototype] CountdownTimer DurationTimer;
+    [ExcludeFromPrototype] CountdownTimer CooldownTimer;
+
+    asset_ref<AbilityItemAsset> Config;
+}
+
+signal OnCooldownsReset(entity_ref playerEntityRef);
+signal OnActiveAbilityStopped(entity_ref playerEntityRef);

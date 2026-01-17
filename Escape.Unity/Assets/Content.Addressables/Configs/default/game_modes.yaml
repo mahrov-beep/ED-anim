@@ -1,0 +1,90 @@
+---
+key: "factory"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 10
+min_profile_level: 1
+loot_rarity: [ "Common", "Uncommon", "Rare" ]
+---
+key: "factory_2vs2"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 150
+min_profile_level: 5
+loot_rarity: [ "Common", "Uncommon", "Rare", "Epic", "Legendary" ]
+---
+key: "factory_night"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 100
+min_profile_level: 3
+loot_rarity: [ "Common", "Uncommon", "Rare", "Epic" ]
+---
+key: "escape_raid_small"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 500
+min_profile_level: 20
+loot_rarity: [ "Common", "Uncommon", "Rare", "Epic" ]
+---
+key: "escape_raid_small_solo"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 750
+min_profile_level: 25
+loot_rarity: [ "Common", "Uncommon", "Rare", "Epic", "Legendary" ]
+---
+key: "escape_raid_small_two"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 100
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 0
+exp_for_earnings_percent: 0
+min_loadout_quality: 1000
+min_profile_level: 30
+loot_rarity: [ "Common", "Uncommon", "Rare", "Epic", "Legendary" ]
+---
+key: "escape_dev"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 250
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 25
+exp_for_earnings_percent: 10
+---
+key: "escape_dev_solo"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 250
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 25
+exp_for_earnings_percent: 10
+---
+key: "escape_dev_no_bots"
+game_rule: "Escape"
+exp_for_raid: 250
+exp_for_lost_raid: 250
+exp_for_kill: 50
+exp_for_kill_in_lost_raid: 25
+exp_for_earnings_percent: 10

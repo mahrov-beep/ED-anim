@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 733b242abc304337b5fd19b8c1f3167e, type: 3}
+  m_Name: Bot Loadout Common
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Bots/Bot Loadouts/Bot Loadout Common
+    Guid:
+      Value: 300801145904171752
+  slots:
+  - slot: 2
+    hasProbability: 1
+    item:
+      asset:
+        Id:
+          Value: 270573874809721276
+      attachments: []
+    itemsWithProbability:
+    - probabilityFP:
+        RawValue: 16384
+      item:
+        asset:
+          Id:
+            Value: 270573874809721276
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 386397045375784475
+    - probabilityFP:
+        RawValue: 16384
+      item:
+        asset:
+          Id:
+            Value: 508917753362231261
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 385133747206238365
+    - probabilityFP:
+        RawValue: 16384
+      item:
+        asset:
+          Id:
+            Value: 376120434822737705
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 386397045375784475
+    - probabilityFP:
+        RawValue: 6554
+      item:
+        asset:
+          Id:
+            Value: 281626852213031607
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 385133747206238365
+    - probabilityFP:
+        RawValue: 6554
+      item:
+        asset:
+          Id:
+            Value: 416083477783240495
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 386397045375784475
+    - probabilityFP:
+        RawValue: 6554
+      item:
+        asset:
+          Id:
+            Value: 509265475735497135
+        attachments:
+        - slot: 6
+          attachment:
+            asset:
+              Id:
+                Value: 386397045375784475
+  - slot: 7
+    hasProbability: 0
+    item:
+      asset:
+        Id:
+          Value: 280139252600893839
+      attachments: []
+    itemsWithProbability: []
+  - slot: 6
+    hasProbability: 1
+    item:
+      asset:
+        Id:
+          Value: 325218601922059615
+      attachments: []
+    itemsWithProbability:
+    - probabilityFP:
+        RawValue: 16384
+      item:
+        asset:
+          Id:
+            Value: 325218601922059615
+        attachments: []
+    - probabilityFP:
+        RawValue: 6554
+      item:
+        asset:
+          Id:
+            Value: 509285591449392403
+        attachments: []
+  trashItems:
+  - hasProbability: 1
+    item:
+      asset:
+        Id:
+          Value: 0
+      attachments: []
+    trash:
+    - probabilityFP:
+        RawValue: 13107
+      items:
+      - asset:
+          Id:
+            Value: 465822687543757480
+        attachments: []
+    - probabilityFP:
+        RawValue: 13107
+      items:
+      - asset:
+          Id:
+            Value: 521631574813804437
+        attachments: []
+    - probabilityFP:
+        RawValue: 13107
+      items:
+      - asset:
+          Id:
+            Value: 524598855455843499
+        attachments: []
+    - probabilityFP:
+        RawValue: 13107
+      items:
+      - asset:
+          Id:
+            Value: 277104942796490933
+        attachments: []
+    - probabilityFP:
+        RawValue: 13107
+      items:
+      - asset:
+          Id:
+            Value: 485004249686392113
+        attachments: []
+  - hasProbability: 1
+    item:
+      asset:
+        Id:
+          Value: 0
+      attachments: []
+    trash:
+    - probabilityFP:
+        RawValue: 32768
+      items:
+      - asset:
+          Id:
+            Value: 385133747206238365
+        attachments: []
+      - asset:
+          Id:
+            Value: 386397045375784475
+        attachments: []
+      - asset:
+          Id:
+            Value: 524598855455843499
+        attachments: []
+    - probabilityFP:
+        RawValue: 32768
+      items:
+      - asset:
+          Id:
+            Value: 385133747206238365
+        attachments: []
+      - asset:
+          Id:
+            Value: 386397045375784475
+        attachments: []
+      - asset:
+          Id:
+            Value: 465822687543757480
+        attachments: []
+      - asset:
+          Id:
+            Value: 413104976219155385
+        attachments: []

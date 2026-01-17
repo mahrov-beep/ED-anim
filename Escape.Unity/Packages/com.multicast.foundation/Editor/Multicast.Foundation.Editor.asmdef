@@ -1,0 +1,26 @@
+{
+    "name": "Multicast.Foundation.Editor",
+    "rootNamespace": "",
+    "references": [
+        "Multicast.Foundation",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.AddressableImporter.Editor",
+        "LunarConsole",
+        "LunarConsoleEditor",
+        "CodeWriter.StyleComponents.Runtime",
+        "AppMetrica",
+        "UniMob.UI"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

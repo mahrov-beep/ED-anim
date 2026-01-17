@@ -1,0 +1,112 @@
+---
+key: "item_ammoBox_pistol_common"
+type: "AmmoBox"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.2"
+cells_width: 1
+cells_height: 1
+ammo_type: "Pistol"
+allow_merge: true
+max_usages: 30
+sell_cost: { "badges": 5 }
+buy_cost: { "badges": 25 }
+min_trader_level_to_buy: 1
+quantity_in_trader_shop: 4
+---
+key: "item_ammoBox_shotgun_common"
+type: "AmmoBox"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Shotgun"
+allow_merge: true
+max_usages: 1
+---
+key: "item_ammoBox_rifle_common"
+type: "AmmoBox"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Rifle"
+allow_merge: true
+max_usages: 30
+sell_cost: { "badges": 10 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+quantity_in_trader_shop: 4
+---
+key: "item_ammoBox_sniper_common"
+type: "AmmoBox"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Sniper"
+allow_merge: true
+max_usages: 20
+sell_cost: { "badges": 20 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+quantity_in_trader_shop: 4
+---
+key: "item_ammoBox_pistol_epic"
+type: "AmmoBox"
+rarity: "Epic"
+equip_priority: "0"
+weight: "0.2"
+cells_width: 1
+cells_height: 1
+ammo_type: "Pistol"
+allow_merge: true
+max_usages: 30
+sell_cost: { "badges": 50 }
+buy_cost: { "bucks": 1 }
+min_trader_level_to_buy: 3
+quantity_in_trader_shop: 4
+---
+key: "item_ammoBox_shotgun_epic"
+type: "AmmoBox"
+rarity: "Epic"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Shotgun"
+allow_merge: true
+max_usages: 1
+---
+key: "item_ammoBox_rifle_epic"
+type: "AmmoBox"
+rarity: "Epic"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Rifle"
+allow_merge: true
+max_usages: 30
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 2 }
+min_trader_level_to_buy: 3
+quantity_in_trader_shop: 4
+---
+key: "item_ammoBox_sniper_epic"
+type: "AmmoBox"
+rarity: "Epic"
+equip_priority: "0"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+ammo_type: "Sniper"
+allow_merge: true
+max_usages: 20
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 3
+quantity_in_trader_shop: 4

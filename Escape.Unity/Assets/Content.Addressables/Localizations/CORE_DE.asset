@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: CORE_DE
+  m_EditorClassIdentifier: 
+  page: CORE
+  lang: DE
+  values:
+  - "Ein Fehler ist aufgetreten. Die Entwickler wurden bereits \xFCber das Problem
+    informiert und arbeiten an einer L\xF6sung. Starten Sie das Spiel neu, um weiterzuspielen"
+  - "Aufh\xF6ren"
+  - <d>d.<h>h.<m>m.
+  - <h>h.<m>m.<s>s.
+  - <d>d.<h>h.
+  - <h>h.<m>m.
+  - <m>m.<s>s.
+  - <h>h.
+  - <d>d.
+  - <m>m.
+  - <s>s.
+  - Wird geladen

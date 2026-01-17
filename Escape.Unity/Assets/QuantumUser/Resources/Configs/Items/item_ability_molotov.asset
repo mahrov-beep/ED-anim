@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b56b3502f6a96f3498645515bbc52b1f, type: 3}
+  m_Name: item_ability_molotov
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ability_molotov
+    Guid:
+      Value: 318404597035850481
+  icon: item_ability_molotov
+  iconLarge: 
+  dropOnDeath: 1
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 08000000
+  inputBuffer:
+    RawValue: 9831
+  delay:
+    RawValue: 131072
+  durationSec:
+    RawValue: 393216
+  cooldownSec:
+    RawValue: 65536
+  castDirectionType: 5
+  startCooldownAfterDelay: 0
+  onActivateEffects:
+  - Name: 
+    AttributeType: 103
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 21627
+  - Name: 
+    AttributeType: 105
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 21627
+  onStopEffects: []
+  animationDuration:
+    RawValue: 131072
+  skillName: Molotov
+  grenadePrototype:
+    Id:
+      Value: 1405480524357933269
+  throwOffset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 98304
+    Z:
+      RawValue: 58982
+  throwAngleDegrees:
+    RawValue: 1638400
+  maxThrowDistance:
+    RawValue: 3276800
+  throwSpeed:
+    RawValue: 1966080
+  inheritVelocityFactor:
+    RawValue: 65536
+  detonationType: 0
+  explosionDelay:
+    RawValue: 196608
+  attackPrototype:
+    MaxDistance:
+      RawValue: 0
+    AttackData:
+      Id:
+        Value: 384535529112797312
+    HealthApplicator:
+      Appliance:
+        Value: 1
+      Operation:
+        Value: 2
+      Value:
+        RawValue: 65536
+      ValueIsPercent:
+        Value: 0
+      DamageType:
+        Value: 11
+      Duration:
+        RawValue: 65536
+    SourceUnitRef:
+      SceneIndexPlusOne: 0
+    LifeTime:
+      RawValue: 0
+    ProjectileSpeedMultiplier:
+      AdditiveMultiplierMinus1:
+        RawValue: 0
+    DistanceDamageMultiplier:
+      AdditiveMultiplierMinus1:
+        RawValue: 0
+    IsHeadshot:
+      Value: 0

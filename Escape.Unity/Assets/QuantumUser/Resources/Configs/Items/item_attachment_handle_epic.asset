@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b016ec2eef4e6c9f20e1bf8dcc845c, type: 3}
+  m_Name: item_attachment_handle_epic
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_attachment_handle_epic
+    Guid:
+      Value: 272749379918086249
+  icon: item_attachment_handle_epic
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 385507238607681832
+  persistentEffects:
+  - attributeType: 56
+    value:
+      RawValue: 2621440
+    operation: 2
+  validSlots: 
+  inspectorShortName: "\u0420\u0443\u043A\u043E\u044F\u0442\u043A\u0430-4"
+  validWeaponSlots: 02000000
+  visualPrefab: {fileID: 1390724240781867511, guid: 6fe7405877f1a404a8a05cfab31301b9, type: 3}

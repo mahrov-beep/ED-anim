@@ -1,0 +1,381 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8699396355170612553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 321274561, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: DefaultConfigNavmeshAgent
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigNavmeshAgent
+    Guid:
+      Value: 3944550330623127897
+  UpdateInterval: 6
+  PathQuality: 2
+  CachedWaypointCount: 6
+  MaxRepathTimeout:
+    RawValue: 65536
+  LineOfSightFunneling: 0
+  DynamicLineOfSight: 0
+  DynamicLineOfSightWaypointRange:
+    RawValue: 0
+  AutomaticTargetCorrection: 1
+  AutomaticTargetCorrectionRadius:
+    RawValue: 196608
+  EnableWaypointDetectionAxis: 0
+  WaypointDetectionAxisExtend:
+    RawValue: 32768
+  WaypointDetectionAxisOffset:
+    RawValue: 0
+  DefaultWaypointDetectionDistance:
+    RawValue: 65536
+  MovementType: 4
+  VerticalPositioning: 1
+  Speed:
+    RawValue: 655360
+  AngularSpeed:
+    RawValue: 0
+  Acceleration:
+    RawValue: 0
+  StoppingDistance:
+    RawValue: 6554
+  AutoBraking: 0
+  AutoBrakingDistance:
+    RawValue: 32768
+  ClampAgentToNavmesh: 0
+  ClampAgentToNavmeshCorrection:
+    RawValue: 16384
+  AvoidanceType: 0
+  AvoidanceQuality: 3
+  Priority: 50
+  AvoidanceRadius:
+    RawValue: 32768
+  AvoidanceLayer: 3
+  AvoidanceMask:
+    BitMask: 0
+  MaxAvoidanceCandidates: 64
+  ReduceAvoidanceAtWaypoints: 0
+  ReduceAvoidanceFactor:
+    RawValue: 262144
+  AvoidanceCanReduceSpeed: 0
+  ShowDebugAvoidance: 0
+--- !u!114 &-2099906434802021143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b30f6d93ec78efe4b808efdf1c8e136f, type: 3}
+  m_Name: DefaultConfigSimulation
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigSimulation
+    Guid:
+      Value: 427555052436021943
+  Entities:
+    CommitCommandsMode: 0
+    DefaultEntityCapacity: 1024
+    DefaultComponentBlockCapacity: 128
+    ComponentTypeConfiguration: []
+  Physics:
+    Gravity:
+      X:
+        RawValue: 0
+      Y:
+        RawValue: -655360
+      Z:
+        RawValue: 0
+    SolverType: 1
+    SolverIterations: 4
+    PositionSolverIterations: 2
+    UseJoints: 1
+    UseAngularVelocity: 1
+    UseVerticalTransform: 1
+    PenetrationAllowance:
+      RawValue: 655
+    PenetrationCorrection:
+      RawValue: 32768
+    MinLinearIntegration:
+      RawValue: 0
+    MinAngularIntegration:
+      RawValue: 0
+    MinContactInverseMass:
+      RawValue: 35
+    SimplexMinBitShift: 0
+    SimplexMaxBitShift: 2
+    ShapeCastMaxIterations: 16
+    ShapeCastMinIterations: 4
+    ShapeCastHardTolerance:
+      RawValue: 66
+    ShapeCastSoftTolerance:
+      RawValue: 3277
+    AllowSleeping: 0
+    SleepTimeSec:
+      RawValue: 32768
+    LinearSleepTolerance:
+      RawValue: 1311
+    AngularSleepToleranceInRad:
+      RawValue: 2288
+    AllowCCD: 0
+    CCDLinearVelocityThreshold:
+      RawValue: 196608
+    CCDAngularVelocityThreshold:
+      RawValue: 196608
+    CCDDistanceTolerance:
+      RawValue: 66
+    MaxTimeOfImpactIterations: 16
+    MaxRootFindingIterations: 32
+    DefaultEntriesCapacity: 2048
+    DefaultStaticsCapacity: 1024
+    DefaultQueriesCapacity: 1024
+    DefaultQueryItemsCapacity: 1024
+    DefaultHitCollectionItemsCapacity: 32
+    DefaultBucketsCapacity: 16
+    DefaultIslandsCapacity: 512
+    DefaultManifoldsCapacity: 1024
+    DefaultJointsCapacity: 128
+    DefaultPhysicsMaterial:
+      Id:
+        Value: 2124663725771983763
+    DefaultCharacterController2D:
+      Id:
+        Value: 4463072980694621287
+    DefaultCharacterController3D:
+      Id:
+        Value: 4580424955143345389
+    Layers:
+    - Default
+    - TransparentFX
+    - Ignore Raycast
+    - Unit
+    - Water
+    - UI
+    - Static
+    - Static_Far
+    - Static_Near
+    - 
+    - Grenade
+    - AimAssistTarget
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    - 
+    LayerMatrix: 000000000000000000000000c8010000000000000000000008040000080400000804000000000000c0010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  Navigation:
+    DefaultNavMeshAgent:
+      Id:
+        Value: 3944550330623127897
+    EnableNavigationCallbacks: 1
+    HeightThresholdForWaypoints:
+      RawValue: 131072
+    HeightThresholdForAvoidance:
+      RawValue: 131072
+    RawPathSize: 256
+    RawPathAllocationStrategy: 0
+    EnableAvoidance: 0
+    AvoidanceRange:
+      RawValue: 131072
+    MaxAvoidanceCandidates: 64
+    VelocityObstacleTruncationFactor:
+      RawValue: 72090
+  AutoLoadSceneFromMap: 0
+  DeltaTimeType: 0
+  ThreadCount: 2
+  ChecksumSnapshotHistoryLengthSeconds:
+    RawValue: 196608
+  ChecksumErrorDumpOptions: 0
+  HeapTrackingMode: 1
+  HeapPageShift: 15
+  HeapPageCount: 64
+  HeapExtraCount: 0
+--- !u!114 &-1852321941569519719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -585149669, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: DefaultConfigKCC2D
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigKCC2D
+    Guid:
+      Value: 4463072980694621287
+  Offset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 0
+  Radius:
+    RawValue: 45875
+  MaxPenetration:
+    RawValue: 655
+  PenetrationCorrection:
+    RawValue: 32768
+  Extent:
+    RawValue: 13107
+  MaxContacts: 4
+  LayerMask:
+    BitMask: -1
+  UseManifoldNormal: 0
+  AirControl: 1
+  Acceleration:
+    RawValue: 1638400
+  Braking:
+    RawValue: 655360
+  BaseJumpImpulse:
+    RawValue: 262144
+  MaxSpeed:
+    RawValue: 196608
+  Gravity:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: -655360
+  MaxSlope:
+    RawValue: 3932160
+  MaxSlopeSpeed:
+    RawValue: 327680
+--- !u!114 &-944126173804755531
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d2fe2c694564034da0046180c7418fb, type: 3}
+  m_Name: DefaultConfigSystems
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigSystems
+    Guid:
+      Value: 3534632743355263051
+  Entries: []
+  systemsConfigType: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a89a4a7ca4e4d6e4698ba1a26ca4eae5, type: 3}
+  m_Name: QuantumDefaultConfigs
+  m_EditorClassIdentifier: 
+  SimulationConfig: {fileID: -2099906434802021143}
+  PhysicsMaterial: {fileID: 2646183650322871789}
+  CharacterController2DConfig: {fileID: -1852321941569519719}
+  CharacterController3DConfig: {fileID: 9044368811712088451}
+  NavMeshAgentConfig: {fileID: -8699396355170612553}
+  SystemsConfig: {fileID: -944126173804755531}
+--- !u!114 &2646183650322871789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1548453761, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: DefaultConfigPhysicsMaterial
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigPhysicsMaterial
+    Guid:
+      Value: 2124663725771983763
+  Restitution:
+    RawValue: 0
+  RestitutionCombineFunction: 3
+  FrictionStatic:
+    RawValue: 39322
+  FrictionDynamic:
+    RawValue: 39322
+  FrictionCombineFunction: 3
+--- !u!114 &9044368811712088451
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1871108254, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: DefaultConfigKCC3D
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/QuantumDefaultConfigs|DefaultConfigKCC3D
+    Guid:
+      Value: 4580424955143345389
+  Offset:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 32768
+    Z:
+      RawValue: 0
+  Radius:
+    RawValue: 32768
+  MaxPenetration:
+    RawValue: 3277
+  PenetrationCorrection:
+    RawValue: 32768
+  Extent:
+    RawValue: 6554
+  MaxContacts: 8
+  LayerMask:
+    BitMask: -1
+  UseManifoldNormal: 0
+  AirControl: 1
+  Acceleration:
+    RawValue: 1638400
+  Braking:
+    RawValue: 655360
+  BaseJumpImpulse:
+    RawValue: 262144
+  MaxSpeed:
+    RawValue: 196608
+  Gravity:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: -655360
+    Z:
+      RawValue: 0
+  MaxSlope:
+    RawValue: 3932160
+  MaxSlopeSpeed:
+    RawValue: 327680

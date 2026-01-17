@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: INVENTORY_RU
+  m_EditorClassIdentifier: Multicast.Foundation::Multicast.Localization.LocalizationTable
+  page: INVENTORY
+  lang: RU
+  values:
+  - "\u0421\u043D\u0430\u0440\u044F\u0436\u0435\u043D\u0438\u0435 <current_loadout_index>/<loadout_count>"
+  - "\u041A\u0430\u0447\u0435\u0441\u0442\u0432\u043E:<sprite name=quality_icon><loadout_quality_animated>"
+  - "\u0420\u044E\u043A\u0437\u0430\u043A: <current_items_weight_formatted> / <limit_items_weight_formatted>"
+  - "\u043F\u0435\u0440\u0435\u0442\u0430\u0449\u0438\u0442\u0435 \u0447\u0442\u043E\u0431\u044B
+    \u0432\u044B\u0431\u0440\u043E\u0441\u0438\u0442\u044C"

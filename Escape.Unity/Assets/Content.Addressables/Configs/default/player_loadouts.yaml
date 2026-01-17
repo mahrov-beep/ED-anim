@@ -1,0 +1,12 @@
+---
+key: "player_loadout_start"
+primary_weapon: "item_weapon_pp_common_ammoCommon"
+secondary_weapon: "item_weapon_pistol_common_ammoCommon"
+skin: "item_skin_default"
+trash: [ "item_healBox_big", "item_healBox_small", "item_healBox_small", "item_healBox_small", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common" ]
+---
+key: "player_loadout_base"
+primary_weapon: "item_weapon_pp_common_ammoCommon"
+secondary_weapon: "item_weapon_pistol_common_ammoCommon"
+skin: "item_skin_default"
+trash: [ "item_healBox_small", "item_healBox_small", "item_healBox_small", "item_healBox_small", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common" ]

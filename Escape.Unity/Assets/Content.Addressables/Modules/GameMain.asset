@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e08996a0c444d039c758ca054d881e1, type: 3}
+  m_Name: GameMain
+  m_EditorClassIdentifier: 
+  anyPlatform: 1
+  platforms: []
+  playerInputConfig: {fileID: 11400000, guid: 6d9660229fefd3e4aad2e5714e10cb13, type: 2}
+  floatingTextConfig: {fileID: 11400000, guid: f4103a7ac8c14a5449bd32eff09eef4d, type: 2}
+  cueUIVisualizeConfig: {fileID: 11400000, guid: eb9db99fa66a5c44da15713380865a40, type: 2}
+  minimapConfig: {fileID: 11400000, guid: 58f7aae3b89bf024288ff38679045d05, type: 2}
+  grenadeIndicatorConfig: {fileID: 11400000, guid: 7a1f83510e6b4a245ad96c30bf72ea05, type: 2}
+  itemBoxOutlineConfig: {fileID: 11400000, guid: f076f8b01d2ed474eb4f040c334dedac, type: 2}
+  graphicsSettingsConfig: {fileID: 11400000, guid: 35b1ba2b27304c10a4850c038a8d343c, type: 2}
+  inputActionAsset: {fileID: -944628639613478452, guid: 7fe083fd7290e53458358d2daf031093, type: 3}

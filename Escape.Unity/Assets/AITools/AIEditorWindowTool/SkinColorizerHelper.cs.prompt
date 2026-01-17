@@ -1,0 +1,87 @@
+Из предоставленного кода SkinColorizerEditorOnly нужно перенести функционал в этот EditorWindow.
+- Применять к Selection.
+- Если в Selection нету гейм обжекта или нету дочерних ренеров - кнопки должны быть некликабельные и должна рисоваться подсказка что надо выделить что-то.
+- Действия покраски должны быть Undo\Redo всем паком изменений.
+
+
+#if UNITY_EDITOR
+using UnityEngine;
+using UnityEditor;
+using System.Collections.Generic;
+
+[ExecuteInEditMode]
+public class SkinColorizerEditorOnly : MonoBehaviour
+{
+    [SerializeField] private Color color = Color.white;
+
+    [System.Serializable]
+    private class MaterialColorBackup
+    {
+        public Renderer renderer;
+        public int index;
+        public Color originalColor;
+    }
+
+    [SerializeField] private List<MaterialColorBackup> backups = new();
+
+    public void ApplyColor()
+    {
+        backups.Clear();
+        var renderers = GetComponentsInChildren<Renderer>(true);
+
+        foreach (var renderer in renderers) {
+            var materials = renderer.sharedMaterials;
+
+            for (int i = 0; i < materials.Length; i++) {
+                var mat = materials[i];
+                if (mat == null || !mat.HasProperty("_Color")) continue;
+                if (mat.shader.name == "Standard") continue;
+
+                // Сохраняем оригинальный цвет
+                backups.Add(new MaterialColorBackup {
+                    renderer = renderer,
+                    index = i,
+                    originalColor = mat.GetColor("_Color")
+                });
+
+                var block = new MaterialPropertyBlock();
+                block.SetColor("_Color", color);
+                renderer.SetPropertyBlock(block, i);
+            }
+        }
+    }
+
+    public void ResetColor()
+    {
+        foreach (var backup in backups) {
+            if (backup.renderer == null) continue;
+
+            var mat = backup.renderer.sharedMaterials[backup.index];
+            if (mat == null || !mat.HasProperty("_Color")) continue;
+
+            var block = new MaterialPropertyBlock();
+            block.SetColor("_Color", backup.originalColor);
+            backup.renderer.SetPropertyBlock(block, backup.index);
+        }
+
+        backups.Clear();
+    }
+}
+
+[CustomEditor(typeof(SkinColorizerEditorOnly))]
+public class SkinColorizerEditorOnlyEditor : Editor
+{
+    public override void OnInspectorGUI()
+    {
+        DrawDefaultInspector();
+
+        if (GUILayout.Button("Применить цвет")) {
+            ((SkinColorizerEditorOnly)target).ApplyColor();
+        }
+
+        if (GUILayout.Button("Сбросить цвет")) {
+            ((SkinColorizerEditorOnly)target).ResetColor();
+        }
+    }
+}
+#endif

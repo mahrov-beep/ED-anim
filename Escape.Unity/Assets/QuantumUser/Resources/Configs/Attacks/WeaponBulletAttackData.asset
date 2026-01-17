@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd285a34713b69f43ba00e43f8eadb00, type: 3}
+  m_Name: WeaponBulletAttackData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/WeaponBulletAttackData
+    Guid:
+      Value: 329006645723283685
+  TTL:
+    RawValue: 0
+  IgnoreOwner: 1
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 1
+  DestroyOnHitStatic: 1
+  hitEffects: []
+  attackPerformedFX: {fileID: 0}
+  attackPerformedFXLifetimeSec:
+    RawValue: 0
+  attackHitFX: {fileID: 6213619859274339249, guid: 50c50e7d5c93328499d895b871971005, type: 3}
+  attackHitFXLifetimeSec:
+    RawValue: 13107
+  hitImpulse:
+    Id:
+      Value: 523854452664590284
+  reduceDamageByDistance:
+    Id:
+      Value: 302919619592516274

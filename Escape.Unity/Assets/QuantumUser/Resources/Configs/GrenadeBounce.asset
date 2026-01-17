@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1548453761, guid: b156eeaae3f741b40af66649a4748430, type: 3}
+  m_Name: GrenadeBounce
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/GrenadeBounce
+    Guid:
+      Value: 308353073696005676
+  Restitution:
+    RawValue: 16384
+  RestitutionCombineFunction: 3
+  FrictionStatic:
+    RawValue: 55706
+  FrictionDynamic:
+    RawValue: 55706
+  FrictionCombineFunction: 3

@@ -1,0 +1,7 @@
+signal OnExitZoneUsed(int photonActorId);
+
+synced event ExitZoneUsed { int PhotonActorId; }
+
+component ExitZone {
+    
+}

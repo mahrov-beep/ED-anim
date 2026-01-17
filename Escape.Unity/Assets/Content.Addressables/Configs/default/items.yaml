@@ -1,0 +1,488 @@
+---
+key: "item_attachment_compensator_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_attachment_compensator_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_attachment_compensator_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 3
+---
+key: "item_attachment_compensator_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_attachment_compensator_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 5
+---
+key: "item_attachment_silencer_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_attachment_silencer_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_attachment_silencer_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 3
+---
+key: "item_attachment_silencer_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_attachment_silencer_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "1"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 5
+---
+key: "item_attachment_handle_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_attachment_handle_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_attachment_handle_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 3
+---
+key: "item_attachment_handle_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_attachment_handle_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 2
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 5
+---
+key: "item_attachment_magazine_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_magazine_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_magazine_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_magazine_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_magazine_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_scope_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_attachment_scope_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_attachment_scope_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 3
+---
+key: "item_attachment_scope_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_attachment_scope_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "2"
+cells_width: 2
+cells_height: 1
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 5
+---
+key: "item_attachment_laser_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_attachment_laser_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_attachment_laser_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 3
+---
+key: "item_attachment_laser_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_attachment_laser_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "0.5"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 5
+---
+key: "item_attachment_stock_common"
+type: "WeaponAttachment"
+rarity: "Common"
+equip_priority: "10"
+weight: "2"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_stock_uncommon"
+type: "WeaponAttachment"
+rarity: "Uncommon"
+equip_priority: "10"
+weight: "2.2"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_stock_rare"
+type: "WeaponAttachment"
+rarity: "Rare"
+equip_priority: "10"
+weight: "2.4"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_stock_epic"
+type: "WeaponAttachment"
+rarity: "Epic"
+equip_priority: "10"
+weight: "2.6"
+cells_width: 1
+cells_height: 1
+---
+key: "item_attachment_stock_legendary"
+type: "WeaponAttachment"
+rarity: "Legendary"
+equip_priority: "10"
+weight: "3"
+cells_width: 1
+cells_height: 1
+---
+key: "item_grenade_smoke"
+type: "Grenade"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_perk_speedUp"
+type: "Perk"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_heal"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_roll"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_spawnTurret_common"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_spawnBarricade"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_spawnMine"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_grenade"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+sell_cost: { "badges": 5 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+---
+key: "item_ability_flashbang"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_smoke"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_molotov"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_gasgrenade"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_recongrenade"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_ability_selfExplosion"
+type: "Ability"
+rarity: "Common"
+equip_priority: "70"
+weight: "0.1"
+cells_width: 1
+cells_height: 1
+---
+key: "item_skin_default"
+type: "Skin"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.1"
+---
+key: "item_skin_NPC_common"
+type: "Skin"
+rarity: "Common"
+equip_priority: "0"
+weight: "0.1"
+---
+key: "item_skin_NPC_rare"
+type: "Skin"
+rarity: "Rare"
+equip_priority: "0"
+weight: "0.1"

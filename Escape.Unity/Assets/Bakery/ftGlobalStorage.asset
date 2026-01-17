@@ -1,0 +1,1778 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c789d55c4f1cff34799abba03737e8f7, type: 3}
+  m_Name: ftGlobalStorage
+  m_EditorClassIdentifier: 
+  modifiedAssetPathList:
+  - Assets/Bakery/examples/content/sponza/sponza.FBX
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Props1.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Building_Pieces.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Warehouse_Pieces.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Props2.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Pipes_Vents.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Lights.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Windows.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Vegetation.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Crane.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Silo.fbx
+  - Assets/ThirdPartyAssets/Train_Yard_Environment/Models/Booth.fbx
+  modifiedAssetPaddingHash: d6a958fff089636cee4892d0c51803f365224eee7079d0b92a377b5badb7ff0cec274e97641462dcbfd68f803f077f7e
+  modifiedMeshList: []
+  modifiedMeshPaddingList: 
+  modifiedAssets:
+  - meshName:
+    - sponza_00
+    - sponza_01
+    - sponza_03
+    - sponza_05
+    - sponza_06
+    - sponza_07
+    - sponza_08
+    - sponza_09
+    - sponza_10
+    - sponza_11
+    - sponza_12
+    - sponza_13
+    - sponza_14
+    - sponza_15
+    - sponza_16
+    - sponza_17
+    - sponza_18
+    - sponza_19
+    - sponza_20
+    - sponza_21
+    - sponza_22
+    - sponza_23
+    - sponza_24
+    - sponza_25
+    - sponza_26
+    - sponza_27
+    - sponza_28
+    - sponza_29
+    - sponza_30
+    - sponza_31
+    - sponza_32
+    - sponza_33
+    - sponza_34
+    - sponza_35
+    - sponza_36
+    - sponza_37
+    - sponza_38
+    - sponza_39
+    - sponza_40
+    - sponza_41
+    - sponza_42
+    - sponza_43
+    - sponza_44
+    - sponza_45
+    - sponza_46
+    - sponza_47
+    - sponza_48
+    - sponza_49
+    - sponza_50
+    - sponza_51
+    - sponza_52
+    - sponza_53
+    - sponza_54
+    - sponza_55
+    - sponza_56
+    - sponza_57
+    - sponza_58
+    - sponza_59
+    - sponza_60
+    - sponza_61
+    - sponza_62
+    - sponza_63
+    - sponza_64
+    - sponza_65
+    - sponza_67
+    - sponza_68
+    - sponza_69
+    - sponza_70
+    - sponza_71
+    - sponza_72
+    - sponza_73
+    - sponza_74
+    - sponza_75
+    - sponza_76
+    - sponza_77
+    - sponza_78
+    - sponza_79
+    - sponza_80
+    - sponza_81
+    - sponza_82
+    - sponza_83
+    - sponza_84
+    - sponza_85
+    - sponza_86
+    - sponza_87
+    - sponza_88
+    - sponza_89
+    - sponza_90
+    - sponza_91
+    - sponza_92
+    - sponza_93
+    - sponza_94
+    - sponza_95
+    - sponza_96
+    - sponza_97
+    - sponza_98
+    - sponza_99
+    - sponza_100
+    - sponza_101
+    - sponza_102
+    - sponza_103
+    - sponza_104
+    - sponza_105
+    - sponza_106
+    - sponza_107
+    - sponza_108
+    - sponza_109
+    - sponza_110
+    - sponza_111
+    - sponza_112
+    - sponza_113
+    - sponza_114
+    - sponza_115
+    - sponza_116
+    - sponza_117
+    - sponza_118
+    - sponza_119
+    - sponza_120
+    - sponza_121
+    - sponza_122
+    - sponza_123
+    - sponza_124
+    - sponza_125
+    - sponza_126
+    - sponza_127
+    - sponza_128
+    - sponza_129
+    - sponza_130
+    - sponza_131
+    - sponza_132
+    - sponza_133
+    - sponza_134
+    - sponza_135
+    - sponza_136
+    - sponza_137
+    - sponza_138
+    - sponza_139
+    - sponza_140
+    - sponza_141
+    - sponza_142
+    - sponza_143
+    - sponza_144
+    - sponza_145
+    - sponza_146
+    - sponza_147
+    - sponza_148
+    - sponza_149
+    - sponza_150
+    - sponza_151
+    - sponza_152
+    - sponza_153
+    - sponza_154
+    - sponza_155
+    - sponza_156
+    - sponza_157
+    - sponza_158
+    - sponza_159
+    - sponza_160
+    - sponza_161
+    - sponza_162
+    - sponza_163
+    - sponza_164
+    - sponza_165
+    - sponza_166
+    - sponza_167
+    - sponza_168
+    - sponza_169
+    - sponza_170
+    - sponza_171
+    - sponza_172
+    - sponza_173
+    - sponza_174
+    - sponza_175
+    - sponza_176
+    - sponza_177
+    - sponza_178
+    - sponza_179
+    - sponza_180
+    - sponza_181
+    - sponza_182
+    - sponza_183
+    - sponza_184
+    - sponza_185
+    - sponza_186
+    - sponza_187
+    - sponza_188
+    - sponza_189
+    - sponza_190
+    - sponza_191
+    - sponza_192
+    - sponza_193
+    - sponza_194
+    - sponza_195
+    - sponza_196
+    - sponza_197
+    - sponza_198
+    - sponza_199
+    - sponza_200
+    - sponza_201
+    - sponza_202
+    - sponza_203
+    - sponza_204
+    - sponza_205
+    - sponza_206
+    - sponza_207
+    - sponza_208
+    - sponza_209
+    - sponza_210
+    - sponza_211
+    - sponza_212
+    - sponza_213
+    - sponza_214
+    - sponza_215
+    - sponza_216
+    - sponza_217
+    - sponza_218
+    - sponza_219
+    - sponza_220
+    - sponza_221
+    - sponza_222
+    - sponza_223
+    - sponza_224
+    - sponza_225
+    - sponza_226
+    - sponza_227
+    - sponza_228
+    - sponza_229
+    - sponza_230
+    - sponza_231
+    - sponza_232
+    - sponza_233
+    - sponza_234
+    - sponza_235
+    - sponza_236
+    - sponza_237
+    - sponza_238
+    - sponza_239
+    - sponza_240
+    - sponza_241
+    - sponza_242
+    - sponza_243
+    - sponza_244
+    - sponza_245
+    - sponza_246
+    - sponza_247
+    - sponza_248
+    - sponza_249
+    - sponza_250
+    - sponza_251
+    - sponza_252
+    - sponza_253
+    - sponza_254
+    - sponza_255
+    - sponza_256
+    - sponza_257
+    - sponza_259
+    - sponza_260
+    - sponza_261
+    - sponza_262
+    - sponza_263
+    - sponza_264
+    - sponza_265
+    - sponza_266
+    - sponza_267
+    - sponza_268
+    - sponza_269
+    - sponza_270
+    - sponza_271
+    - sponza_272
+    - sponza_273
+    - sponza_274
+    - sponza_275
+    - sponza_276
+    - sponza_277
+    - sponza_278
+    - sponza_279
+    - sponza_280
+    - sponza_281
+    - sponza_282
+    - sponza_283
+    - sponza_284
+    - sponza_285
+    - sponza_286
+    - sponza_287
+    - sponza_288
+    - sponza_289
+    - sponza_290
+    - sponza_291
+    - sponza_292
+    - sponza_293
+    - sponza_294
+    - sponza_295
+    - sponza_296
+    - sponza_297
+    - sponza_298
+    - sponza_299
+    - sponza_300
+    - sponza_301
+    - sponza_302
+    - sponza_303
+    - sponza_304
+    - sponza_305
+    - sponza_306
+    - sponza_307
+    - sponza_308
+    - sponza_309
+    - sponza_310
+    - sponza_311
+    - sponza_312
+    - sponza_313
+    - sponza_314
+    - sponza_315
+    - sponza_316
+    - sponza_317
+    - sponza_318
+    - sponza_319
+    - sponza_320
+    - sponza_321
+    - sponza_322
+    - sponza_323
+    - sponza_324
+    - sponza_325
+    - sponza_326
+    - sponza_327
+    - sponza_328
+    - sponza_329
+    - sponza_330
+    - sponza_331
+    - sponza_332
+    - sponza_333
+    - sponza_334
+    - sponza_335
+    - sponza_336
+    - sponza_337
+    - sponza_338
+    - sponza_339
+    - sponza_340
+    - sponza_341
+    - sponza_342
+    - sponza_343
+    - sponza_344
+    - sponza_345
+    - sponza_346
+    - sponza_347
+    - sponza_348
+    - sponza_349
+    - sponza_350
+    - sponza_351
+    - sponza_352
+    - sponza_353
+    - sponza_354
+    - sponza_355
+    - sponza_356
+    - sponza_357
+    - sponza_358
+    - sponza_359
+    - sponza_360
+    - sponza_361
+    - sponza_362
+    - sponza_363
+    - sponza_364
+    - sponza_365
+    - sponza_366
+    - sponza_367
+    - sponza_368
+    - sponza_369
+    - sponza_370
+    - sponza_371
+    - sponza_372
+    - sponza_373
+    - sponza_374
+    - sponza_375
+    - sponza_376
+    - sponza_377
+    - sponza_378
+    - sponza_381
+    padding: 2e000000460000002a000000110000000e0000000c0000000400000033000000330000003300000033000000330000003300000033000000330000000a00000007000000060000002b0000002b00000011000000140000001400000014000000140000002a0000001d000000320000003200000032000000320000002a000000080000000d0000000500000087000000fa00000087000000fa00000087000000fa00000087000000fa00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000087000000fb00000051000000510000005100000051000000510000005100000051000000510000005100000051000000510000000c00000006000000060000002700000028000000390000002b000000150000002700000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000ba00000000010000ba0000009b0000009b000000b70000009d000000b7000000b7000000b70000009b000000b70000009d000000b7000000b7000000b70000009b0000009b0000009b00000083000000000100002700000006000000270000002700000027000000270000002d0000001000000010000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000210000005c000000000100005c000000000100005c000000000100005c000000000100001a00000026000000230000006a000000000100006a000000000100006a000000000100006a000000000100001e0000002c000000630000004300000000010000000100004300000000010000430000000001000043000000430000009400000094000000430000009400000043000000940000004300000024000000270000004600000030000000360000002d000000360000001d0000001d0000001d0000001d0000001d0000001d0000001d0000001d00000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad0000000001000000010000ad000000000100001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b0000001b000000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c00000000010000000100000001000000010000000100000001000000010000000100008c000000000100000001000000010000000100004600000046000000460000004900000049000000490000004900000024000000240000002400000024000000220000001800000004000000
+    unwrapper: 
+  - meshName:
+    - SM_Conteiner
+    - SM_table_pack_01_blueprint_01
+    - SM_industrial_fence_01_pole
+    - SM_Plank2
+    - SM_container
+    - SM_table_pack_01_blueprint_02
+    - SM_Shelf_01
+    - SM_industrial_fence_01_fence
+    - SM_Plank3
+    - SM_car3
+    - SM_car2
+    - SM_toxic_crate
+    - SM_Plank1
+    - SM_table_pack_01_lamp
+    - SM_treetarp
+    - SM_Cables_2
+    - SM_Cement_Bags
+    - SM_Shelf
+    - SM_Dumpster
+    - SM_table_pack_01_table_01
+    - SM_Workbench
+    - SM_Props_Crate
+    - SM_StopBuffer
+    - SM_table_pack_01_table_05
+    - SM_locomotive
+    - SM_ElectricBox_Big
+    - SM_Gatepole
+    - SM_Chair
+    - SM_car4
+    - SM_WC
+    - SM_Shelf_02
+    - SM_table_pack_01_table_02
+    - SM_table_pack_01_ruler
+    - SM_table_pack_01_table_04
+    - SM_car1
+    - SM_Cables_1
+    - SM_CrossingBarrierBase
+    - SM_table_pack_01_pencil
+    - SM_toxic_crate_top
+    - SM_industrial_fence_01_gate
+    - SM_CrossingBarrier
+    - SM_ElectricBox_Small
+    padding: 1b0000000001000000010000c800000016000000000100004a000000bf000000b10000000f000000130000002c000000830000000001000018000000b00000003f0000004c0000003a000000620000005e0000005700000066000000ae0000000b0000005b00000021000000000100000f000000450000006f0000006a00000000010000750000000f0000006400000000010000000100004800000077000000ab00000063000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_Floors_Thick_2
+    - SM_BestWall
+    - SM_Concrete_blocks2
+    - SM_TrainTracks
+    - SM_Wall_4x6
+    - SM_Wall2_4x4
+    - SM_Pillar
+    - SM_Wall_Window
+    - SM_small_doors_door_frame
+    - SM_Wall_2x4
+    - SM_GatePillar
+    - SM_RollUpDoor
+    - SM_Roof
+    - SM_Concrete_blocks1
+    - SM_Wall_4x4
+    - SM_Floors_Plain_2
+    - SM_GateWall
+    - SM_Chimney
+    - SM_small_doors_door
+    - SM_Wall_Train_Gate
+    - SM_Wall_Door_4x4
+    - SM_Floors_Thick_3
+    - SM_Floors_Thick_1
+    - SM_BGBuilding
+    - SM_TrainTracksSwitch
+    - SM_train_door_01
+    - SM_Wall_Train_8x8
+    padding: 3c0000002b0000003d000000230000005300000046000000520000002d000000c40000006600000034000000270000002f0000001e00000048000000480000002b00000008000000660000002400000034000000260000006f00000014000000290000002700000020000000
+    unwrapper: 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_Warehouse_Roof
+    - SM_Warehouse_WallGate
+    - SM_Warehouse_Floor2
+    - SM_Warehouse_PillarInside2
+    - SM_Warehouse_Floor1
+    - SM_Warehouse_WallWindow
+    - SM_Warehouse_WallWindow_001
+    - SM_Warehouse_InsidePillar
+    - SM_Warehouse_Wall3
+    - SM_Warehouse_FloorTracks
+    - SM_WarehouseWindow_Vent
+    - SM_Warehouse_RoofGrid
+    - SM_Warehouse_OutsidePillar
+    - SM_Warehouse_Ledge
+    - SM_Warehouse_Wall
+    - SM_Warehouse_RailingEnd
+    - SM_Warehouse_Wall4
+    - SM_Warehouse_Railing
+    - SM_Warehouse_Wall2
+    - SM_Warehouse_RoofMounting
+    - SM_Warehouse_Door1
+    - SM_Warehouse_RoofEndR
+    - SM_Warehouse_RoofEndL
+    - SM_Warehouse_MetalBeam
+    - SM_Warehouse_Floor3
+    - SM_Warehouse_SlidingDoors
+    - SM_Warehouse_Wall5
+    - SM_Warehouse_WallGate2
+    - SM_Warehouse_Stairs
+    - SM_Warehouse_FloorTracksDeep1
+    - SM_Warehouse_FloorHeight
+    padding: 200000001e000000440000005a00000023000000230000003500000047000000470000006d000000a300000040000000360000003e0000001e000000000100002f0000000001000024000000180000003900000025000000250000005e000000230000004f0000002100000019000000720000002c0000000e000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_Barrel
+    - SM_PaintCanister
+    - SM_Oil
+    - SM_TrashBag1
+    - SM_Brush
+    - SM_Pliers
+    - SM_Metal_File
+    - SM_props_01_props_palette_01
+    - SM_Box1
+    - SM_Paint_Small
+    - SM_TrashBag2
+    - SM_Wrench
+    - SM_Basket
+    - SM_Fuse_Box
+    - SM_Drill_Tool
+    - SM_Vice
+    - SM_Hammer
+    - SM_Solvent
+    - SM_PaintCanister2
+    - SM_Metal_saw
+    - SM_Screwdriver
+    - SM_Sign1
+    padding: d3000000000100000001000000010000000100000001000000010000af00000000010000000100000001000000010000f10000000001000000010000000100000001000000010000000100000001000000010000d6000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_DrainPipe1
+    - SM_DrainPipeRIng
+    - SM_modular_pipes_pipe_straight
+    - SM_DrainPipeEnd2
+    - SM_Interior_1_Ventilation_Straight
+    - SM_DrainPipe3
+    - SM_modular_pipes_base
+    - SM_modular_pipes_pipe_curve
+    - SM_DrainPipe2
+    - SM_DrainPipe5
+    - SM_Interior_1_Ventilation_Corner
+    - SM_Interior_1_Ventilation_Box
+    - SM_DrainPipeEnd1
+    - SM_Interior_1_Ventilation_Base
+    padding: 9a00000000010000490000000001000069000000000100005e0000006700000000010000d800000080000000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_CeilingLamp
+    - SM_lamps_WallLight
+    padding: b600000000010000
+    unwrapper: 0000000000000000
+  - meshName:
+    - SM_Window8x16
+    - SM_Window4x8
+    - SM_Window2x4
+    - SM_Window_2_4x4
+    - SM_Window_4x4
+    padding: 1700000021000000440000003e00000029000000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - SM_Weed_2
+    - SM_Weed_4
+    - SM_Weed_5
+    - SM_Weed_6
+    - SM_Weed_3
+    padding: 0001000000010000000100000001000000010000
+    unwrapper: 0000000000000000000000000000000000000000
+  - meshName:
+    - S_TowerBase_1
+    - SM_TowerTop
+    - SM_TowerHook
+    - SM_TowerBase_Screws
+    - SM_TowerBase_Parts
+    - SM_TowerBase_3
+    - SM_TowerBase_2
+    padding: 0d0000000a000000260000006e000000370000001c0000000c000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000
+  - meshName:
+    - SM_Silo1
+    - SM_Silo2
+    - SM_Silo4
+    - SM_Silo3
+    padding: 1d00000054000000100000002b000000
+    unwrapper: 00000000000000000000000000000000
+  - meshName:
+    - SM_Booth_WindowGlass
+    - SM_Booth_booth_elements
+    - SM_Booth_ceil
+    - SM_Booth_door
+    - SM_Booth_floor
+    - SM_Booth_roof
+    - SM_Booth_walls
+    padding: 77000000490000008f0000007e0000008d0000008d0000002a000000
+    unwrapper: 00000000000000000000000000000000000000000000000000000000
+  assetList:
+  - Assets/Bakery/examples/content/sponza/bush.FBX
+  - Assets/Bakery/examples/content/floor_lamp.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/M67
+    shot.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/Demo/Models/Plane
+    rama.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/machine_gun_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/death.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/rocket.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/flashbang_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/PistolShot.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/revolver_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/50_cal_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/Demo/Models/RAMA.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/grenade_louncher_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/rocket_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/aim
+    basic shot.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/molotov_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/Demo/Models/Rama
+    2.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/Particles/Models/liquid_splash_cone.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/Demo/Models/Room_1.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/M67
+    load.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/smg_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/ShotgunShot.FBX
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/flamethrower_anim.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/grenade_louncher_grenade.fbx
+  - Assets/ThirdPartyAssets/Knife/PRO Effects FPS Muzzle flashes & Impacts/SimpleController/Models/smoke_grenade_anim.fbx
+  - Assets/!NewAnimations/TP_Death_from_back_idle.fbx
+  - Assets/!NewAnimations/TP_Death_from_front_inaim.fbx
+  - Assets/!NewGuns/Shotgun_1_Common/Shotgun1_unscope.fbx
+  - Assets/!NewGuns/Shotgun_5_Legend/Shotgun5_unscope.fbx
+  - Assets/!NewAnimations/Dying.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Sniper_Rifle_Sleeve.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Hands_Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Sniper_Rifle_Cartridge.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Stand.obj
+  - Assets/ThirdPartyAssets/AnimationsPack/SK_Military_All_2@Sprinting Forward Roll
+    (1).fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkTable@0000047665FEC000.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Fire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_India.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Grenade_Throw.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Heavy_Vest_Shoulder_L.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_08.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Lean_R.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Skull.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Foliage/Trees/Alder/SM_AlderBig.FBX
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage4.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Textures/Character/TP/Props/Placeholder.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage6.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Cap6.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Backpack3.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Lean_N.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_F_Pose.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Pistol_4_Epic/uploads_files_2963979_deagle.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Shirt6.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_HQ.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Rus.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Headset3.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_3_Rare/SK_ACWI_IronSight.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_RF.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Unholster.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Heavy_Vest_Bottom.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Pants5.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/PolygonWeapons/Weapons/SM_Wep_Preset_B_Heavy_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head6.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit9.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_Aim_Fire_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Run.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Holster
+    Empty (Pants5).fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Police.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Boots3.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/Locomotion/X Bot.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_Turning.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Carabin.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Palm_Hands_Female.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_4_Epic/UMP_joindetail.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_B.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_07.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio3.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_UN.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Detail_Accelerate_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Pants1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit2.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_3_Rare/AR_3fbx.fbx
+  - Assets/ThirdPartyAssets/PolygonWeapons/Weapons/SM_Wep_Preset_A_SMG_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_TrailerHouse_02.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Vest1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Grenade_Throw_Additive.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Holster.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_2_Uncommon/SK_GTM_SMG.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Crouch_Aim_Pose.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_1_Common/Shotgun1_unscope.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet3_visor-close.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_F_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Unholster.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit1.fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/A_TP_CH_Sitting_Relaxed_02.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_L_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit7.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Pistol1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_LF.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_Fire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Polizia.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Reload_Bolt.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Polizei.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Reload_Close.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SM_Military_Rifle2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_LB.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Loop.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Hands_Female.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Aim_In_Transition.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Foliage/Trees/Alder/SM_AlderSmall.FBX
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_04.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_R_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR2_Top.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_Fire.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_2_Uncommon/AR_Uncommon.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Reload_Insert.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR6_Top.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_5_Legend/Scorpion_join.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit8.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Idle_Pose.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_4_Epic/SK_M4_Mag.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Headset2.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Pistol_3_Rare/PR-9 Raygun_Pistol.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR7_female_Top.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Goggles1.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Heavy_Vest_Shoulder_R.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Reload_Empty.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_2_Uncommon/SK_GTM_Mag.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Jog_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Pants4.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Backpack2_handles.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet1_for
+    goggles.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Knife_Attack_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Unholster.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head3.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Gendarm.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/chicken_decal2.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_4_Epic/SK_Remore-046_Shotgun.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head5.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Unholster.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_3_Rare/m1a_join.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jump_RF.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Reload_Insert.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Reload_Close.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_B.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage8.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Reload.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_FarmBuilding.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_03.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Boots4.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Shop_02.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jump_Loop.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR5_Top.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StoreSigns.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Reload_Bolt_Aim.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head4.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage9.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Church.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Aim_Walk_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Goggles2_Helmet_Up.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head1.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head7.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Motel.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_Fire_Empty.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_InsideDoorFrame.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Lean_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Palm_Hands_Male.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Lean_L.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet2_fastering.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Run_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_Down.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/chicken_decals.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Unholster.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_FSB.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio5.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Heavy_Vest.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_RB.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Foliage/Trees/Spruce/SM_Spruce2.FBX
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Lean_B.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Goggles2_Helmet.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Aim_Idle.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Idle.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR1_Top.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Reload_Close.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Polis.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Reload
+    1.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Arab.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Unholster.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_4_Epic/SM_M4_IronSight.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_TrailerHouse_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit3.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head8.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Gloves_Female.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Garage_00.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/decal_sign.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Sitting_Relaxed_02.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Reload_Open.fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/A_TP_CH_Leaning_Relaxed.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_RB.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Detail_Accelerate_L.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio4.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Sprint_F_Impulse.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Headset1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_B_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Run_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR3_Top.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Female_Bottom.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Jog_F.fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/A_TP_CH_Sitting_Relaxed_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Head2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Holster.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_3_Rare/SK_M890_Mag.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Male_Bottom.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Reload.fbx
+  - Assets/ThirdPartyAssets/PolygonWeapons/Bullet.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet3_fastering.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_Up.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_L_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR8_Top_Female.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Reload.fbx
+  - Assets/ThirdPartyAssets/grenade-low-poly/source/grenade_low.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet1_fastering.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Press.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Reload.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Foliage/Bush/SM_Bush2.FBX
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/RV_Trailers/SM_RV_Small_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Cap5.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Sitting_Relaxed_01.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_2_Uncommon/SK_CM-2000_Sniper.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio7.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Policia.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Inspect.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_2_Uncommon/SK_CM-2000_Mag.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Kneepad_R.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Garage_Door_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Lean_N.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jump_LF.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit4.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_LF.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Lean_B.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_HuntingShop_Roof.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Inspect.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_3_Rare/SM_M890_IronSights.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage3.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_L.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Holster
+    with Pistol (Pants5).fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Backpack3_handles.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_5_Legend/RK62_join.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Reload_Bolt.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio6.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_B_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Radio2.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Balaclava.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Aim_Out_Transition.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Cap7.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Boots5.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Crouch_Pose.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_4_Epic/SM_Remore-046_IronSights.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_3_Rare/SK_M890_Shotgun.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Crouch_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_CounterBell.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WaterTank.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_AtvWheel_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ExteriorDoorHandle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Turn_OtherSide.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ChickenDinner.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_rope.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_AmmoBoxOpen.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ConcreteBorder4m.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StoreCooler_Tall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Beercan.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Bag_Squashed_B.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Antena1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_GardenChairTable_Chair02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Lawnmover.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Suspension_RR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Props2_Tire2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxdoor.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TableLamp.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RocksM_03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Wheel_FL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_shelves5.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_shelves3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1InteriorRoof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MailboxSmall_body.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Stove.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ChickenSink.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PropaneTank.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_CustomerParking.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_Rock3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fridge.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Stop.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Books.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_paddle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Speed55.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Props2_Sandbags2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_006.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Body.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenShelves2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_InteriorDoorHandle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_CeilingLamp.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Bag01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckUSA_SM_wheelRL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Gasstation.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Keyrack.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PolyBox_2x3_Tall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WC.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Lamp2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Suspension_RL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WoodenPallet01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Mailbox02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_FridgeDrinks.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WallShelf.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Exterior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Skirting.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_FloorLamp.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Platform_concrete.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Fence_Church.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RopeFence.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Pier_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DeerTrophy.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_Boat4.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_barrier_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ConcreteBorder2m.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Garage_01_Roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DoorsExterior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Windows.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_DoorR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashBag2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Leaf_024.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Rollcage.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Cabinet.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chair2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxSwitch3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxSwitch2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkTable.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TowerSupports.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Porch.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fence_8.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_windmill_game_Spinner.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ConcreteBorderCorner.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_piece_01_tower_piece_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Suspension_FL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckUSA_SM_wheelRR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenShelvesDrawer.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_House3_windows.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Roll.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Sofa.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_AmmoBox.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Stove2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PolyBox_2x5_Lid.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_boatRotor.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3porch.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ConcreteBorder2mBroken.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadRailing.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Shelf_S.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_BarProps_Keg.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Leaf_022.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Windmill.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Box1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StandingLight.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckBack_01_truck_back_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_SteeringWheel.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RopeFenceSingle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Church_doorframe.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ChickenTable.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_shelves1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TentSmall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Hangar_SM_hangar_edges.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_gasSing.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_house1Porch.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Props_Crate.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckUSA_SM_wheelFL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_BoxShowcase.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ClockArm1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Ladder.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkingBarrier_CornerSmooth.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Tent02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WoodenPallet02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Van.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_barrier_03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_shelves2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ClockArm2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WaterTower.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_pump.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_SpareTyre.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fence_7.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBox.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkingBarrier_2m.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_seaContainer_door_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Crate03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_pole.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Yield.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MailboxLarge.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Fence_Church_Pillar.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Mailbox01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_hangar_walls.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Garage_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Sofachair.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Hose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_TownSign.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chair1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Curtains.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTable_Long.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Bucket02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxKEyhole.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_seaContainer_door_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_Shelvesback.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Fries_A.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_010.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Door_Left.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_cart_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_LightLamp.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_platform_01_tower_platform_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_BathroomSink.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PolyBox_2x3_Tall_Lid.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Windows3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_cables_01_cable_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_ATV_box.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Toilet.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Deer.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Antenaholder.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Interior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_barrier_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Carpet.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_LampCounter.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_GastankLarge.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_cables_01_cable_03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_AtvBars_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_CoffeeTable.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashBin_SM_TrashBin_Lid.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_86.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Door_Right.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Gastank.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_radiator.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Kitchen_B.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_011.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenShelvesDoor2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TowerSupportCableBase.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Cashmachine.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Speed30.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_table_pack_01_table_03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3interior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ChainFence.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Cokoee2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Stairs.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PolyBox_2x5.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3exterior2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_DoorL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_009.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenShelves1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RadarTop.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Bathtub.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenShelvesDoor1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StoreCooler_Small.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chimney.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Leaf_023.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_platform_01_tower_platform_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Fries_B.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chair.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_piece2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_piece3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckBack_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_SingM.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_Holder.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_LightDoor.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Tailgate.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Crate01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ConcreteBarrier.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Palette.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_GardenChairTable_Table.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_VanStock.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerChair.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Ceiling.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_boat2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WoodenPallet03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_RV_Small_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashBin.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_trailer_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_008.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3base.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_floater.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Door_Right_b.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Turn.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Leaf_028.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Drink_Squashed_B.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3exterior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_gasstation_SingS.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_AC.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Base.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RocksM_04.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WoodenDesk.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RocksS_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_LampCeilingNeon.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Beam.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chair - Copy.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Hangar_SM_hangar_Roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MailboxSmall_handle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Tent01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Door_Left_a.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_door_r.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_013.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_Wall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_diesel_tank_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PierRing.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RockPile_1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_GrainSilo_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashPile.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_BathroomShower.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Bike.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Kitchen_C.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Table2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Flag_piece.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Hose - Copy.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3skirting.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StoreShelve.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chimney1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MetalBox01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Shelf_M.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_015.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_boatTank.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RocksS_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_seaContainer.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Screwdriver.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckUSA_SM_wheelFR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WindowChicken.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckBack_01_door_L.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ChickenRoadSign.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_trailer_03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_Rock2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RadarBody.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Windows2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Counter_Motel.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Kitchen_A.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Bag_Squashed_C.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PropaneTank_GroundBlocks.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DoorsInterior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PictureFrame.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Tire.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Switch.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Wheel_RR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Body1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_TJunk.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_boatEngine.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_BikeSeat.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_tower_base_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Drink_Squashed_C.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Table.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Bag.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkingBarrier_CornerSharp.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_WallShowcase.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_door_L.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_RoadSign_Pederastrian.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Atv_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Cabinet_Right_Door.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Antena2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RockPile_3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MetalBox02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ParkingBarrier_Post.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Tarpaulin2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_antenna_big_01_antenna_tall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Can01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_SofaPillow.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Antena3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_SmallGenerator.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Interior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_StoveFlame.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Bed.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MailboxSmall_thing.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_016.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Drink.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Windows.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TowerSupportCable.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxInside.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_rifle_mag.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Motel_Roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_grill.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckUSA_SM_Truck.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PierCrate03.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_012.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Windowblinds.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1InteriorTop.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PosterStamd.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RocksM_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Garage_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Bag_Squashed_A.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Base.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Table_Cafeteria.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Lamp1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_powerOutlet.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_BigGenerator_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Suspension_FR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Van_Glass.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Iskirting.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_trailer_01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Wheel_FR.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Cabinet_Left_Door.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_KitchenBox_b.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_electricitybox1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_SolarPanels.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fence_4.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MailboxSmall_stand.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Hangar_SM_hangar_beams.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashBag1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Drink_Squashed_A.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_Pickup_Wheel_RL.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House3/SM_house3ceiling.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MoneyPlate.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_SunCover.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Roof.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Vehicles/SM_TruckBack_01_door_R.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Chair3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Kitchen_D.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_shelves4.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Box01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House2/SM_House2Exterior.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Pier_02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Boats/SM_speedBoat.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_TrashBin_SM_TrashBin_Trash.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DinerTrash_Drink_Lid.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PosterBoard.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fridge2.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Clock.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Sink.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_rifle.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_014.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Leaf_027.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_Rock1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/House1/SM_House1Ceiling.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Trash_Paper_007.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElectricBoxSwitch.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Can02.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Shelves/SM_drawer.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Rocks/SM_RockPile_2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Reload_Open.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/chicken_decal3.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Foot_Female.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_03_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Lean_R.fbx
+  - Assets/ThirdPartyAssets/Animations/SK_Military_All_2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Reload_Insert.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Breathing.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Aim_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Flailing.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jump_Land.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Detail_Accelerate_R.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Vefects/Free Fire VFX URP/_ Extra/Resources/Meshes/SM_Extra_Billboard_Base_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_RF.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_B.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Unholster.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/AR_4_Epic/SK_M4_Assault.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Medic.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Jog_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Foot_Male.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Shotgun1.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Lean_L.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_5_Legend/Mesh/Hands_04_Mesh.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_3_Rare/SK_V014_SMG.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Sprint_Impulse_F.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_1_Common/SK_SCB 750_Sniper.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Fire_Empty.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Shirt5.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_NVG_disabled.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_R_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Jog_LB.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit5.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_GasStation.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_05.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Sprint_Impulse_F.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Pistol_3_Rare/PR-9 Raygun_Mag.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Jog_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Kneepad_L.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/PolygonWeapons/Weapons/Sjhotgun.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Inspect.fbx
+  - Assets/ThirdPartyAssets/PolygonWeapons/Weapons/SM_Wep_Pistol_01.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_CHR4_Top.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_05_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Detail_Accelerate_B.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_02.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Crouch_F_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Reload_Bolt.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Run_02.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Reload_Bolt_Aiming.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Reload_Empty.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_3_Rare/SK_V014_Mag.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage5.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_NVG_enabled.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_China.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Fall_Lean_F.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Backpack2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_02_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/ARs/AK.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_01_Reload_Bolt.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Leaning_Relaxed.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_02_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Base/A_TP_CH_Idle_Relaxed.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_02_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_05_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Reload_Close.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Hands_Male.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_03_Fire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet3_visor-open.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Unholster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_FP_PCH_Sniper_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_02_Aim_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Cap4.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_1_Common/SK_SCB 750_Mag.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_HuntingShop_Wall.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_TP_CH_AR_02_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Reload_Empty.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Reload_Open.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Crouch_Pose.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/AsphaltDamage1.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_FBI.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_5_Legend/SPAS_join.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Vest1_Belt.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Gloves_Male.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_03_Unholster.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_LogCabin_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet1.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/SMG_2_Uncommon/SM_GTM_IronSight.FBX
+  - Assets/ThirdPartyAssets/Animations/Death.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_RL_01_Reload.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_01_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Sprint_Impulse_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_04_Holster.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_03_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_GL_01_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet3.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Helmet2_for
+    goggles.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Jog_F.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Shotgun_5_Legend/Shotgun5_unscope.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Heavy_Vest_collar.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Decals/Models/roadSigns.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Aim_Pose.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Sniper_4_Epic/SWORD_Mk18_Mjolnir.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_TP_CH_RL_01_Sprint_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Snipers/A_TP_CH_Sniper_01_Reload_Insert.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Aim_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_FP_PCH_Handgun_Inspect.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Inspect.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Gsmask2.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_FP_PCH_SMG_01_Reload.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Decal_Polisi.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_03_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_TP_CH_Shotgun_01_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Reload_Open.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Shirt4.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Launchers/A_FP_PCH_GL_01_Fire.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/_Common/A_FP_PCH_Walk_R.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Handguns/A_TP_CH_Handgun_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/ARs/A_FP_PCH_AR_02_Idle_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Aim_Pose.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Meshes/Weapons/_Common/Attachments/SM_ATT_Scope_06.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_Shop_01.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Headset_wire.fbx
+  - Assets/ThirdPartyAssets/MilitaryCharacters/PlayerMeshes/Separated/SK_Military_Outfit6.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Foliage/Trees/RedWood/SM_RedWood2.FBX
+  - Assets/ThirdPartyAssets/AnimationsPack/A_TP_CH_Idle_Relaxed.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/SMGs/A_TP_CH_SMG_04_Jog_F.fbx
+  - Assets/ThirdPartyAssets/Infima Games/Low Poly Shooter Pack/Art/Animations/Character/Shotguns/A_FP_PCH_Shotgun_01_Unholster.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/A_FP_GrenadeThrow_End.FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/A_FP_GrenadeThrow_Loop.FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Death/TP_Death_from_back_idle.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Jump/TP_Jump_loop.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/SurvivalAP_pt4.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/Ready/Getting Up (1).fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/A_FP_GrenadeThrow_Start.FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Knock/Knock(temp Crouch).FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Crouch/TP_Crouch.FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/SetupObj/TP_SetupObj.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Death/TP_Death_from_front_inaim.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/Ready/Stand To Roll.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Jump/TP_Jump_var2.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Jump/TP_Jump_up.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Roll/TP_Roll.FBX
+  - Assets/_Project/!NewAnimations/!NewAnimations/TP/Jump/TP_Jump_end.fbx
+  - Assets/_Project/!NewAnimations/!NewAnimations/FP/Ready/Knocked Out (1).fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/Pistol_Run_Left.fbx
+  - Assets/ThirdPartyAssets/AnimationsPack/Pistol_Run_Right.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/SM_Shotgun_01_Magazine_Default
+    1.fbx
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/Hands_Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/Sniper_Rifle_Sleeve.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/Sniper_Rifle_Cartridge.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/_Models/Stand.obj
+  - Assets/_Project/Prefabs/Weapons/!NewGuns/Models/Stand.obj
+  - Assets/_Project/Prefabs/Weapons/Models/Stand.obj
+  - Assets/_Project/Prefabs/Weapons/Models/Sniper_Rifle_Sleeve.FBX
+  - Assets/_Project/Prefabs/Weapons/Models/Hands_Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/Models/Sniper_Rifle_Cartridge.FBX
+  - Assets/_Project/Prefabs/Weapons/Models/Sniper_Rifle_Full.FBX
+  - Assets/_Project/Prefabs/Weapons/Models/AKM.fbx
+  - Assets/_Project/Prefabs/Weapons/Models/ak74m_unity.fbx
+  - Assets/_Project/Prefabs/Weapons/Models/M1A.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fence01.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_PostSign.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_LightStairs.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_SignHolder.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_OutsideDoorFrame.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_MotelSign.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_sign3.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Sign1.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_ElBox.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Stonewall.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_DocksSign.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/Buildings/SM_ChurchWindow.fbx
+  - Assets/ThirdPartyAssets/Americana_Island/Models/SM_Fence02.fbx
+  - Assets/_Project/Prefabs/Weapons/Models/AR_5_model.fbx
+  - Assets/_Project/!NewAnimations/TP/Death/TP_Death_from_front.fbx
+  - Assets/ThirdPartyAssets/Weapon Customization Pack/Meshes/Sight Attachments.fbx
+  - Assets/_Project/Weapons_V2/WeaponHK433/hk433.fbx
+  - Assets/_Project/Weapons_V2/WeaponAR/SK_AssaultRifle_AR.fbx
+  - Assets/_Project/Weapons_V2/WeaponRK62/WeaponsAssetsTest.fbx
+  - Assets/_Project/Weapons_V2/WeaponTACOPSPistol/TACOPSpistol.fbx
+  - Assets/_Project/Weapons_V2/WeaponMPX/MPX.fbx
+  - Assets/_Project/Weapons_V2/WeaponVector/Vector.fbx
+  - Assets/_Project/Weapons_V2/WeaponRugerPistol/RugerPistol.fbx
+  - Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment02.fbx
+  - Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment_Light.fbx
+  - Assets/AllSkyFree/_AllSkyFreeDemoEnvironment/AllSky_DemoEnvironment.fbx
+  uvOverlapAssetList: 00000000ffffffff000000000000000001010000000000000000000001010000010100000101000001010000010100000101000001010000010100000101000001010000000000000000000000000000010100000101000001010000010100000101000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000010100000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000010100000101000000000000000000000000000001010000000000000000000000000000000000000101000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000101000000000000000000000000000000000000010100000000000000000000000000000000000000000000010100000000000000000000000000000000000001010000010100000000000001010000000000000000000000000000010100000000000000000000010100000000000001010000000000000000000001010000000000000000000001010000000000000000000001010000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000101000000000000000000000000000000000000000000000000000000000000010100000000000001010000000000000000000001010000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000000000000000000000000000010100000101000001010000000000000000000001010000000000000000000000000000000000000101000001010000000000000000000000000000000000000000000000000000010100000101000000000000000000000000000000000000000000000000000001010000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000001010000010100000101000000000000010100000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000101000000000000000000000000000000000000010100000000000000000000000000000000000001010000000000000101000000000000000000000000000000000000000000000000000000000000010100000101000000000000010100000000000000000000000000000101000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000101000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000001010000000000000000000000000000010100000000000000000000000000000000000000000000010100000101000000000000000000000000000000000000000000000101000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000101000000000000000000000000000001010000000000000101000001010000000000000000000001010000010100000000000001010000010100000000000000000000000000000000000000000000010100000101000001010000010100000101000000000000000000000000000000000000000000000000000001010000000000000000000001010000010100000101000000000000010100000000000001010000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000001010000000000000101000000000000000000000000000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000101000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000000000001010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010100000101000001010000000000000000000000000000000000000101000001010000010100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001010000000000000101000001010000010100000101000000000000010100000101000001010000000000000000000000000000
+  xatlasWarningShown: 0
+  foundCompatibleSetup: 1
+  gpuName_2: NVIDIA GeForce RTX 3070 Laptop GPU
+  runsNonRTX: 0
+  runsRTX6: 0
+  runsRTX9: 1
+  runsOptix5: 0
+  runsOptix6: 0
+  runsOptix7: 1
+  runsOIDN: 1
+  runsOIDN2: 1
+  alwaysEnableRTX: 0
+  checkerPreviewOn: 0
+  rtSceneViewPreviewOn: 0
+  renderSettingsBounces: 5
+  renderSettingsGISamples: 16
+  renderSettingsGIBackFaceWeight: 0
+  renderSettingsTileSize: 512
+  renderSettingsPriority: 2
+  renderSettingsTexelsPerUnit: 20
+  renderSettingsForceRefresh: 1
+  renderSettingsForceRebuildGeometry: 1
+  renderSettingsPerformRendering: 1
+  renderSettingsUserRenderMode: 0
+  renderSettingsDistanceShadowmask: 0
+  renderSettingsSettingsMode: 0
+  renderSettingsFixSeams: 1
+  renderSettingsDenoise: 1
+  renderSettingsDenoise2x: 0
+  renderSettingsEncode: 1
+  renderSettingsEncodeMode: 0
+  renderSettingsOverwriteWarning: 0
+  renderSettingsAutoAtlas: 1
+  renderSettingsUnwrapUVs: 1
+  renderSettingsForceDisableUnwrapUVs: 0
+  renderSettingsMaxAutoResolution: 4096
+  renderSettingsMinAutoResolution: 16
+  renderSettingsUnloadScenes: 1
+  renderSettingsAdjustSamples: 1
+  renderSettingsCheckOverlaps: 0
+  renderSettingsSkipOutOfBoundsUVs: 1
+  renderSettingsHackEmissiveBoost: 1
+  renderSettingsHackIndirectBoost: 1
+  renderSettingsTempPath: 
+  renderSettingsOutPath: 
+  renderSettingsUseScenePath: 0
+  renderSettingsHackAOIntensity: 0
+  renderSettingsHackAOSamples: 16
+  renderSettingsHackAOSofter: 0
+  renderSettingsHackAORadius: 1
+  renderSettingsShowAOSettings: 0
+  renderSettingsShowTasks: 1
+  renderSettingsShowTasks2: 0
+  renderSettingsShowPaths: 1
+  renderSettingsShowNet: 1
+  renderSettingsShowSettingsAsset: 1
+  renderSettingsShowAPV: 0
+  renderSettingsUseAPVSkyOcclusion: 0
+  renderSettingsOcclusionProbes: 0
+  renderSettingsTexelsPerMap: 0
+  renderSettingsTexelsColor: 1
+  renderSettingsTexelsMask: 1
+  renderSettingsTexelsDir: 1
+  renderSettingsShowDirWarning: 1
+  renderSettingsRenderDirMode: 0
+  renderSettingsShowCheckerSettings: 0
+  renderSettingsSamplesWarning: 1
+  renderSettingsSuppressPopups: 0
+  renderSettingsSectorWarning: 0
+  renderSettingsPrefabWarning: 1
+  renderSettingsSplitByScene: 0
+  renderSettingsSplitByTag: 0
+  renderSettingsUVPaddingMax: 0
+  renderSettingsUVPaddingPreserveIfExisted: 0
+  renderSettingsPostPacking: 1
+  renderSettingsHoleFilling: 0
+  renderSettingsBruteForce: 1
+  renderSettingsAlphaDithering: 0
+  renderSettingsBeepOnFinish: 0
+  renderSettingsExportTerrainAsHeightmap: 0
+  renderSettingsRTXMode: 1
+  renderSettingsLightProbeMode: 1
+  renderSettingsClientMode: 0
+  renderSettingsServerAddress: 127.0.0.1
+  renderSettingsUnwrapper: 0
+  renderSettingsDenoiserType: 101
+  renderSettingsExportTerrainTrees: 0
+  renderSettingsShowPerf: 1
+  renderSettingsSampleDiv: 1
+  renderSettingsAtlasPacker: 0
+  renderSettingsBatchPoints: 1
+  renderSettingsCompressVolumes: 0
+  renderSettingsBatchAreaLightSampleLimit: 0
+  renderSettingsRTPVExport: 1
+  renderSettingsRTPVSceneView: 0
+  renderSettingsRTPVHDR: 0
+  renderSettingsRTPVWidth: 640
+  renderSettingsRTPVHeight: 360
+  renderSettingsRTPVExposure: 1
+  renderSettingsRemoveDuplicateLightmaps: 0
+  tagOverrides: []
+  modifiedMeshPaddingArray: b600000000010000
+  modifiedMeshUnwrapperArray: 0000000000000000

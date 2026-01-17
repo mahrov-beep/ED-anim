@@ -1,0 +1,10 @@
+component InteractiveZone {
+    AssetRef<InteractiveZoneAsset> Asset;
+
+    [ExcludeFromPrototype] EntityRef TriggerAreaEntity;
+    
+    [ExcludeFromPrototype, AllocateOnComponentAdded, FreeOnComponentRemoved]
+    hash_set<EntityRef> IgnoredEntities;
+}
+
+event OnInteractComplete { InteractiveZoneAsset data; EntityRef interactiveZoneEntity; EntityRef unitEntity; }

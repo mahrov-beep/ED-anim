@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f51d9d002ae45448eee9ab287521f42, type: 3}
+  m_Name: item_booster_energyDrink
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_booster_energyDrink
+    Guid:
+      Value: 342807197368582998
+  icon: item_booster_energyDrink
+  iconLarge: 
+  dropOnDeath: 1
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 
+  useDurationSeconds:
+    RawValue: 32768
+  onUseEffects:
+  - Name: energyDrink_moveSpeed
+    AttributeType: 32
+    Value:
+      RawValue: 3276800
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 655360
+  - Name: energyDrink_sprintSpeed
+    AttributeType: 33
+    Value:
+      RawValue: 3276800
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 655360
+  height: 1
+  width: 1

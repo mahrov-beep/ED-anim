@@ -1,0 +1,8 @@
+﻿<linker>
+    <assembly fullname="Game.Domain" preserve="all"/>
+    <assembly fullname="Game.ECS" preserve="all"/>
+    <assembly fullname="Game.UI" preserve="all"/>
+    <assembly fullname="Game.Shared" preserve="all"/>
+    <assembly fullname="Quantum" preserve="all"/>
+    <assembly fullname="Quantum.Shared" preserve="all"/>
+</linker>

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d99a7c4ad44d8864f99afd84c9bb4c7a, type: 3}
+  m_Name: SelfExplosion_ExplosionAttackData
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Attacks/SelfExplosion_ExplosionAttackData
+    Guid:
+      Value: 482803483026459629
+  TTL:
+    RawValue: 0
+  IgnoreOwner: 0
+  IgnoreEnemies: 0
+  IgnoreAlies: 0
+  DestroyOnHitDynamic: 0
+  DestroyOnHitStatic: 0
+  hitEffects:
+  - Name: 
+    AttributeType: 32
+    Value:
+      RawValue: 3276800
+    Operation: 2
+    Appliance: 3
+    Duration:
+      RawValue: 196608
+  attackPrototypeRef:
+    Id:
+      Value: 0
+  destroyFX: {fileID: 1112544203819884, guid: fef734bb967d17b46a9ae29a800b7dd6, type: 3}
+  destroyFXLifetimeSec:
+    RawValue: 98304
+  hitImpulse:
+    Id:
+      Value: 408047456916536954
+  minDamageDistanceCoefficient:
+    RawValue: 45875
+  radius:
+    RawValue: 458752

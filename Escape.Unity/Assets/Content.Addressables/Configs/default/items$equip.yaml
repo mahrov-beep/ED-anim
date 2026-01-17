@@ -1,0 +1,504 @@
+---
+key: "item_backpack_common"
+type: "Backpack"
+equip_priority: "30"
+rarity: "Common"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_backpack_uncommon"
+type: "Backpack"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "2"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_backpack_rare"
+type: "Backpack"
+equip_priority: "50"
+rarity: "Rare"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 75 }
+buy_cost: { "bucks": 3 }
+min_trader_level_to_buy: 3
+---
+key: "item_backpack_epic"
+type: "Backpack"
+equip_priority: "70"
+rarity: "Epic"
+weight: "4"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_backpack_legendary"
+type: "Backpack"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "5"
+cells_width: 2
+cells_height: 3
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 7 }
+min_trader_level_to_buy: 5
+---
+key: "item_armor_light_common"
+type: "Armor"
+equip_priority: "30"
+rarity: "Common"
+weight: "5"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+---
+key: "item_armor_light_uncommon"
+type: "Armor"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "5"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 2
+---
+key: "item_armor_light_rare"
+type: "Armor"
+equip_priority: "50"
+rarity: "Rare"
+weight: "5"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 3
+---
+key: "item_armor_light_epic"
+type: "Armor"
+equip_priority: "70"
+rarity: "Epic"
+weight: "5"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 125 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 4
+---
+key: "item_armor_light_legendary"
+type: "Armor"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "5"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 5
+---
+key: "item_armor_medium_common"
+type: "Armor"
+equip_priority: "30"
+rarity: "Common"
+weight: "10"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 1
+---
+key: "item_armor_medium_uncommon"
+type: "Armor"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "10"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 150 }
+buy_cost: { "badges": 300 }
+min_trader_level_to_buy: 2
+---
+key: "item_armor_medium_rare"
+type: "Armor"
+equip_priority: "50"
+rarity: "Rare"
+weight: "10"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 3
+---
+key: "item_armor_medium_epic"
+type: "Armor"
+equip_priority: "70"
+rarity: "Epic"
+weight: "10"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 300 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 4
+---
+key: "item_armor_medium_legendary"
+type: "Armor"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "10"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 400 }
+buy_cost: { "bucks": 20 }
+min_trader_level_to_buy: 5
+---
+key: "item_armor_heavy_common"
+type: "Armor"
+equip_priority: "30"
+rarity: "Common"
+weight: "15"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 200 }
+buy_cost: { "badges": 400 }
+min_trader_level_to_buy: 1
+---
+key: "item_armor_heavy_uncommon"
+type: "Armor"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "15"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 300 }
+buy_cost: { "badges": 600 }
+min_trader_level_to_buy: 2
+---
+key: "item_armor_heavy_rare"
+type: "Armor"
+equip_priority: "50"
+rarity: "Rare"
+weight: "15"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 400 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 3
+---
+key: "item_armor_heavy_epic"
+type: "Armor"
+equip_priority: "70"
+rarity: "Epic"
+weight: "15"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 500 }
+buy_cost: { "bucks": 20 }
+min_trader_level_to_buy: 4
+---
+key: "item_armor_heavy_legendary"
+type: "Armor"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "15"
+cells_width: 3
+cells_height: 3
+sell_cost: { "badges": 600 }
+buy_cost: { "bucks": 25 }
+min_trader_level_to_buy: 5
+---
+key: "item_helmet_light_common"
+type: "Helmet"
+equip_priority: "30"
+rarity: "Common"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 25 }
+buy_cost: { "badges": 50 }
+min_trader_level_to_buy: 1
+---
+key: "item_helmet_light_uncommon"
+type: "Helmet"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 2
+---
+key: "item_helmet_light_rare"
+type: "Helmet"
+equip_priority: "50"
+rarity: "Rare"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 75 }
+buy_cost: { "bucks": 2 }
+min_trader_level_to_buy: 3
+---
+key: "item_helmet_light_epic"
+type: "Helmet"
+equip_priority: "70"
+rarity: "Epic"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 4 }
+min_trader_level_to_buy: 4
+---
+key: "item_helmet_light_legendary"
+type: "Helmet"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 6 }
+min_trader_level_to_buy: 5
+---
+key: "item_helmet_medium_common"
+type: "Helmet"
+equip_priority: "30"
+rarity: "Common"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+---
+key: "item_helmet_medium_uncommon"
+type: "Helmet"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 75 }
+buy_cost: { "badges": 150 }
+min_trader_level_to_buy: 2
+---
+key: "item_helmet_medium_rare"
+type: "Helmet"
+equip_priority: "50"
+rarity: "Rare"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "bucks": 3 }
+min_trader_level_to_buy: 3
+---
+key: "item_helmet_medium_epic"
+type: "Helmet"
+equip_priority: "70"
+rarity: "Epic"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 125 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 4
+---
+key: "item_helmet_medium_legendary"
+type: "Helmet"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "3"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 7 }
+min_trader_level_to_buy: 5
+---
+key: "item_helmet_heavy_common"
+type: "Helmet"
+equip_priority: "30"
+rarity: "Common"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 1
+---
+key: "item_helmet_heavy_uncommon"
+type: "Helmet"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 150 }
+buy_cost: { "badges": 300 }
+min_trader_level_to_buy: 2
+---
+key: "item_helmet_heavy_rare"
+type: "Helmet"
+equip_priority: "50"
+rarity: "Rare"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 175 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 3
+---
+key: "item_helmet_heavy_epic"
+type: "Helmet"
+equip_priority: "70"
+rarity: "Epic"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 4
+---
+key: "item_helmet_heavy_legendary"
+type: "Helmet"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "5"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 250 }
+buy_cost: { "bucks": 15 }
+min_trader_level_to_buy: 5
+---
+key: "item_headphones_common"
+type: "Headphones"
+equip_priority: "30"
+rarity: "Common"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 50 }
+buy_cost: { "badges": 100 }
+min_trader_level_to_buy: 1
+---
+key: "item_headphones_uncommon"
+type: "Headphones"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 100 }
+buy_cost: { "badges": 200 }
+min_trader_level_to_buy: 2
+---
+key: "item_headphones_rare"
+type: "Headphones"
+equip_priority: "50"
+rarity: "Rare"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 150 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 3
+---
+key: "item_headphones_epic"
+type: "Headphones"
+equip_priority: "70"
+rarity: "Epic"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 200 }
+buy_cost: { "bucks": 10 }
+min_trader_level_to_buy: 4
+---
+key: "item_headphones_legendary"
+type: "Headphones"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 250 }
+buy_cost: { "bucks": 5 }
+min_trader_level_to_buy: 5
+---
+key: "item_safe_common"
+type: "Safe"
+equip_priority: "30"
+rarity: "Common"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 500 }
+buy_cost: { "badges": 500 }
+min_trader_level_to_buy: 1
+---
+key: "item_safe_uncommon"
+type: "Safe"
+equip_priority: "40"
+rarity: "Uncommon"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 1000 }
+buy_cost: { "badges": 5000 }
+min_trader_level_to_buy: 2
+---
+key: "item_safe_rare"
+type: "Safe"
+equip_priority: "50"
+rarity: "Rare"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 1500 }
+buy_cost: { "bucks": 50 }
+min_trader_level_to_buy: 3
+---
+key: "item_safe_epic"
+type: "Safe"
+equip_priority: "70"
+rarity: "Epic"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 2000 }
+buy_cost: { "bucks": 100 }
+min_trader_level_to_buy: 4
+---
+key: "item_safe_legendary"
+type: "Safe"
+equip_priority: "80"
+rarity: "Legendary"
+weight: "1"
+cells_width: 2
+cells_height: 2
+sell_cost: { "badges": 2500 }
+buy_cost: { "bucks": 200 }
+min_trader_level_to_buy: 5
+---
+key: "item_armor_heavy_epic_cheat"
+type: "Armor"
+equip_priority: "50"
+rarity: "Common"
+weight: "1"
+sell_cost: { "badges": 1 }
+buy_cost: { "badges": 1 }
+min_trader_level_to_buy: 1

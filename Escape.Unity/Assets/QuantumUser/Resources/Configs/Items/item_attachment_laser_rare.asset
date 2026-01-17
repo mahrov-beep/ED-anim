@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2b016ec2eef4e6c9f20e1bf8dcc845c, type: 3}
+  m_Name: item_attachment_laser_rare
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_attachment_laser_rare
+    Guid:
+      Value: 433964772453812794
+  icon: item_attachment_laser_uncommon
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 289633349058684642
+  persistentEffects:
+  - attributeType: 34
+    value:
+      RawValue: 917504
+    operation: 2
+  validSlots: 
+  inspectorShortName: "\u041B\u0430\u0437\u0435\u0440-3"
+  validWeaponSlots: 07000000
+  visualPrefab: {fileID: 9123963325609617414, guid: d36776e46f886e248b67a7c21fe8c7b6, type: 3}

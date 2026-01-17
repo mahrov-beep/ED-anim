@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4476971307866418595
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1446840333165924641}
+  - component: {fileID: 4334997980159664354}
+  m_Layer: 0
+  m_Name: QuantumNavMesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1446840333165924641
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476971307866418595}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4334997980159664354
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4476971307866418595}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e9121d5c86efee4faaf33c31a8ff549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NavMeshSurfaces:
+  - {fileID: 0}
+  Settings:
+    WeldIdenticalVertices: 1
+    WeldVertexEpsilon: 0.0001
+    DelaunayTriangulation: 0
+    DelaunayTriangulationRestrictToPlanes: 0
+    FixTrianglesOnEdges: 1
+    FixTrianglesOnEdgesEpsilon: 1e-45
+    FixTrianglesOnEdgesHeightEpsilon: 0.05
+    LinkErrorCorrection: 0
+    ClosestTriangleCalculation: 1
+    ClosestTriangleCalculationDepth: 3
+    EnableQuantum_XY: 0
+    MinAgentRadius:
+      RawValue: 26214
+    ImportRegionMode: 2
+    RegionDetectionMargin: 0.4
+    RegionAreaIds: 

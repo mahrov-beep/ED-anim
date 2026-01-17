@@ -1,0 +1,101 @@
+component Unit {
+    [RequiredRef] AssetRef<UnitAsset> Asset;
+    
+    [ExcludeFromPrototype] PlayerRef PlayerRef;
+
+    [ExcludeFromPrototype] FP WeaponAimSecondsElapsed;
+    [ExcludeFromPrototype] EntityRef ActiveWeaponRef;
+    [ExcludeFromPrototype] EntityRef PrimaryWeapon;
+    [ExcludeFromPrototype] EntityRef SecondaryWeapon;
+    [ExcludeFromPrototype] EntityRef MeleeWeapon;
+    [ExcludeFromPrototype] EntityRef Skin;
+    
+    [ExcludeFromPrototype] WeaponSlot ActiveWeaponSlot;
+    [ExcludeFromPrototype] WeaponSlot PrevWeaponSlot;
+    
+    [ExcludeFromPrototype] EntityRef AbilityRef;
+    [ExcludeFromPrototype] ActiveAbilityInfo ActiveAbilityInfo;
+
+    [ExcludeFromPrototype] Boolean Aiming;
+
+    [ExcludeFromPrototype] Boolean HasTarget;
+    [ExcludeFromPrototype] bool IsTargetBlocked;
+    
+    [ExcludeFromPrototype] EntityRef Target;
+    [ExcludeFromPrototype] FPVector3 TargetPositionLagCompensated;
+    
+    [ExcludeFromPrototype] FP HideWeaponTimer;
+    [ExcludeFromPrototype] FP GetWeaponTimer;
+    
+    [ExcludeFromPrototype] EntityRef PrevWeaponRef;
+    
+    [ExcludeFromPrototype] EntityRef NearbyItemBox;
+    [ExcludeFromPrototype] EntityRef NearbyBackpack;
+    [ExcludeFromPrototype] EntityRef NearbyInteractiveZone;
+    [ExcludeFromPrototype] EntityRef TargetExitZone;  
+    [ExcludeFromPrototype] CountdownTimer ExitZoneTimer;
+    
+    [ExcludeFromPrototype] UnitStats CurrentStats;
+    
+    [ExcludeFromPrototype] int Frags;
+    
+    [ExcludeFromPrototype] FP CurrentSpeed;
+    
+    [ExcludeFromPrototype] RNGSession RNG;
+    
+    [ExcludeFromPrototype] int LastLagCompensatedFrame;
+ }
+
+struct UnitStats {
+    FPBoostedValue moveSpeed;
+    FPBoostedValue rotationSpeed;
+    FPBoostedValue maxWeight;
+    FPBoostedValue loadoutWidth;
+    FPBoostedValue loadoutHeight;
+    FPBoostedValue jumpImpulse;
+
+    FPBoostedMultiplier resistAllMultiplier;
+    FPBoostedMultiplier resistBulletMultiplier;
+    FPBoostedMultiplier resistFireMultiplier;
+    FPBoostedMultiplier resistExplosionMultiplier;
+    FPBoostedMultiplier resistMeleeMultiplier;
+    FPBoostedMultiplier resistZoneMultiplier;
+    FPBoostedMultiplier resistCritChanceMultiplier;
+    FPBoostedMultiplier resistCritDamageMultiplier;
+
+    FPBoostedMultiplier visionDistanceMultiplier;
+    FPBoostedMultiplier shotImpulse;
+    
+    FPBoostedMultiplier audioVolume;
+    FPBoostedMultiplier audioDistance;
+}
+
+component AnimationTriggers {
+    [HideInInspector] QBoolean Reloading;
+    [HideInInspector] QBoolean PrevReloading;
+    [HideInInspector] QBoolean HideWeapon;
+    [HideInInspector] QBoolean GetWeapon;
+    [HideInInspector] QBoolean PrevHideWeapon;
+    [HideInInspector] QBoolean PrevGetWeapon;
+    [HideInInspector] QBoolean Throw;
+}
+
+enum WeaponSlot {
+    None,
+    Primary,
+    Secondary,
+    Melee,
+}
+
+signal OnUnitSpawn(entity_ref e);
+signal OnUnitDead(entity_ref e);
+signal OnUnitDamage(entity_ref source, entity_ref target, FP value);
+signal OnUnitHeal(entity_ref source, entity_ref target, FP value);
+signal OnUnitHideWeapon(entity_ref unitRef);
+signal OnUnitGetWeapon(entity_ref unitRef);
+
+
+synced event UnitDamage { Attack attack; entity_ref targetRef; QBoolean isCrit; FPVector3 attackPosition; }
+synced event UnitHeal { entity_ref sourceRef; entity_ref targetRef; FP value; }
+synced event UnitDead { entity_ref unitRef; }
+synced event UnitRebirth { entity_ref unitRef; }

@@ -1,0 +1,24 @@
+{
+    "name": "AITools",
+    "rootNamespace": "",
+    "references": [
+        "GUID:5d82202959c2f144ea95e134645b6833",
+        "GUID:f6fa0c2f8b9a9f64897d3351666f3d66",
+        "GUID:93d18b21ea76e8243b12d945ef81409e",
+        "GUID:968651e3a71578f42bc23e5b341fbf38",
+        "GUID:894a6cc6ed5cd2645bb542978cbed6a9",
+        "GUID:a122035cc976ee448a75d80ff7ffcf88",
+        "GUID:605402589fbe087449e5c96d12ba027a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

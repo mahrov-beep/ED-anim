@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a9ce2ea64dba444aa9a15c23864b56b, type: 3}
+  m_Name: ShadowSettingsConfig
+  m_EditorClassIdentifier: Game.Services::Game.Services.Graphics.ShadowSettingsConfig
+  Off:
+    mainLightShadows: 0
+    additionalLightShadows: 0
+    softShadows: 0
+    shadowDistance: 0
+    shadowCascadeCount: 1
+    mainLightResolution: 128
+    additionalLightResolution: 128
+    disableBakedShadows: 1
+  Low:
+    mainLightShadows: 0
+    additionalLightShadows: 0
+    softShadows: 0
+    shadowDistance: 25
+    shadowCascadeCount: 1
+    mainLightResolution: 512
+    additionalLightResolution: 512
+    disableBakedShadows: 0
+  Medium:
+    mainLightShadows: 0
+    additionalLightShadows: 0
+    softShadows: 0
+    shadowDistance: 50
+    shadowCascadeCount: 2
+    mainLightResolution: 1024
+    additionalLightResolution: 1024
+    disableBakedShadows: 0
+  High:
+    mainLightShadows: 0
+    additionalLightShadows: 0
+    softShadows: 0
+    shadowDistance: 75
+    shadowCascadeCount: 2
+    mainLightResolution: 1536
+    additionalLightResolution: 1024
+    disableBakedShadows: 0

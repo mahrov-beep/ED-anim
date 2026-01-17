@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Sounds
+  m_EditorClassIdentifier: 
+  m_GroupName: Sounds
+  m_Data:
+    m_SerializedData: []
+  m_GUID: abe571fe2e4ea4b4cb8a283996079f5f
+  m_SerializeEntries:
+  - m_GUID: c235b4423c1913f449f68a6c7c935eea
+    m_Address: Sounds/Button
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 05eedd534048a4f4c9b575da7917838d
+    m_Address: Sounds/Buy
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b47e29be643806141876c40a6a6f70e2
+    m_Address: Sounds/Sell
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cf05221e2f5be824ba70cf0348b479ec
+    m_Address: Sounds/Equip
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 472c1ca2ef8f4704da45763aa033e7e6
+    m_Address: Sounds/UseKit
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a6eb3e7726127845aa415b76841fdb9
+    m_Address: Sounds/LevelUp
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6a39de54c9cfda44a8d414070247075e
+    m_Address: Sounds/DragItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0fca472e06aab6549bfd3fa8bf937ea9
+    m_Address: Sounds/DealItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f776c9fcbfd6dac458baf06b02acaa5e
+    m_Address: Sounds/TakeAll
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96639e418500a714a86ff180a611411f
+    m_Address: Sounds/EquipBest
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 70ad1b82c55d5e648b200260f29ed427
+    m_Address: Sounds/ThrowItem
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c0533418e83915b498d686d2cf850470
+    m_Address: Sounds/QuestDone
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a551ce570a1d09d4c97b9ec1390f65fe
+    m_Address: Sounds/PlayerSounds
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c324c8bc98e060b41aea57dd3a4c80f9
+    m_Address: Sounds/HitMark
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - Sounds
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 35c651e6853e06d44b20845b5e0380bd, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 51369a4bb3e61bd41982efc8a4a35fa2, type: 2}
+    - {fileID: 11400000, guid: acd0b72e6a411cc4488e77de69197741, type: 2}

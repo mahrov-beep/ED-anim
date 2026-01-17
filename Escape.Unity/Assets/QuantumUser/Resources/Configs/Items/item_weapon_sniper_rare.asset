@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09e5fbbb1e3445709dc9d095369ca5e0, type: 3}
+  m_Name: item_weapon_sniper_rare
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_weapon_sniper_rare
+    Guid:
+      Value: 320027121886866979
+  icon: item_weapon_sniper_rare
+  iconLarge: item_weapon_sniper_rare
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects:
+  - attributeType: 42
+    value:
+      RawValue: 983040
+    operation: 1
+  validSlots: 0200000003000000
+  visualPrefab: {fileID: 6446807073419897400, guid: db1c2a06ee4594244a7e2f321045e644, type: 3}
+  additionalAllowedAttachments: []
+  disallowedAttachments: []
+  attachmentsSchema: {fileID: 11400000, guid: 2d405afc8a802364bb4b05907a87a497, type: 2}
+  attackData:
+    Id:
+      Value: 329006645723283685
+  minBaseDamage:
+    RawValue: 2621440
+  maxBaseDamage:
+    RawValue: 2949120
+  baseDamage:
+    RawValue: 0
+  headshotDamageMultiplier:
+    RawValue: 131072
+  priorityAimDistanceCoefficient:
+    RawValue: 32768
+  baseSpreadAngle:
+    RawValue: 262144
+  spreadCoefficientInAimState:
+    RawValue: 6554
+  spreadSpeedCoefficient:
+    RawValue: 32768
+  cameraOffsetZ:
+    RawValue: 0
+  fireRate: 100
+  baseReloadingTime:
+    RawValue: 222822
+  baseTriggerDistance:
+    RawValue: 6553600
+  baseTriggerAngle:
+    RawValue: 65536
+  baseTriggerAngleY:
+    RawValue: 65536
+  basePreShotAimingSeconds:
+    RawValue: 3277
+  preReloadAmmoSeconds:
+    RawValue: 13107
+  zoomMultOnAim:
+    RawValue: 32768
+  bulletsPerShot: 1
+  magazineAmmoCount: 10
+  shotOriginOffset:
+    X:
+      RawValue: 6554
+    Y:
+      RawValue: 87381
+    Z:
+      RawValue: 62259
+  shotTargetOffsetY:
+    RawValue: 87381
+  recoilCameraAnglesMin:
+    X:
+      RawValue: -32768
+    Y:
+      RawValue: 0
+  recoilCameraAnglesMax:
+    X:
+      RawValue: 32768
+    Y:
+      RawValue: 196608
+  recoilCoefficientInAimState:
+    RawValue: 32768
+  timeToHideWeapon:
+    RawValue: 65536
+  timeToGetWeapon:
+    RawValue: 65536
+  questEnemyKilledFilters: 
+  shotImpulse:
+    Id:
+      Value: 445716449772771889
+  baseCritChancePercent:
+    RawValue: 1310720
+  baseCritMultiplierPercent:
+    RawValue: 16384000
+  slowDebuffPriority: 0
+  slowStackLimit: 0
+  slowMultiplierPerStack:
+    RawValue: 0
+  slowDuration:
+    RawValue: 0
+  fireChancePercent: 0
+  fireDuration:
+    RawValue: 0
+  fireDamage:
+    RawValue: 0
+  baseShotSoundRange:
+    RawValue: 5242880
+  minimapShotVisiblyDuration:
+    RawValue: 3276800

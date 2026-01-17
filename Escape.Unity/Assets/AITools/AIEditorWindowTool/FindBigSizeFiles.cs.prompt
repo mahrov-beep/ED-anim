@@ -1,0 +1,21 @@
+Нужно чтобы эдитор примерно это делал:
+
+$thresholdMB = 100
+$thresholdBytes = $thresholdMB * 1MB
+Get-ChildItem -Path "." -Recurse -File | Where-Object {
+    $_.Length -gt $thresholdBytes
+} | Sort-Object Length -Descending | ForEach-Object {
+    [PSCustomObject]@{
+        SizeMB = "{0:N2}" -f ($_.Length / 1MB)
+        Path   = $_.FullName
+    }
+} | Format-Table -AutoSize
+
+- Все через юнити проджект
+- Добавь поле с трешолдом размреа файла, дефолт 100
+- Выведи список всех файлов, список сворачиваемый.
+- В списке отобрази пути до файлов\префабов
+- поиск в папке Assets
+- Объекты в списке кликабельный, при клике по ним в окне Project редактора должен подсвечиваться файл.
+- группироуй файлы по расширению, каждая группа сворачивается
+-Assets\AITools\AIEditorWindowTool\FindBigSizeFiles.cs(34,30): error CS0507: 'FindBigSizeFiles.OnGUI()': cannot change access modifiers when overriding 'protected' inherited member 'AIEditorWindow.OnGUI()'

@@ -1,0 +1,9 @@
+﻿component Way {
+    byte id;
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<FPVector3> Points;
+}
+
+global {
+    list<Way> Ways;
+}

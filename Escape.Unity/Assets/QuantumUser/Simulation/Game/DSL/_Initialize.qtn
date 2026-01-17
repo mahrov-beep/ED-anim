@@ -1,0 +1,12 @@
+﻿// тут данные которые нужны тока в момент инициализации
+// и просто потом они больше не нужны
+// если добавлять их просто в global то это увеличит размер Frame в памяти
+// если добавлять их где-то еще, они будут не детерменированы
+// а так эти данные можно протаскивать по симуляции
+// singleton чтобы не редактировать размер чанка в квантуме и не париться с доступом
+singleton component InitializeData {
+    FP FeelRoomWithBotDelay;
+    
+    [AllocateOnComponentAdded, FreeOnComponentRemoved]
+    list<entity_ref> NotUsedPlayerSpawnPoints;
+}

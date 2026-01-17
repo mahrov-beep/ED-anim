@@ -1,0 +1,111 @@
+---
+key: "gunsmith_loadout_A_1"
+gunsmith: "gunsmith_1"
+min_level: 1
+max_level: 3
+enable_on_level: 1
+buy_cost: { "loadout_tickets": 1 }
+primary_weapon: "item_weapon_AR_common_ammoCommon"
+backpack: "item_backpack_common"
+trash: [ "item_ammoBox_rifle_common", "item_ammoBox_rifle_common", "item_ammoBox_rifle_common", "item_healBox_small" ]
+---
+key: "gunsmith_loadout_B_1"
+gunsmith: "gunsmith_1"
+min_level: 1
+max_level: 3
+enable_on_level: 2
+buy_cost: { "loadout_tickets": 1 }
+primary_weapon: "item_weapon_pistol_common_ammoCommon"
+backpack: "item_backpack_common"
+helmet: "item_helmet_light_common"
+armor: "item_armor_light_common"
+trash: [ "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_healBox_small" ]
+---
+key: "gunsmith_loadout_C_1"
+gunsmith: "gunsmith_1"
+min_level: 1
+max_level: 3
+enable_on_level: 3
+buy_cost: { "loadout_tickets": 1 }
+primary_weapon: "item_weapon_pp_common_ammoCommon_muzzleCommon_scopeCommon"
+backpack: "item_backpack_common"
+skin: "item_ability_grenade"
+trash: [ "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common", "item_ammoBox_pistol_common" ]
+---
+key: "gunsmith_loadout_A_2"
+gunsmith: "gunsmith_1"
+min_level: 4
+max_level: 4
+buy_cost: { "loadout_tickets": 1 }
+primary_weapon: "item_weapon_AR_common_ammoCommon"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_B_2"
+gunsmith: "gunsmith_1"
+min_level: 4
+max_level: 4
+buy_cost: { "loadout_tickets": 2 }
+primary_weapon: "item_weapon_pp_common_ammoCommon_muzzleCommon_scopeCommon"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_C_2"
+gunsmith: "gunsmith_1"
+min_level: 4
+max_level: 4
+buy_cost: { "loadout_tickets": 2 }
+primary_weapon: "item_weapon_machingun_common"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_A_3"
+gunsmith: "gunsmith_1"
+min_level: 5
+max_level: 5
+buy_cost: { "loadout_tickets": 2 }
+primary_weapon: "item_weapon_AR_uncommon_ammoCommon"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_B_3"
+gunsmith: "gunsmith_1"
+min_level: 5
+max_level: 5
+buy_cost: { "loadout_tickets": 2 }
+primary_weapon: "item_weapon_pp_uncommon_ammoCommon"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_C_3"
+gunsmith: "gunsmith_1"
+min_level: 5
+max_level: 5
+buy_cost: { "loadout_tickets": 3 }
+primary_weapon: "item_weapon_machingun_uncommon"
+backpack: "item_backpack_common"
+---
+key: "gunsmith_loadout_A_4"
+gunsmith: "gunsmith_1"
+min_level: 6
+max_level: 6
+buy_cost: { "loadout_tickets": 2 }
+primary_weapon: "item_weapon_AR_uncommon_ammoCommon"
+backpack: "item_backpack_common"
+perk1: "item_perk_speedUp"
+trash: [ "item_healBox_small" ]
+---
+key: "gunsmith_loadout_B_4"
+gunsmith: "gunsmith_1"
+min_level: 6
+max_level: 6
+buy_cost: { "loadout_tickets": 3 }
+primary_weapon: "item_weapon_pp_uncommon_ammoCommon"
+backpack: "item_backpack_common"
+perk1: "item_perk_speedUp"
+trash: [ "item_healBox_small" ]
+---
+key: "gunsmith_loadout_C_4"
+gunsmith: "gunsmith_1"
+min_level: 6
+max_level: 6
+buy_cost: { "loadout_tickets": 3 }
+primary_weapon: "item_weapon_machingun_uncommon"
+backpack: "item_backpack_common"
+perk1: "item_perk_speedUp"
+trash: [ "item_healBox_small" ]

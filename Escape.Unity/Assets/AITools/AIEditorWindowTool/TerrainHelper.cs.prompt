@@ -1,0 +1,42 @@
+Создай EditorWindow в Unity C#, назови TerrainHelper.
+
+Функции:
+- Автоматически выбирает активный Terrain из Selection.
+- В начале окна добавь выпадающий список (Popup) с валидными значениями heightmapResolution: 33, 65, 129, 257, 513, 1025, 2049, 4097.
+- Если выбранное разрешение отличается от текущего, покажи кнопку "Применить новое разрешение карты высот".
+- При нажатии: применить новое разрешение к `terrainData.heightmapResolution`, вызвать `Undo`, сохранить `size`, вызвать `EditorUtility.SetDirty`.
+
+Интерфейс:
+- Весь контент должен быть в скролл-контейнере.
+- Если Terrain не выбран — показать предупреждение.
+- Отображать максимум информации о Terrain:
+  - Имя, позиция, размер (size), heightmapResolution.
+  - Кол-во вершин (heightmapResolution * heightmapResolution).
+  - Alphamap: кол-во слоёв, разрешение.
+  - BaseMap Resolution.
+  - Detail Resolution, кол-во detail-прототипов.
+  - Деревья: кол-во типов и инстансов.
+  - Материал.
+  - Максимальная высота.
+  - wavingGrass параметры.
+  - Поддерживает ли Terrain Holes (если версия Unity >= 2019.3).
+
+Отдельно секция:
+- QuantumStaticTerrainCollider3D (если компонент есть на Terrain):
+  - Asset.Resolution
+  - Длина Asset.HeightMap
+  - Asset.Position и Scale (Vector3)
+  - Длина Asset.HoleMask
+  - SmoothSphereMeshCollisions
+  - Settings.MutableMode
+
+В конце добавь секцию "Данные доступные в Runtime", с перечислением:
+- Размер Terrain (размеры)
+- Разрешение высотной карты
+- Масштаб высотной карты
+- Количество слоёв Alphamap
+- Разрешение Alphamap
+- Количество деталей и деревьев
+- Базовое разрешение карты
+- Материал Terrain
+- Позиция и максимальная высота Terrain

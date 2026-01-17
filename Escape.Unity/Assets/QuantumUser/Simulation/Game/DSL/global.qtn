@@ -1,0 +1,10 @@
+#pragma constants_class_name QConstants
+
+global {
+    bool CharacterLoadoutModificationEventEnabled;
+    dictionary<int, GlobalVisibilityData> VisibleUnitsByTeam;   
+}
+
+struct GlobalVisibilityData {
+    hash_set<entity_ref> visibleUnits;
+}

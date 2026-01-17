@@ -1,0 +1,17 @@
+﻿#define MAX_TEAM_SIZE 3
+struct TeamData
+{
+    ulong PartyKeyHash;
+    entity_ref TeamSpawnPoint;
+    entity_ref TeamExitZoneRef;
+}
+
+component Team
+{
+	byte Index;	
+}
+
+global
+{
+	list<TeamData> TeamsData;
+}

@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2eed872e10d84077af0ff4d81273ad4c, type: 3}
+  m_Name: item_ability_spawnTurret_common
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ability_spawnTurret_common
+    Guid:
+      Value: 431878914861255080
+  icon: item_ability_turret
+  iconLarge: 
+  dropOnDeath: 1
+  addToLoadoutAfterFail: 0
+  excludeFromDropBuilders: 0
+  excludeFromItemBoxes: 0
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 08000000
+  inputBuffer:
+    RawValue: 9831
+  delay:
+    RawValue: 9831
+  durationSec:
+    RawValue: 16384
+  cooldownSec:
+    RawValue: 262144
+  castDirectionType: 4
+  startCooldownAfterDelay: 0
+  onActivateEffects: []
+  onStopEffects: []
+  animationDuration:
+    RawValue: 0
+  skillName: Turret
+  spawnPrototype:
+    Id:
+      Value: 1307311251216615118
+  lifetimeSec:
+    RawValue: 1310720
+  spawnDirectionMultiplayer:
+    RawValue: 196608
+  AssignTeam: 1
+  alignToCastDirection: 1
+  previewMesh: {fileID: 4300000, guid: 6e5c8a4d24e6c064da6e5e90b0f7c308, type: 2}
+  previewMaterial: {fileID: 2100000, guid: a34cb11ad5dfc574c93ef599ca087947, type: 2}
+  previewScaleFP:
+    X:
+      RawValue: 22938
+    Y:
+      RawValue: 22938
+    Z:
+      RawValue: 22938
+  previewRotationOffsetDegFP:
+    X:
+      RawValue: 0
+    Y:
+      RawValue: 0
+    Z:
+      RawValue: 0

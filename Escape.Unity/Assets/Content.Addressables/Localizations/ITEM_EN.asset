@@ -1,0 +1,112 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: ITEM_EN
+  m_EditorClassIdentifier: 
+  page: ITEM
+  lang: EN
+  values:
+  - Compensator I
+  - Compensator II
+  - Compensator III
+  - Compensator IV
+  - Compensator V
+  - Silenser I
+  - Slienser II
+  - Silenser III
+  - Silenser IV
+  - Silenser V
+  - Handle I
+  - Handle II
+  - Handle III
+  - Handle IV
+  - Handle V
+  - Magazine I
+  - Magazine II
+  - Magazine III
+  - Magazine IV
+  - Magazine V
+  - Scope I
+  - Scope II
+  - Scope III
+  - Scope IV
+  - Scope V
+  - Laser I
+  - Laser II
+  - Laser III
+  - Laser IV
+  - Laser V
+  - Stock I
+  - Stock II
+  - Stock III
+  - Stock IV
+  - Stock V
+  - Heal Ability
+  - Roll Ability
+  - Turret Ability
+  - Explode Ability
+  - Grenade Ability
+  - Energy Drink
+  - Smoke Grenade
+  - Big Aid Kit
+  - Small Aid Kit
+  - Rebirth Ticket
+  - Speed Up Perk
+  - AK 74
+  - SCAR
+  - HK 433
+  - M4
+  - RK 62
+  - RPK
+  - M246
+  - RPK-G
+  - M246 II
+  - RPK II
+  - M444
+  - SPAS
+  - M444 II
+  - SPAS-m
+  - M444-E
+  - DMR
+  - AWM
+  - M1A
+  - MK 18 Mjolnir
+  - Big Sniper Gun
+  - MP7
+  - MPX
+  - Vector
+  - UMP
+  - Scorpion
+  - Glock
+  - Beretta
+  - 'TACOPS '
+  - Ruger
+  - Deagle
+  - knife
+  - Light Ammo I
+  - Shotgun Ammo I
+  - Medium Ammo I
+  - Heavy Ammo I
+  - Light Ammo IV
+  - Shotgun Ammo IV
+  - Medium Ammo IV
+  - Heavy Ammo IV
+  - Headphones I
+  - Headphones II
+  - Headphones III
+  - Headphones IV
+  - Headphones V
+  - Safe I
+  - Safe II
+  - Safe III
+  - Safe IV
+  - Safe V

@@ -1,0 +1,18 @@
+﻿component Turret {
+  FP RotationAnglesPerSecond;
+  FP AttackZoneAngles;
+  
+  [Header("Сюда ставить требуемый префаб зоны детекта врагов")]
+  //может быть использовано и для прокачки скила, 
+  //типа скил второго уровня спаунит турель с большим радиусом
+  asset_ref<EntityPrototype> TriggerAreaPrototype;
+  asset_ref<WeaponItemAsset> WeaponConfig;
+  
+  // установленный в entity_ref объект заспауниться как отдельная энтити, 
+  // если объект запечен на сцене,
+  // иначе поле будет None. 
+  // Поэтому ExcludeFromPrototype и спауним в другом месте
+  [ExcludeFromPrototype] entity_ref Owner;
+  [ExcludeFromPrototype] entity_ref TriggerAreaEntity;
+  [ExcludeFromPrototype] entity_ref CurrentTarget;
+}

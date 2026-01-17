@@ -1,0 +1,88 @@
+---
+key: "Crypt_Pack_1"
+item_type: "IapPurchase"
+category: "crypt"
+ui_prefab: "ui/Purchases/Items/Purchases Iap Item"
+store_group: "hard"
+iap_purchase_key: "Crypt_Pack_1"
+extra_drops: [ { "type": "currency", "currency": "crypt", "amount": 100 } ]
+---
+key: "Crypt_Pack_2"
+item_type: "IapPurchase"
+category: "crypt"
+ui_prefab: "ui/Purchases/Items/Purchases Iap Item"
+store_group: "hard"
+iap_purchase_key: "Crypt_Pack_2"
+extra_drops: [ { "type": "currency", "currency": "crypt", "amount": 300 } ]
+---
+key: "Crypt_Pack_3"
+item_type: "IapPurchase"
+category: "crypt"
+ui_prefab: "ui/Purchases/Items/Purchases Iap Item"
+store_group: "hard"
+iap_purchase_key: "Crypt_Pack_3"
+extra_drops: [ { "type": "currency", "currency": "crypt", "amount": 700 } ]
+---
+key: "Crypt_Pack_4"
+item_type: "IapPurchase"
+category: "crypt"
+ui_prefab: "ui/Purchases/Items/Purchases Iap Item"
+store_group: "hard"
+iap_purchase_key: "Crypt_Pack_4"
+extra_drops: [ { "type": "currency", "currency": "crypt", "amount": 2000 } ]
+---
+key: "Badges_Pack_1"
+item_type: "CurrencyPurchase"
+category: "badges"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Badges_Pack_1"
+---
+key: "Badges_Pack_2"
+item_type: "CurrencyPurchase"
+category: "badges"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Badges_Pack_2"
+---
+key: "Badges_Pack_3"
+item_type: "CurrencyPurchase"
+category: "badges"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Badges_Pack_3"
+---
+key: "Badges_Pack_4"
+item_type: "CurrencyPurchase"
+category: "badges"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Badges_Pack_4"
+---
+key: "Bucks_Pack_1"
+item_type: "CurrencyPurchase"
+category: "bucks"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Bucks_Pack_1"
+---
+key: "Bucks_Pack_2"
+item_type: "CurrencyPurchase"
+category: "bucks"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Bucks_Pack_2"
+---
+key: "Bucks_Pack_3"
+item_type: "CurrencyPurchase"
+category: "bucks"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Bucks_Pack_3"
+---
+key: "Bucks_Pack_4"
+item_type: "CurrencyPurchase"
+category: "bucks"
+ui_prefab: "ui/Purchases/Items/Purchases Currency Item"
+store_group: "currencies"
+currency_purchase_key: "Bucks_Pack_4"

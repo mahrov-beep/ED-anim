@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53a59a407fee49e0b715eb67dae20e9c, type: 3}
+  m_Name: STAT_KEY
+  m_EditorClassIdentifier: 
+  page: STAT
+  lang: KEY
+  values:
+  - STAT_NAME_None
+  - STAT_NAME_PercentBoost_MoveSpeed
+  - STAT_NAME_PercentBoost_SprintSpeed
+  - STAT_NAME_PercentBoost_ShootingSpread
+  - STAT_NAME_PercentBoost_ShootingSpreadInMovement
+  - STAT_NAME_PercentBoost_MaxAmmo
+  - STAT_NAME_PercentBoost_ProjectileSpeed
+  - STAT_NAME_PercentBoost_WeaponReloadDuration
+  - STAT_NAME_PercentBoost_WeaponTriggerDistance
+  - STAT_NAME_PercentBoost_WeaponDamage
+  - STAT_NAME_PercentBoost_WeaponDistanceDamage
+  - STAT_NAME_PercentBoost_WeaponCameraOffset
+  - STAT_NAME_PercentBoost_CameraOffset
+  - STAT_NAME_PercentBoost_FOWVisionDistance
+  - STAT_NAME_PercentBoost_ResistAllDamage
+  - STAT_NAME_PercentBoost_ResistBullet
+  - STAT_NAME_PercentBoost_ResistFire
+  - STAT_NAME_PercentBoost_ResistExplosion
+  - STAT_NAME_PercentBoost_CritChance
+  - STAT_NAME_PercentBoost_CritDamage
+  - STAT_NAME_PercentBoost_RecoilX
+  - STAT_NAME_PercentBoost_RecoilY
+  - STAT_NAME_PercentBoost_ShotImpulse
+  - STAT_NAME_PercentBoost_PreShotAiming
+  - STAT_NAME_PercentBoost_ResistMelee
+  - STAT_NAME_AdditiveBoost_MaxWeight
+  - STAT_NAME_w_shot_sound_range
+  - STAT_NAME_w_damage
+  - STAT_NAME_w_spread_angle
+  - STAT_NAME_w_reloading_time
+  - STAT_NAME_w_attack_distance
+  - STAT_NAME_w_time_per_shot
+  - STAT_NAME_w_trigger_angle
+  - STAT_NAME_w_max_ammo
+  - STAT_NAME_w_projectile_speed
+  - STAT_NAME_w_distance_damage
+  - STAT_NAME_w_shooting_spread_in_movement
+  - STAT_NAME_w_crit_chance
+  - STAT_NAME_w_crit_damage
+  - STAT_NAME_w_pre_shot_aiming_seconds
+  - STAT_NAME_w_recoil_x
+  - STAT_NAME_w_recoil_y
+  - STAT_NAME_HEAL
+  - STAT_NAME_USED
+  - STAT_NAME_PercentBoost_AudioDistance
+  - STAT_NAME_PercentBoost_AudioVolume

@@ -1,0 +1,219 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b35498e0f53d47c98b1aa34c8b79d9c4, type: 3}
+  m_Name: LPSP Character Config
+  m_EditorClassIdentifier: 
+  localViewLayer: 9
+  remotePlayerLayer: 0
+  LocalViewCameraHeights:
+    Normal:
+      Offset: {x: 0, y: -0.25, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    CrouchIdle:
+      Offset: {x: 0, y: -0.8, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    CrouchMove:
+      Offset: {x: 0, y: -0.5, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    Died:
+      Offset: {x: 0, y: -1.5, z: 0}
+      Spring:
+        damping: 100
+        stiffness: 200
+        mass: 1
+        speed: 1
+    Knocked:
+      Offset: {x: 0, y: -1, z: 0}
+      Spring:
+        damping: 100
+        stiffness: 200
+        mass: 1
+        speed: 1
+    Roll:
+      Offset: {x: 0, y: -1, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+  RemotePlayerCameraHeight:
+    Normal:
+      Offset: {x: 0, y: 0, z: 0}
+      Spring:
+        damping: 25
+        stiffness: 150
+        mass: 1
+        speed: 1
+    CrouchIdle:
+      Offset: {x: 0.1, y: 0.1, z: -0.6}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    CrouchMove:
+      Offset: {x: 0.05, y: 0.05, z: -0.4}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    Died:
+      Offset: {x: 0, y: 0, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    Knocked:
+      Offset: {x: 0, y: 0, z: 0}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+    Roll:
+      Offset: {x: 0, y: 0.25, z: -0.9}
+      Spring:
+        damping: 15
+        stiffness: 150
+        mass: 1
+        speed: 1
+  walkingMultiplierForward: 1
+  walkingMultiplierSideways: 0.9
+  walkingMultiplierBackwards: 0.9
+  dampTimeTurning: 0.4
+  dampTimeLocomotion: 0.25
+  dampTimeAiming: 0.08
+  runningInterpolationSpeed: 5
+  aimingSpeedMultiplier: 0.9
+  fieldOfView: 60
+  fieldOfViewRunningMultiplier: 1.1
+  fieldOfViewWeapon: 80
+  audioClipsMelee:
+    clips: []
+    volumeScale: 1
+  audioClipsGrenadeThrow:
+    clips:
+    - {fileID: 8300000, guid: 4cf3d4b6124c56844a5db19cc7df74fc, type: 3}
+    - {fileID: 8300000, guid: 35aa15aa460d5704383e356a55b0b147, type: 3}
+    - {fileID: 8300000, guid: 66e20a1df4a8a004e9e3eec624d38c28, type: 3}
+    - {fileID: 8300000, guid: 058ad0f0e88b6054990c6e98008ae4ea, type: 3}
+    volumeScale: 1
+  audioClipsStep:
+    clips:
+    - {fileID: 8300000, guid: 2f18a5b0843ee9a4f8ddbe910b81836d, type: 3}
+    - {fileID: 8300000, guid: ab8034dec6b182c4380cd3e817ff50f6, type: 3}
+    - {fileID: 8300000, guid: 7b46dea209726464ebaa93a69f66c8c8, type: 3}
+    - {fileID: 8300000, guid: 71e038bedd1c46640872dae14ce415d5, type: 3}
+    - {fileID: 8300000, guid: 0a13db7f8740a7d49a4a45009dc67d44, type: 3}
+    - {fileID: 8300000, guid: 2d43313a4fa60c34183617884ee6af0a, type: 3}
+    - {fileID: 8300000, guid: b371be864e3d7824da9ac19992b0a64c, type: 3}
+    - {fileID: 8300000, guid: c969484998c589b44b3a620db6558190, type: 3}
+    - {fileID: 8300000, guid: 49c3741e0a010b14fa9b6b30c8f66a30, type: 3}
+    - {fileID: 8300000, guid: 6cbd498fd5cedbc439cecb7184326ce3, type: 3}
+    volumeScale: 0.4
+  audioClipsStepCrouching:
+    clips:
+    - {fileID: 8300000, guid: 2f18a5b0843ee9a4f8ddbe910b81836d, type: 3}
+    - {fileID: 8300000, guid: ab8034dec6b182c4380cd3e817ff50f6, type: 3}
+    - {fileID: 8300000, guid: 7b46dea209726464ebaa93a69f66c8c8, type: 3}
+    - {fileID: 8300000, guid: 71e038bedd1c46640872dae14ce415d5, type: 3}
+    - {fileID: 8300000, guid: 0a13db7f8740a7d49a4a45009dc67d44, type: 3}
+    - {fileID: 8300000, guid: 2d43313a4fa60c34183617884ee6af0a, type: 3}
+    - {fileID: 8300000, guid: b371be864e3d7824da9ac19992b0a64c, type: 3}
+    - {fileID: 8300000, guid: c969484998c589b44b3a620db6558190, type: 3}
+    - {fileID: 8300000, guid: 49c3741e0a010b14fa9b6b30c8f66a30, type: 3}
+    - {fileID: 8300000, guid: 6cbd498fd5cedbc439cecb7184326ce3, type: 3}
+    volumeScale: 0.2
+  audioClipStepRunning:
+    clips:
+    - {fileID: 8300000, guid: 2f18a5b0843ee9a4f8ddbe910b81836d, type: 3}
+    - {fileID: 8300000, guid: ab8034dec6b182c4380cd3e817ff50f6, type: 3}
+    - {fileID: 8300000, guid: 7b46dea209726464ebaa93a69f66c8c8, type: 3}
+    - {fileID: 8300000, guid: 71e038bedd1c46640872dae14ce415d5, type: 3}
+    - {fileID: 8300000, guid: 0a13db7f8740a7d49a4a45009dc67d44, type: 3}
+    - {fileID: 8300000, guid: 2d43313a4fa60c34183617884ee6af0a, type: 3}
+    - {fileID: 8300000, guid: b371be864e3d7824da9ac19992b0a64c, type: 3}
+    - {fileID: 8300000, guid: c969484998c589b44b3a620db6558190, type: 3}
+    - {fileID: 8300000, guid: 49c3741e0a010b14fa9b6b30c8f66a30, type: 3}
+    - {fileID: 8300000, guid: 6cbd498fd5cedbc439cecb7184326ce3, type: 3}
+    volumeScale: 0.8
+  audioClipsAimStart:
+    clips:
+    - {fileID: 8300000, guid: 6cac44df5154df04498bd03219ebc6b7, type: 3}
+    volumeScale: 1
+  audioClipsAimStop:
+    clips:
+    - {fileID: 8300000, guid: 6cac44df5154df04498bd03219ebc6b7, type: 3}
+    volumeScale: 0.5
+  audioClipsJumpStart:
+    clips:
+    - {fileID: 8300000, guid: 8155e6a029ee2224f931799a47165055, type: 3}
+    volumeScale: 0.8
+  audioClipsJumpLand:
+    clips:
+    - {fileID: 8300000, guid: 1989b6a00e33b114298b118fe8b805c7, type: 3}
+    volumeScale: 0.6
+  minimalTimeForGroundedAudio: 0.2
+  audioClipsHit:
+    clips:
+    - {fileID: 8300000, guid: 3702baf84acaaf94f8f4cd1f6e084571, type: 3}
+    - {fileID: 8300000, guid: 184531dd3c751c34ab29543d838d9aa6, type: 3}
+    - {fileID: 8300000, guid: 1d930428a41380644944a3bc65cbaa75, type: 3}
+    - {fileID: 8300000, guid: 381b5b9855d662c4aa4f5d983b7055c8, type: 3}
+    - {fileID: 8300000, guid: 2ba1550c1c5622e43866436a86c021b2, type: 3}
+    volumeScale: 0.7
+  audioClipsDied:
+    clips:
+    - {fileID: 8300000, guid: 46ac50dc16fe09e428048af707fc10e8, type: 3}
+    - {fileID: 8300000, guid: dbbdba9e49c2a0c44a850e4a7ed5cbbc, type: 3}
+    - {fileID: 8300000, guid: 08fb738fa79541849a054ec90a1cd124, type: 3}
+    volumeScale: 1
+  audioHitEnemy:
+    clips: []
+    volumeScale: 0.7
+  audioHeadshotEnemy:
+    clips:
+    - {fileID: 8300000, guid: 46d6b8da8cd133045b5c4ef63a778693, type: 3}
+    - {fileID: 8300000, guid: 7482c811537808a48b8930d004132b3d, type: 3}
+    - {fileID: 8300000, guid: e8c31b157c89b6947a01843317495a0f, type: 3}
+    - {fileID: 8300000, guid: 1d52ab7d630adc34dbfbcc5833b34790, type: 3}
+    - {fileID: 8300000, guid: 138801a64ec7a1a468b5d59ce8b1fd90, type: 3}
+    - {fileID: 8300000, guid: d9c5109b177c3d04eba0e1497376c0f3, type: 3}
+    - {fileID: 8300000, guid: 91554aa28a5e60f48a7c1a4635f0a66d, type: 3}
+    - {fileID: 8300000, guid: 8af367f08bb237941bf186335cbbb47b, type: 3}
+    volumeScale: 1.5
+  audioClipsHealing:
+    clips:
+    - {fileID: 8300000, guid: d27a2e44405bd5e479061aa3ea89c3c5, type: 3}
+    volumeScale: 1
+  audioClipsCrouchDown:
+    clips:
+    - {fileID: 8300000, guid: 25e210a49307b124b942ac7a331d335a, type: 3}
+    volumeScale: 1
+  audioClipsCrouchUp:
+    clips:
+    - {fileID: 8300000, guid: bbccd2f9b712875449b80dd8040857c4, type: 3}
+    volumeScale: 1

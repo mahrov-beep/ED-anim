@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7c7d04a7e1f4be2a9100ec35ed0330d, type: 3}
+  m_Name: FloatingTextConfig
+  m_EditorClassIdentifier: 
+  <MeleeDamage>k__BackingField: {fileID: 299282384537048407, guid: 160ac280da11a924db4ae0f746bde277, type: 3}
+  <BulletDamage>k__BackingField: {fileID: 299282384537048407, guid: 160ac280da11a924db4ae0f746bde277, type: 3}
+  <BulletDamageCritical>k__BackingField: {fileID: 299282384537048407, guid: 37c8d0035ee04114d859250e7e1475b3, type: 3}
+  <ExplosionDamage>k__BackingField: {fileID: 1500348362870353982, guid: 1776a9ec20cad1f4a9702c13d8b487c0, type: 3}
+  <ExplosionDamageCritical>k__BackingField: {fileID: 1500348362870353982, guid: 1776a9ec20cad1f4a9702c13d8b487c0, type: 3}
+  <Heal>k__BackingField: {fileID: 6571057828113647388, guid: 284342f9a2add614698c51465182d8db, type: 3}
+  <FireDamage>k__BackingField: {fileID: 1500348362870353982, guid: 1776a9ec20cad1f4a9702c13d8b487c0, type: 3}

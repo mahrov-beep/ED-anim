@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f322abbc734d95ab0f0a0855f33014, type: 3}
+  m_Name: Base RC
+  m_EditorClassIdentifier: 
+  options: 0
+  isTemplate: 1
+  template: {fileID: 11400000, guid: 09c4468bf38f3594c8c27e874259decb, type: 2}
+  scriptingDefineSymbols:
+  - enabled: 1
+    symbol: REVENUE_CAT_ALLOW_SANDBOX
+  - enabled: 1
+    symbol: FEATURE_TOGGLES_SHOW_SELECTOR_UI
+  - enabled: 1
+    symbol: USER_DATA_SHOW_SELECTOR_UI
+  - enabled: 0
+    symbol: QUANTUM_LOGLEVEL_TRACE
+  - enabled: 0
+    symbol: QUANTUM_LOGLEVEL_INFO
+  - enabled: 0
+    symbol: QUANTUM_LOGLEVEL_WARN
+  preBuildSteps:
+  - rid: 5532385222029213736
+  postBuildSteps: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 5532385222029213736
+      type: {class: LunarConsoleSetEnabled, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 1
+        buildStepOrder: 0
+        enabled: 1

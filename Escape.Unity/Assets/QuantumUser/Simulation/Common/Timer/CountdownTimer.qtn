@@ -1,0 +1,5 @@
+﻿struct CountdownTimer {
+    QBoolean IsStarted;
+    FP StartTime;
+    FP TimeLeftRaw;
+}

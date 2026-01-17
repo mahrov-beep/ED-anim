@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c807c614ae1469e86012720fed8d47e, type: 3}
+  m_Name: item_ability_roll
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Items/item_ability_roll
+    Guid:
+      Value: 496130192530543669
+  icon: item_ability_roll
+  iconLarge: 
+  dropOnDeath: 1
+  rarityEffects:
+    Id:
+      Value: 0
+  persistentEffects: []
+  validSlots: 08000000
+  inputBuffer:
+    RawValue: 0
+  delay:
+    RawValue: 0
+  durationSec:
+    RawValue: 65536
+  cooldownSec:
+    RawValue: 983040
+  castDirectionType: 2
+  startCooldownAfterDelay: 0
+  onActivateEffects:
+  - Name: 
+    AttributeType: 32
+    Value:
+      RawValue: 4587520
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 22938
+  - Name: 
+    AttributeType: 103
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 65536
+  - Name: 
+    AttributeType: 102
+    Value:
+      RawValue: 65536
+    Operation: 1
+    Appliance: 3
+    Duration:
+      RawValue: 65536
+  onStopEffects: []
+  animationDuration:
+    RawValue: 0
+  skillName: 
+  height: 1
+  width: 1

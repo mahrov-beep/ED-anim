@@ -1,0 +1,9 @@
+﻿component UnitAim {    
+    [ExcludeFromPrototype] EntityRef AimEntity;
+       
+    [ExcludeFromPrototype] FPYawPitchRoll AimCurrentRotation;
+    [ExcludeFromPrototype] FPVector3 AimCurrentRotationVelocity;
+    
+    [ExcludeFromPrototype] FPVector3 AimCurrentPosition;
+    [ExcludeFromPrototype] FPVector3 AimCurrentPositionVelocity;
+}

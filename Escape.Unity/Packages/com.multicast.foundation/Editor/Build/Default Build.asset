@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4f322abbc734d95ab0f0a0855f33014, type: 3}
+  m_Name: Default Build
+  m_EditorClassIdentifier: 
+  options: 0
+  isTemplate: 1
+  template: {fileID: 0}
+  scriptingDefineSymbols:
+  - enabled: 0
+    symbol: MORPEH_DEBUG
+  - enabled: 0
+    symbol: MORPEH_PROFILING
+  - enabled: 1
+    symbol: LUNAR_CONSOLE_ANALYTICS_DISABLED
+  - enabled: 1
+    symbol: MORPEH_DISABLE_SERIALIZATION
+  - enabled: 1
+    symbol: MORPEH_NON_SERIALIZED
+  preBuildSteps:
+  - rid: 5532385222029213722
+  - rid: 5532385222029213731
+  - rid: 5532385222029213728
+  - rid: 5532385222029213725
+  - rid: 5532385880769560578
+  - rid: 5532385880769560577
+  - rid: 5532385222029213727
+  - rid: 5409232563116441600
+  - rid: 762103427544645632
+  - rid: 5532385222029213729
+  - rid: 5532385222029213726
+  - rid: 5532385222029213721
+  postBuildSteps:
+  - rid: 5532385222029213716
+  references:
+    version: 2
+    RefIds:
+    - rid: 762103427544645632
+      type: {class: ReimportTmpSpriteAssets, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5409232563116441600
+      type: {class: MoveTmpSettingsToAddressables, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 0
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213716
+      type: {class: AddressablesClearCachedHash, ns: Multicast.Build.PostBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213721
+      type: {class: AddressablesBuildPlayerContent, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213722
+      type: {class: AddressablesImporterRun, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213725
+      type: {class: DisableUnityLogo, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213726
+      type: {class: FixDuplicatesInBundles, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213727
+      type: {class: LunarConsoleSetEnabled, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+        enabled: 0
+    - rid: 5532385222029213728
+      type: {class: OdinValidateProject, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213729
+      type: {class: PackSpriteAtlases, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385222029213731
+      type: {class: UnitTestsRun, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+    - rid: 5532385880769560577
+      type: {class: SetBuildVersion, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 1
+        buildStepMode: 0
+        buildStepOrder: 0
+        buildCodeOffset: 0
+    - rid: 5532385880769560578
+      type: {class: SetProductName, ns: Multicast.Build.PreBuildSteps, asm: Multicast.Foundation.Editor}
+      data:
+        buildStepEnabled: 0
+        buildStepMode: 0
+        buildStepOrder: 0
+        productName: Default

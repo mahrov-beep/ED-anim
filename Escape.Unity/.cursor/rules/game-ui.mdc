@@ -1,0 +1,63 @@
+---
+globs: src/Escape.Unity/Assets/Game.UI/**
+alwaysApply: false
+---
+## Game.UI — UniMob.UI architecture
+
+Brief: UI built on UniMob.UI. Layers: Widgets (state), Views (MonoBehaviour views), Controllers (navigation). Navigation via `Routes`, prefabs via `UiConstants.Views`.
+
+### Directories and roles
+- `Controllers/`: controllers based on `FlowController<TArgs>`, open screens via `UiScreenController`, manage modal layers; feature events are in `*FeatureEvents.cs`.
+- `Flows/`: legacy, not developed.
+- `Modules/`: DI composition; `GameMainModule` wires dependencies. Injection via `[Inject]`.
+- `Views/`: `AutoView<TState>`; only UI binding and state calls.
+- `Widgets/`: `StatefulWidget` + `ViewState<TWidget>`; `[Atom]`, `RenderChildT`.
+- `UiConstants.*.cs`: resource registry:
+  - `Views`: `WidgetViewReference.Addressable(path)` — reference to a prefab.
+  - `Routes`: `RouteSettings` with modality (`Fullscreen`/`Popup`).
+
+### Core model
+1. Widget creates State (`ViewState<TWidget>`), sets `View => UiConstants.Views.*`.
+2. View (`AutoView<TState>`) subscribes to State and updates UI in `Render()`.
+3. Controller opens screens: `new UiScreenControllerArgs { Route = UiConstants.Routes.*, Page = () => new XWidget() }`, manages lifecycle (`RunDisposable`, `DisposeAsync`, `Stop`).
+4. Navigation is separated from views/logic via `UiConstants.Routes`.
+5. DI via `[Inject]` from `GameMainModule`.
+
+### UniMob.UI specifics
+- Keep `Render()` lightweight, with no IO or long operations.
+- `AutoView` lifecycle: `Awake()` → `Activate()` → `Deactivate()`, `Render()` on reactive changes.
+- View events: `protected override AutoViewEventBinding[] Events => new[] { this.Event("name", action) };`.
+- `[Atom]` triggers recomputation and `Render()`.
+- Widgets are not `MonoBehaviour`; `AutoView` is `MonoBehaviour`, loaded via `WidgetViewReference`.
+- `UiScreenControllerArgs.Page` returns the root widget.
+- `RouteSettings`/`RouteModalType` come from `UniMob.UI.Widgets`.
+
+### How to add a screen
+1. Create prefab and add entry to `UiConstants.Views`.
+2. Add route to `UiConstants.Routes` (`Fullscreen`/`Popup`).
+3. `XWidget : StatefulWidget` and `XState : ViewState<XWidget>` with `[Atom]` and `View`.
+4. `XView : AutoView<IXState>` — bind UI and state methods.
+5. Controller/prompt if needed: open via `UiScreenControllerArgs`.
+6. Entry point — feature event/controller.
+
+### Patterns and conventions
+- Names: `XFeatureEvents`, `XFeatureController`, `XPromptController`, `XWidget`, `XState`, `XView`.
+- Composition: `RenderChildT`; expose `I*State` interfaces to Views.
+- Keep logic in State; Views have no business logic.
+- Screen lifecycle via `RunDisposable(...)` and proper `DisposeAsync()`. For dimming — `RunFadeScreenDisposable()`.
+- Touch legacy `Flows/` minimally.
+
+### Quick tips
+- View prefab: `UiConstants.Views.*` → path `ui/...`.
+- Route: `UiConstants.Routes.*` → `RouteModalType`.
+- Where the screen opens: search `UiScreenControllerArgs { Route = UiConstants.Routes.* ... }` or `RequestFlow`.
+- Button logic: the respective `*Widget` builds `MainMenuButtonWidget` and fires `<FeatureEvents>.Raise()`.
+- Data: `[Inject]` in `*State` comes from `GameMainModule`.
+
+### Glossary
+- `Widget` — API/parameters.
+- `State` — reactive state.
+- `View` — `AutoView<TState>`.
+- `Controller` — orchestration/navigation.
+- `Route` — `RouteSettings` with modality.
+- `UiConstants` — registry of Views/Routes.

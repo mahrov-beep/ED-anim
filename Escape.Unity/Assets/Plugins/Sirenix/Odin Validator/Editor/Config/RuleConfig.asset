@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1434321088, guid: afbf832bc46149f5a291e87cab63e46d, type: 3}
+  m_Name: RuleConfig
+  m_EditorClassIdentifier: 
+  projectRules:
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: ValidatorTextureMipmap, Assembly-CSharp
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|ValidatorTextureMipmap,
+      Assembly-CSharp\",\r\n    \"SettingsExpected\": {\r\n        \"$type\": \"1|ExpectedMipmapSettings,
+      Assembly-CSharp\",\r\n        \"MipmapsEnabled\": false,\r\n        \"Streaming\":
+      false,\r\n        \"Filter\": 0,\r\n        \"FadeStart\": 1,\r\n        \"FadeEnd\":
+      3,\r\n        \"FadeoutToGray\": false\r\n    },\r\n    \"Ignore\": {\r\n       
+      \"$id\": 1,\r\n        \"$type\": \"2|System.Collections.Generic.List`1[[UnityEngine.TextureFormat,
+      UnityEngine.CoreModule]], mscorlib\",\r\n        \"$rlength\": 1,\r\n       
+      \"$rcontent\": [\r\n            9\r\n        ]\r\n    }\r\n}"
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: ValidatorTextureCompression, Assembly-CSharp
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|ValidatorTextureCompression,
+      Assembly-CSharp\",\r\n    \"Android\": {\r\n        \"$type\": \"1|ExpectedSettings,
+      Assembly-CSharp\",\r\n        \"Format\": 52,\r\n        \"MaxSize\": 256,\r\n       
+      \"Quality\": 1\r\n    },\r\n    \"IOS\": {\r\n        \"$type\": 1,\r\n       
+      \"Format\": 52,\r\n        \"MaxSize\": 256,\r\n        \"Quality\": 1\r\n   
+      },\r\n    \"Ignore\": {\r\n        \"$id\": 1,\r\n        \"$type\": \"2|System.Collections.Generic.List`1[[UnityEngine.TextureFormat,
+      UnityEngine.CoreModule]], mscorlib\",\r\n        \"$rlength\": 1,\r\n       
+      \"$rcontent\": [\r\n            9\r\n        ]\r\n    },\r\n    \"AllowUpscale\":
+      false\r\n}"
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: ValidatorModelLods, Assembly-CSharp
+    Override: 
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: ValidatorModelCompression, Assembly-CSharp
+    Override: 
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: ImageMissingSpriteValidator, Assembly-CSharp-Editor
+    Override: "{\r\n    \"$id\": 0,\r\n    \"$type\": \"0|ImageMissingSpriteValidator,
+      Assembly-CSharp-Editor\",\r\n    \"NullSprite\": $fstrref:\"{\\\"guid\\\":\\\"b181f08b65d1f254b87e2dc192737de1\\\",\\\"IsBroken\\\":false,\\\"Type\\\":1,\\\"AssetPath\\\":\\\"Assets/Content.Assets.Escape/Sprites/Items/box.png\\\",\\\"SubAsset\\\":{\\\"AssetType\\\":{\\\"TypeName\\\":\\\"UnityEngine.Sprite,
+      UnityEngine.CoreModule\\\"},\\\"InstanceID\\\":65868,\\\"Index\\\":-1},\\\"Hierarchy\\\":{\\\"SubNames\\\":[],\\\"SubIndices\\\":[]},\\\"Component\\\":{\\\"ComponentIndex\\\":0,\\\"ComponentType\\\":{\\\"TypeName\\\":\\\"\\\"}},\\\"Name\\\":\\\"box\\\",\\\"ObjectType\\\":{\\\"TypeName\\\":\\\"UnityEngine.Sprite,
+      UnityEngine.CoreModule\\\"}}\"\r\n}"
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.DuplicateComponentsValidator, Sirenix.OdinValidator.Editor
+    Override: 
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: Sirenix.OdinInspector.Modules.Addressables.Editor.CheckResourcesToAddressableDuplicateDependenciesValidator,
+      Sirenix.OdinInspector.Modules.Unity.Addressables
+    Override: 
+  - Enabled: 0
+    EnabledOverridden: 1
+    Type: Sirenix.OdinInspector.Modules.Addressables.Editor.CheckDuplicateBundleDependenciesValidator,
+      Sirenix.OdinInspector.Modules.Unity.Addressables
+    Override: 
+  - Enabled: 1
+    EnabledOverridden: 1
+    Type: Sirenix.OdinValidator.Editor.Validators.BrokenPrefabConnectionValidator,
+      Sirenix.OdinValidator.Editor
+    Override: 

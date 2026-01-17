@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6688ac4b418e4d06a8b06a676ebdcc07, type: 3}
+  m_Name: item_drop_rare
+  m_EditorClassIdentifier: 
+  Identifier:
+    Path: QuantumUser/Resources/Configs/Item Drop Builders/item_drop_rare
+    Guid:
+      Value: 482127643850465879
+  itemDropBuilders:
+  - builder:
+      rid: 6362054961716789248
+  references:
+    version: 2
+    RefIds:
+    - rid: 6362054961716789248
+      type: {class: ItemDropBuilders/ProbabilityItems, ns: Quantum, asm: Quantum.Simulation}
+      data:
+        dropProbability:
+          RawValue: 6553600
+        dropProbabilityDecrease:
+          RawValue: 983040
+        items:
+        - item:
+            asset:
+              Id:
+                Value: 459473216141025159
+            attachments: []
+          probability:
+            RawValue: 5898240
+        - item:
+            asset:
+              Id:
+                Value: 507083881884591000
+            attachments: []
+          probability:
+            RawValue: 5242880
+        - item:
+            asset:
+              Id:
+                Value: 488889697728622336
+            attachments: []
+          probability:
+            RawValue: 4587520
+        - item:
+            asset:
+              Id:
+                Value: 522333512769849501
+            attachments: []
+          probability:
+            RawValue: 3276800
+        - item:
+            asset:
+              Id:
+                Value: 405212191568325041
+            attachments: []
+          probability:
+            RawValue: 1310720
+        - item:
+            asset:
+              Id:
+                Value: 386214275286708175
+            attachments: []
+          probability:
+            RawValue: 655360

@@ -1,0 +1,36 @@
+{
+    "name": "CodeWriter.ViewBinding.Extras",
+    "rootNamespace": "",
+    "references": [
+        "UniMob",
+        "CodeWriter.ViewBinding",
+        "CodeWriter.ViewBinding.Applicators",
+        "BrunoMikoski.AnimationSequencer",
+        "TriInspector",
+        "Multicast.Foundation",
+        "DOTweenPro.Scripts",
+        "DOTween.Modules",
+        "Unity.TextMeshPro",
+        "CodeWriter.TMP-Image"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [
+        {
+            "name": "com.brunomikoski.animationsequencer",
+            "expression": "0.0.1",
+            "define": "ANIMATION_SEQUENCER"
+        },
+        {
+            "name": "com.codewriter.tmp-image",
+            "expression": "0.0.1",
+            "define": "TPM_IMAGE"
+        }
+    ],
+    "noEngineReferences": false
+}
